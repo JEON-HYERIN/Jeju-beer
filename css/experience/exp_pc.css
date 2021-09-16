@@ -84,17 +84,16 @@ br.only-m::after {
 .visual.visual1 .text-group .text {
   max-width: 547px;
   position: absolute;
-  margin: 5px 0;
 }
 
 .visual.visual1 .text-group .text.text1 {
+  left: 20%;
   top: 100px;
-  left: 0;
 }
 
 .visual.visual1 .text-group .text.text2 {
-  bottom: 100px;
   right: 0;
+  bottom: 100px;
 }
 
 /* SLOAGN */

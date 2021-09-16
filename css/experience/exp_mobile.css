@@ -101,17 +101,16 @@ br.only-pc::after {
 .visual.visual1 .text-group .text {
   max-width: 350px;
   position: absolute;
-  margin: 5px 0;
 }
 
 .visual.visual1 .text-group .text.text1 {
-  top: 100px;
-  left: 0;
+  left: 20%;
+  top: 20%;
 }
 
 .visual.visual1 .text-group .text.text2 {
-  bottom: 100px;
   right: 0;
+  top: 45%;
 }
 
 /* SLOAGN */
