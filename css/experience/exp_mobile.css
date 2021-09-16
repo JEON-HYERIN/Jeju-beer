@@ -572,7 +572,7 @@ br.only-pc::after {
 
 
 /* 미디어쿼리 */
-@media screen and (max-width: 359px) {
+@media screen and (max-width: 359.9px) {
 
   /* SWIPER */
   #slogan .swiper.visual-swiper {

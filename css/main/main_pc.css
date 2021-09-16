@@ -877,7 +877,7 @@ br.only-m::after {
 
 
 /* 미디어 쿼리 */
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023.9px) {
   
   /* COMMON */
   #products br.only-pc {
