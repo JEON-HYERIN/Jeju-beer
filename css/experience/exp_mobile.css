@@ -465,13 +465,13 @@ br.only-pc {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
-  line-height: 1.8;
+  line-height: 1.8em;
 }
 
 #question-and-answer dl {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.8;
+  line-height: 1.8em;
   color: #3e474c;
   width: 100%;
   padding: 20px 0;
@@ -481,7 +481,6 @@ br.only-pc {
 
 #question-and-answer dl dt {
   color: #1ecad3;
-  font-size: 17px;
   font-weight: 700;
 }
 
@@ -490,7 +489,6 @@ br.only-pc {
 }
 
 #question-and-answer dl dd em {
-  font-size: 20px;
   font-weight: 700;
 }
 
