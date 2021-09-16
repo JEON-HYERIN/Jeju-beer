@@ -880,12 +880,7 @@ br.only-m {
     content: '';
   }
   
-  #products br.only-pc::after {
-    content: '\00a0';
-  }
-
-  #products br.only-m,
-  #products br.only-m::after {
+  #products br.only-m {
     content: normal;
   }
   

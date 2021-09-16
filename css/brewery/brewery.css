@@ -222,8 +222,7 @@ br.only-pc {
     display: block !important;
   }
 
-  br.only-m,
-  br.only-m::after {
+  br.only-m {
     content: normal;
   }
 

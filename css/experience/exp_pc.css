@@ -571,13 +571,8 @@ br.only-m {
   br.only-pc {
     content: '';
   }
-  
-  br.only-pc::after {
-    content: '\00a0';
-  }
-  
-  br.only-m,
-  br.only-m::after {
+    
+  br.only-m {
     content: normal;
   }
 
