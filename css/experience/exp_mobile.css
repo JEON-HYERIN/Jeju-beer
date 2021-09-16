@@ -11,6 +11,13 @@ br.only-pc {
   content: '';
 }
 
+#wrapper {
+  min-width: 280px;
+  max-width: 767.9px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 /* SWIPER */
 #slogan .swiper.visual-swiper {
   max-height: 440px;

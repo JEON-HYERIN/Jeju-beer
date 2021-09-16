@@ -11,6 +11,11 @@ br.only-m {
   content: '';
 }
 
+body.main #wrapper {
+  min-width: 768px;
+  overflow: hidden;
+}
+
 /* SWIPER */
 .swiper.visual-swiper,
 .swiper.sub-swiper {

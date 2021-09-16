@@ -11,6 +11,11 @@ br.only-m {
   content: '';
 }
 
+#wrapper {
+  min-width: 768px;
+  overflow: hidden;
+}
+
 /* INNER */
 .inner {
   max-width: 1200px;
