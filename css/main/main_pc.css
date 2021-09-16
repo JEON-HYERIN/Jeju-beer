@@ -16,6 +16,13 @@ body.main #wrapper {
   overflow: hidden;
 }
 
+/* INNER */
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
 /* SWIPER */
 .swiper.visual-swiper,
 .swiper.sub-swiper {
@@ -95,13 +102,6 @@ body.main #wrapper {
 .swiper.sub-swiper .swiper-prev span,
 .swiper.sub-swiper .swiper-next span {
   font-size: 30px;
-}
-
-/* INNER */
-.inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
 }
 
 /* HEADER */

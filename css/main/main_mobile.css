@@ -18,6 +18,12 @@ body.main #wrapper {
   overflow: hidden;
 }
 
+/* INNER */
+.inner {
+  margin: 0 auto;
+  position: relative;
+}
+
 /* SWIPER */
 .swiper.visual-swiper,
 .swiper.sub-swiper {
@@ -88,12 +94,6 @@ body.main #wrapper {
 
 #store .swiper {
   width: 83.3%;
-}
-
-/* INNER */
-.inner {
-  margin: 0 auto;
-  position: relative;
 }
 
 /* HEADER */
