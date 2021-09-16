@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-title" content="제주맥주 나만의 캠핑카" />
+  <meta name="description" content="당신의 일상을 여행으로, 오직 나를 위한 풀옵션 커스텀 캠핑카가 매주 무료!" />
+
+  <title>제주맥주 나만의 캠핑카</title>
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="제주맥주 나만의 캠핑카" />
+  <meta property="og:title" content="제주맥주 나만의 캠핑카" />
+  <meta property="og:description" content="당신의 일상을 여행으로, 오직 나를 위한 풀옵션 커스텀 캠핑카가 매주 무료!" />
+  <meta property="og:image" content="./img/experience/experience.png" />
+  <meta property="og:url" content="https://jeon-hyerin.github.io/jejubeer" />
+
+    <!--Twitter Card-->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="제주맥주 나만의 캠핑카" />
+  <meta property="twitter:title" content="제주맥주 나만의 캠핑카" />
+  <meta property="twitter:description" content="당신의 일상을 여행으로, 오직 나를 위한 풀옵션 커스텀 캠핑카가 매주 무료!" />
+  <meta property="twitter:image" content="./img/experience/experience.png" />
+  <meta property="twitter:url" content="https://jeon-hyerin.github.io/jejubeer" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.ico" />
+  <!-- Google Fonts - Noto Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <!-- Google Material Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/254318af28.js" crossorigin="anonymous"></script>
+  <!-- Swiper -->
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+  />
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/main/main_pc.css" media="screen and (min-width: 768px)" />
+  <link rel="stylesheet" href="./css/main/main_mobile.css" media="screen and (max-width: 767.9px)" />
+
+  <link rel="stylesheet" href="./css/experience/exp_pc.css" media="screen and (min-width: 768px)" />
+  <link rel="stylesheet" href="./css/experience/exp_mobile.css" media="screen and (max-width: 767.9px)" />
+  
+  <script defer src="./js/scrollmagic.js"></script>
+  <script defer src="./js/swiper.js"></script>
+  <script defer src="./js/main.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip-nav">본문 바로가기</a>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="inner">
+
+      <h1><a href="./index.html"><img src="./img/header_logo.png" alt="제주맥주 로고" /></a></h1>
+      <!-- toggle button -->
+      <div class="toggle-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+      <!-- NAV -->
+      <nav>
+        <h2 class="hide">메인 메뉴</h2>
+        <ul class="main-menu">
+          <li data-link="diversity"><a href="./diversity.html"><span>DIVERSITY</span></a></li>
+          <li class="active" data-link="experience"><a href="./mycampingcar.html"><span>EXPERIENCE</span></a></li>
+          <li data-link="shop"><a href="./shop.html"><span>SHOP</span></a></li>
+          <li data-link="brewery"><a href="javascript:void(0)"><span>BREWERY</span></a></li>
+        </ul>
+      </nav>
+      <!-- NAV -->
+      <nav>
+        <h2 class="hide">서브 메뉴</h2>
+        <ul class="sub-menu">
+          <li><a href="javascript:void(0)">LOGIN</a></li>
+          <li><a href="javascript:void(0)">JOIN</a></li>
+          <li><a href="javascript:void(0)">CART</a></li>
+          <li><a href="javascript:void(0)">RECRUIT</a></li>
+        </ul>
+        <a href="javascript:void(0)" class="btn">양조장 예약</a>
+      </nav>
+    </div>
+
+  </header>
+
+  <!-- MAIN -->
+  <main id="main">
+    
+    <!-- VIDEO -->
+    <section id="video">
+      <h2 class="hide">비디오 재생영역</h2>
+      <video src="./video/jb_experience_campingcar_web.mp4" class="pc" autoplay muted loop preload="metadata"
+        playsinline></video>
+      <video src="./video/jb_experience_campingcar_mo.mp4" class="mobile" autoplay muted loop preload="metadata"
+        playsinline></video>
+
+      <div class="video__title">
+        <span>#제주맥주</span>
+        <span>#나만의캠핑카</span>
+        <span>#매주신청가능</span>
+      </div>
+    </section>
+
+    <!-- VISUAL -->
+    <section class="visual visual1">
+      <h3 class="hide">비주얼 영역</h3>
+      <div class="inner">
+
+        <div class="text-group">
+          <div class="text text1">
+            <img src="./img/experience/visual1_text1.png"
+              alt="'이번 주말은 진짜 푹 쉬어야지', '뭘했다고 주말이 또 갔지'의 반복, 나를 위한 여백이 흐르는 시간, 작은 여행이 간절해" />
+          </div>
+          <div class="text text2">
+            <img src="./img/experience/visual1_text2.png" alt="한 번도 가보지 않았지만 이미 마음이 닿아있는 곳. 분명 있을거예요." />
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SLOGAN-->
+    <section id="slogan" class="scroll-spy">
+      <h2 class="hide">제주맥주 슬로건</h2>
+      <div class="inner">
+
+        <div class="swiper visual-swiper movement to-top delay-0">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide0"></div>
+            <div class="swiper-slide slide1"></div>
+            <div class="swiper-slide slide2"></div>
+            <div class="swiper-slide slide3"></div>
+            <div class="swiper-slide slide4"></div>
+          </div>
+
+          <div class="swiper-prev">
+            <span class="material-icons">
+              arrow_back_ios
+            </span>
+          </div>
+          <div class="swiper-next">
+            <span class="material-icons">
+              arrow_forward_ios
+            </span>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="text-group">
+          <p class="text text1 movement to-top delay-1">
+            오롯이 나를 위한 쉼이 필요할 때,<br />
+            사랑하는 이들과 시간 가는 줄 모르고 놀고 싶을 때,<br />
+            하루를 새롭게 바꿔줄 무드가 필요할 때,
+          </p>
+          <p class="text text2 movement to-top delay-2">
+            아무것도 준비하지 말고<br />
+            제주맥주 나만의 캠핑카에 탑승하세요.<br />
+            당신의 일상을 조금만 움직여,<br class="only-m" />특별한 순간으로 만들어 드릴게요.
+          </p>
+        </div>
+
+        <div class="swiper sub-swiper pc movement to-top delay-3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide0"></div>
+            <div class="swiper-slide slide1"></div>
+            <div class="swiper-slide slide2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISUAL -->
+    <section class="visual visual2">
+      <h3 class="hide">비주얼 영역</h3>
+      <div class="inner">
+        <img src="./img/experience/visual2_title.gif" alt="당신의 일상을 더 특별한 순간으로" class="title" />
+      </div>
+    </section>
+
+    <!-- THEME -->
+    <section id="theme">
+      <h2 class="hide">여행 테마 소개</h2>
+      <div class="inner">
+
+        <div class="theme__title">나만의 캠핑카로 <em>매일의 여행을!</em></div>
+        <p class="theme__description">
+          제주맥주 매일의 여행, 내 집, 내 방 같은<br />
+          <em>세 가지</em> 테마가 준비되어 있어요.<br />
+          나만의 여행에 가장 잘 맞는 테마를 선택해보세요.
+        </p>
+
+        <ul class="theme__menu">
+          <li>
+            <button class="selected" data-filter="theme-first"><span>01.</span> 놀멍</button>
+          </li>
+          <li>
+            <button data-filter="theme-second"><span>02.</span> 쉬멍</button>
+          </li>
+          <li>
+            <button data-filter="theme-third"><span>03.</span> 즐기멍</button>
+          </li>
+        </ul>
+
+        <div class="theme__content first" data-type="theme-first">
+          <div class="left">
+            <div class="version">
+              <span>매일 여행</span>첫 번째 테마
+            </div>
+            <div class="title">
+              우리만의 <em>PLAY GROUND</em><br />
+              <em>놀멍</em>
+            </div>
+            <div class="description">
+              <p>
+                함께 만드는 우리만의 시간.<br />
+                빨리 집으로 돌아갈 필요도 자꾸<br />
+                핸드폰을 들여다볼 필요도 없어요.<br />
+                사랑하는 이들의 웃음 소리만 가득한 여행.
+              </p>
+              <p>
+                탁 트인 바닷가 앞,<br />
+                내 방처럼 편안한 나만의 캠핑카에서<br />
+                맘껏 웃고 떠들며 액티비티를 즐겨보세요.
+              </p>
+            </div>
+
+            <div class="content content1">
+              <img src="./img/experience/theme_first1_pc.jpg" alt="" class="pc" />
+              <img src="./img/experience/theme_first1_mo.jpg" alt="" class="mobile" />
+              <span>
+                노는 재미에 먹는 재미까지<br />
+                맥주를 부르는 스낵바
+              </span>
+            </div>
+
+            <div class="description">
+              <p>
+                <em>놀멍 테마</em>는<br />
+                생기 넘치는 우리만의 시간을 선물합니다.<br />
+                보드게임, 만화책, 스낵바 등<br />
+                듣기만해도 신나는 놀거리로<br />
+                가득한 캠핑카를 타고, 마음 가는 곳 어디든 멈춰<br />
+                우리만의 놀이터로 만들어보세요.
+              </p>
+              <p>
+                몇 년이 지난 후에도 이 여행을 자꾸 꺼내보는<br />
+                우리를 발견할 거예요.
+              </p>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="content content2">
+              <img src="./img/experience/theme_first2_pc.jpg" alt="" class="pc" />
+              <img src="./img/experience/theme_first2_mo.jpg" alt="" class="mobile" />
+              <span>
+                우리끼리 즐기는 액티비티<br />
+                닌텐도 스위치, 보드게임
+              </span>
+            </div>
+            <div class="content content3">
+              <img src="./img/experience/theme_first3_pc.png" alt="" class="pc" />
+              <img src="./img/experience/theme_first3_mo.png" alt="" class="mobile" />
+              <span>
+                만화 같은 풍경 속에 재미도 두 배<br />
+                만화책 세트
+              </span>
+            </div>
+            <div class="content content4">
+              <img src="./img/experience/theme_first4_pc.png" alt="" class="pc" />
+              <img src="./img/experience/theme_first4_mo.jpg" alt="" class="mobile" />
+              <span>
+                우리의 밤이 낮보다<br />
+                길다면 비어퐁 세트
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="theme__content second invisible" data-type="theme-second">
+          <div class="left">
+            <div class="content content1">
+              <img src="./img/experience/theme_second1_pc.png" alt="" class="pc" />
+              <img src="./img/experience/theme_second1_mo.png" alt="" class="mobile" />
+              <span>
+                피부를 위한 쉼<br />
+                마스크 팩
+              </span>
+            </div>
+            <div class="content content2">
+              <img src="./img/experience/theme_second2_pc.png" alt="" class="pc" />
+              <img src="./img/experience/theme_second2_mo.png" alt="" class="mobile" />
+              <span>
+                자연 속 릴렉스<br />
+                아로마 오일, 안대
+              </span>
+            </div>
+            <div class="content content3">
+              <img src="./img/experience/theme_second3_pc.png" alt="" class="pc" />
+              <img src="./img/experience/theme_second3_mo.png" alt="" class="mobile" />
+              <span>
+                마음을 색칠하세요<br />
+                제주 컬러링 북
+              </span>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="version">
+              <span>매일 여행</span>두 번째 테마
+            </div>
+            <div class="title">
+              지금 나에게 가장 필요한<br />
+              <em>쉬멍</em>
+            </div>
+            <div class="description">
+              <p>
+                바쁜 일상을 멈추고<br />
+                잠시 그곳에 머무르는 것만으로도 충분한 쉼이 되죠.<br />
+                하루의 끝, 내 방 익숙한 침대에<br />
+                몸을 누웠을 때의 편안함처럼 말이예요.
+              </p>
+              <p>
+                설레는 풍경을 만나면 캠핑카를 멈추세요.<br />
+                캄캄한 밤하늘을 보며 유영할 수 있는<br />
+                그 곳이 오늘의 목적지입니다.
+              </p>
+            </div>
+
+            <div class="content content4">
+              <img src="./img/experience/theme_second4_pc.png" alt="" class="pc" />
+              <img src="./img/experience/theme_second4_mo.png" alt="" class="mobile" />
+              <span>
+                내 안으로 유영하는 시간, 명상<br />
+                싱잉볼, 요가매트, 인센스 스틱
+              </span>
+            </div>
+
+            <div class="description">
+              <p>
+                <em>쉬멍 테마</em>는<br />
+                지금 내게 가장 완벽한 쉼을 선물합니다.<br />
+              </p>
+              <p>
+                싱잉볼, 요가매트, 캔들, 아로마 오일 등<br />
+                편안한 이완을 돕는 것들로 캠핑카를 가득 채웠어요.<br />
+                쉬어도 쉰 것 같지 않은 주말들이 반복된다면,<br />
+                이 테마를 선택하세요.<br />
+                모든 생각과 리듬이 내 안에 맞춰진 여행은 누구에게나 필요하니까요.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="theme__content third invisible" data-type="theme-third">
+          <div class="left">
+            <div class="version">
+              <span>매일 여행</span>세 번째 테마
+            </div>
+            <div class="title">
+              나만의 무드를<br />
+              <em>즐기멍</em>
+            </div>
+            <div class="description">
+              <p>
+                ‘언젠가는 꼭’이라며 미뤄둔 작은 취미가 있나요?
+              </p>
+              <p>
+                제주맥주가 큐레이팅한 책과 빈티지 LP,<br />
+                폴라로이드 카메라 등이 실린 캠핑카는<br />
+                잊고 살았던 내 일상의 감각에 숨을 불어넣을 거예요.
+              </p>
+            </div>
+
+            <div class="content content1">
+              <img src="./img/experience/theme_third1_pc.png" alt="" class="pc" />
+              <img src="./img/experience/theme_third1_mo.png" alt="" class="mobile" />
+              <span>
+                다시 꺼내볼 추억을 기록하는<br />
+                폴라로이드 카메라
+              </span>
+            </div>
+
+            <div class="description">
+              <p>
+                <em>즐기멍 테마</em>는 오감을 톡톡 건드리며<br />
+                다채로운 여행의 감각을 선물합니다.
+              </p>
+              <p>
+                오래 남을 여행의 여운을 안고<br />
+                일상에 돌아가고 싶다면 이 테마를 선택하세요.<br />
+                그리고 가장 좋았던 한 가지만큼은<br />
+                매일의 나를 위한 취미로 가져보기 바라요.<br />
+                이번 여행이 나와 더 길게 함께할 거예요.
+              </p>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="content content2">
+              <img src="./img/experience/theme_third2_pc.png" alt="" class="pc" />
+              <img src="./img/experience/theme_third2_mo.png" alt="" class="mobile" />
+              <span>
+                레트로한 무드로 즐기는 음악<br />
+                턴테이블, 빈티지 LP
+              </span>
+            </div>
+            <div class="content content3">
+              <img src="./img/experience/theme_third3_pc.png" alt="" class="pc" />
+              <img src="./img/experience/theme_first3_mo.png" alt="" class="mobile" />
+              <span>
+                일상을 자극하는 글귀들<br />
+                큐레이션 된 서적
+              </span>
+            </div>
+            <div class="content content4">
+              <img src="./img/experience/theme_third4_pc.jpg" alt="" class="pc" />
+              <img src="./img/experience/theme_third4_mo.png" alt="" class="mobile" />
+              <span>
+                자연을 배경으로 천천히 내려마시는 커피<br />
+                핸드드립 커피
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    <!-- GIFT -->
+    <section id="gift" class="scroll-spy">
+      <h2 class="hide">당첨 선물</h2>
+      <div class="inner">
+
+        <div class="mark">SG다인힐 X 제주맥주</div>
+        <div class="gift__title movement to-top delay-0"><em>SG다인힐과 함께</em><br class="only-m" />나만의 캠핑을 더 맛있게!</div>
+        <p class="gift__description movement to-top delay-1">
+          나만의 캠핑카에 선정되신 분들에게는<br />
+          캠핑의 맛을 더욱 풍족하게 만들어주는</em><br class="only-m" /><em>SG다인힐 캠핑세트</em>를 함께 드려요.
+        </p>
+
+        <div class="today-gift movement to-top delay-2">
+          <img src="./img/experience/gift.png" alt="" />
+          <div>
+            <div class="title">
+              붓처스컷 캠핑세트 (4인)
+            </div>
+            <p class="description">
+              : 뉴욕 스트립 300g, 안심 스트립 300g,<br />
+              계절 야채, 소시지, 왕새우, 맥 앤 치즈 등
+            </p>
+            <p class="description">*SG다인힐 2만원 바우처 추가 제공</p>
+          </div>
+        </div>
+        <div class="image-group movement to-top delay-3">
+          <img src="./img/experience/gift1.jpg" alt="" />
+          <img src="./img/experience/gift2.jpg" alt="" />
+          <img src="./img/experience/gift3.jpg" alt="" />
+        </div>
+
+      </div>
+    </section>
+
+    <!-- QUESTION AND ANSWER -->
+    <section id="question-and-answer">
+      <div class="inner">
+
+        <h2>Q &amp; A</h2>
+        <dl>
+          <dt>Q1.&nbsp;신청 자격이 어떻게 되나요?</dt>
+          <dd>
+            <em>A1.</em>&nbsp;&nbsp;<strong>필독! 기본 신청 자격</strong>
+            <p>
+              맥주를 마실 수 있는 20세 이상 성인 누구나 신청 가능합니다.<br />
+              단! 여행자 분들 중 운전자는 캠핑카 운전을 능숙하게 하실 수 있는 만 26세 이상, 운전 면허 취득 3년 이상이어야 합니다.<br />
+            </p>
+          </dd>
+          <dd>
+            <strong>운전자가 음주 운전으로 인한 면허 취소 및 정지 등 운전 면허에 하자가 있는 경우 신청이 불가하며, 당첨 시 취소됩니다.</strong>
+          </dd>
+          <dd>
+            <ul>
+              <li>- 일상을 여행으로 움직여 특별한 영감을 얻고 싶으신 분</li>
+              <li>- 내 취향, 나를 발견하는 여행을 떠나고 싶으신 분</li>
+              <li>- 게임, 만화책, 왁자지껄 친구들과 노는게 제일 좋은 분</li>
+              <li>- 일상에 지쳐 명상, 요가, 고요함, 충분한 쉼이 당장이라도 필요한 분</li>
+              <li>- 독서, 오래된 LP, 사진 찍는 것을 좋아하는 감성 넘치는 분</li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>Q2.&nbsp;당첨자 선정은 언제, 어떤식으로 하나요?</dt>
+          <dd>
+            <em>A2.</em>&nbsp;&nbsp;
+            당첨자는 무작위 추첨 방식으로 선정되며, 발표는 매주 월요일, 전화 또는 문자로 개별적으로 연락드릴 예정입니다.<br />
+            미당첨자 분들께는 별도 연락을 드리지 않는 점 양해 부탁드립니다.
+          </dd>
+        </dl>
+        <dl>
+          <dt>Q3.&nbsp;당첨 확률을 높일 수 있는 팁이 있나요?</dt>
+          <dd>
+            <em>A3.</em>&nbsp;&nbsp;
+            - 나만의 캠핑카를 타고 여행을 떠나고 싶은 친구 또는 가족에게 공유하고 모두 함께 신청해보세요.<br /> (내가 당첨이 안되더라도, 나와 함께 신청한 친구 또는 가족이 당첨되면 함께 여행을
+            떠날 수
+            있어요.)<br />
+            - 내가 만든 여행 일러스트를 SNS에 공유하고, 관심있는 친구들이 함께 신청하면 당첨 확률이 높아 질 수 있어요!<br />
+            - 나만의 캠핑카는 매주 당첨자를 선정하며, 미당첨 시에는 중복으로 매주 신청이 가능합니다. (기 당첨자는 중복 당첨 제외)
+          </dd>
+        </dl>
+        <dl>
+          <dt>Q4.&nbsp;몇 명까지 떠날 수 있나요?</dt>
+          <dd>
+            <em>A4.</em>&nbsp;&nbsp;나만의 캠핑카는 4인승 차량으로, 4인 이상 탑승이 불가합니다.
+          </dd>
+        </dl>
+        <dl>
+          <dt>Q5.&nbsp;반려 동물 동반이 가능한가요?</dt>
+          <dd>
+            <em>A5.</em>&nbsp;&nbsp;반려 동물은 가능하오나, 이동 시 전용 케이지에 탑승 부탁드립니다.<br />
+            캠핑장 이용 시 반려 동물의 출입 가능 여부 사전 확인 부탁드립니다.
+          </dd>
+        </dl>
+        <dl>
+          <dt>Q6.&nbsp;캠핑 용품은 준비되어있나요?</dt>
+          <dd>
+            <em>A6.</em>&nbsp;&nbsp;기본적인 캠핑 용품(테이블, 의자, 불명 화로, 바베큐 화로, 조리도구, 랜턴, 토치 등)이 구비되어 있습니다.<br />
+            불멍, 바베큐 시 필요한 장작 또는 숯과 가스는 직접 준비해주셔야 합니다.
+          </dd>
+        </dl>
+        <dl>
+          <dt>Q7.&nbsp;여행지는 가이드대로만 방문해야하나요?</dt>
+          <dd>
+            <em>A7.</em>&nbsp;&nbsp;여행지는 제주맥주가 추천만 드리는 것으로, 꼭 해당 여행지를 방문하시지 않아도 됩니다.<br />
+            캠핑카 차박이 가능한 곳인지 확인하셔서, 가고자 하시는 여행지를 자유롭게 선택해주세요.<br />
+            출발 차고지 위치는 경기도 파주시 운정역 근처입니다.
+          </dd>
+        </dl>
+        
+      </div>
+    </section>
+    
+    <!-- TOGETHER -->
+    <section id="together">
+      <h2 class="hide">지인에게 공유하기</h2>
+
+      <div class="inner">
+        <div class="together__title">
+          친구 또는 가족과 함께 지원하고<br />
+          나만의 캠핑카 여행의<br class="only-m" />확률을 높여 보세요!
+        </div>
+        <div class="together__description">
+          #제주맥주 #나만의캠핑카
+        </div>
+        <ul class="together__links">
+          <li>
+            <a href="https://accounts.kakao.com" class="btn" target="_blank"><img src="./img/experience/kakao.png"
+                alt="카카오톡 링크" /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com" class="btn" target="_blank"><img src="./img/experience/facebook.png"
+                alt="페이스북 링크" /></a>
+          </li>
+          <li>
+            <button class="btn url-btn"><img src="./img/experience/url.png" alt="URL 복사" /></button>
+          </li>
+        </ul>
+        
+      </div>
+    </section>
+  </main>
+
+    <!-- NOTICE -->
+    <section id="notice">
+      <h2 class="hide">공지사항</h2>
+      <div class="inner">
+        <img src="./img/experience/mask.png" alt="" />
+
+        <div class="notice__title">
+          제주맥주는 코로나19 확산 방지를 위해<br />
+          최선을 다 하고 있습니다.
+        </div>
+        <p class="notice__description">
+          나만의 캠핑카 참가자에게 캠핑하는 동안 사용할 수 있는<br class="only-m" />
+          마스크 및 손소독제 등 방역 키트를 지원합니다.<br />
+          제주맥주 캠핑카에서는 정부 방역 수칙을 준수하며<br class="only-m" />
+          코로나 예방을 위해 매일 방역 작업을 시행합니다.
+        </p>
+
+      </div>
+    </section>
+
+    
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="inner">
+
+      <div class="top">
+        <ul class="footer__menu">
+          <li class="active"><a href="javascript:void(0)">ABOUT US</a></li>
+          <li class="active"><a href="javascript:void(0)">OUR BEERS</a></li>
+          <li class="active"><a href="javascript:void(0)">NEWS</a></li>
+          <li><a href="javascript:void(0)">CONTACT</a></li>
+          <li><a href="javascript:void(0)">IR</a></li>
+        </ul>
+
+        <ul class="links">
+          <li><a href="https://www.youtube.com/channel/UCVHSuXVobLHYTvcvsYjCncw" target="_blank">
+              <img src="./img/search.png" alt="제주맥주 유투브 링크" />
+            </a></li>
+          <li><a href="https://www.facebook.com/jejubeerofficial" target="_blank">
+              <img src="./img/facebook.png" alt="제주맥주 페이스북 링크" />
+            </a></li>
+          <li><a href="https://www.instagram.com/jejubeerofficial" target="_blank">
+              <img src="./img/instagram.png" alt="제주맥주 인스타그램 링크" />
+            </a></li>
+          <li><a href="https://post.naver.com/my.nhn?memberNo=39126203" target="_blank">
+              <img src="./img/naver_blog.png" alt="제주맥주 네이버블로그 링크" />
+            </a></li>
+        </ul>
+      </div>
+
+      <div class="bottom">
+        <div class="info">
+          <span>제주맥주 주식회사&nbsp;&nbsp;대표이사 문혁기</span><br />
+          <span>본사) 제주특별자치도 제주시 한림읍 금능농공길 62-11&nbsp;&nbsp;<br class="only-m" />서울사무실) 서울특별시 중구 동호로 228 동호 38빌딩
+            6층</span><br />
+          <span>호스팅 제공자 (주)아임웹&nbsp;&nbsp;<br class="only-m" />사업자등록번호 616-86-27415&nbsp;&nbsp;<br
+              class="only-m" />통신판매업신고번호 제 2020-제주한림-0101 호</span><br />
+          <span>개인정보보호책임자 이용석&nbsp;&nbsp;<br class="only-m" />고객센터 02-2235-5559, jejubeer@jejubeer.co.kr</span>
+        </div>
+
+        <p class="copyright">
+          <small>COPYRIGHT <span class="this-year"></span>@ JEJU BEER COMPANY</small>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- floating action button -->
+  <ul class="floating-btns">
+    <li class="chat-btn">
+      <button>
+        <img src="./img/chat_btn.png" alt="채팅버튼" />
+      </button>
+    </li>
+    <li class="link-btn">
+      <button>
+        <img src="./img/link_btn.png" alt="링크버튼" />
+      </button>
+    </li>
+    <li class="top-btn hidden">
+      <button>
+        <img src="./img/top_btn.png" alt="상단버튼" />
+      </button>
+    </li>
+  </ul>
+
+  <!-- share -->
+  <div class="share hidden">
+    <p class="share__title">공유하기</p>
+    <ul class="share__links">
+      <li>
+        <a href="https://accounts.kakao.com" class="btn" target="_blank"><img src="./img/share_talk.png"
+            alt="카카오톡 링크" /></a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com" class="btn" target="_blank"><img src="./img/share_face.png"
+            alt="페이스북 링크" /></a>
+      </li>
+      <li>
+        <button class="btn url-btn"><img src="./img/share_url.png" alt="URL 복사" /></button>
+      </li>
+    </ul>
+  </div>
+
+  <!-- inquiry -->
+  <div class="inquiry hidden">
+    <div class="top fade-in">
+      <div class="inquiry__title">
+        <h4>제주맥주 양조장</h4>
+        <ul class="btn-group">
+          <li>
+            <button class="btn">
+              <img src="./img/settings.png" alt="설정" />
+            </button>
+          </li>
+          <li>
+            <button class="btn close">
+              <img src="./img/close.png" alt="닫기" />
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="inquiry__description">
+        <span></span>
+        <span></span>
+        <span class="inquiry__description__hours">운영시간 보기</span>
+        <span class="business-hours">
+          월, 화, 수, 목, 금<br />
+          09:00 AM ~ 18:00 PM<br />
+          <br />
+          Timezone: Asia/Seoul
+        </span>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="channel-talk fade-in">
+        <div class="title">새로운 상담</div>
+        <div>
+          <div class="image">
+            <img src="./img/thumbnail.png" alt="제주맥주 로고" />
+          </div>
+          <div class="text-group">
+            <div class="text">
+              <p>제주맥주 양조장</p>
+              안녕하세요.<br />
+              대한민국 새로운 맥주문화의 발상지,<br /><em>제주맥주 양조장</em>입니다.
+            </div>
+            <div class="text">
+              양조장에 대해 무엇이 궁금하신가요?<br />
+              클릭해주세요!
+              <img src="./img/smile.png" alt="웃는 이모티콘" />
+            </div>
+          </div>
+        </div>
+
+        <button class="btn">
+          <img src="./img/send-filled-white.svg" alt="" />
+          새 문의하기
+        </button>
+      </div>
+
+      <div class="messenger fade-in">
+        <div class="title">다른 방법으로 상담</div>
+        <ul class="messenger__links">
+          <li>
+            <a href="https://accounts.kakao.com" class="btn" target="_blank">
+              <img src="./img/messenger_kakao.png" alt="카카오톡 링크" />
+            </a>
+          </li>
+          <li>
+            <button class="btn">
+              <img src="./img/messenger_url.png" alt="url 복사버튼" />
+            </button>
+          </li>
+          <li>
+            <a href="tel:010-0000-0000" class="btn">
+              <img src="./img/messenger_phone.png" alt="전화연결 링크" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  
+  <script>
+    const urlBtn2 = document.querySelector('#together .url-btn');
+    urlBtn2.addEventListener('click', function () {
+      alert('URL이 복사 되었습니다. 원하시는 곳에 붙여넣기 해 주세요.');
+    });
+
+    // 테마메뉴 필터링
+    const themeMenu = document.querySelector('.theme__menu');
+    const themeContents = document.querySelectorAll('.theme__content');
+
+    themeMenu.addEventListener('click', function (event) {
+      const filter = event.target.dataset.filter || event.target.parentElement.dataset.filter;
+      if (filter === null || filter === undefined) {
+        return;
+      }
+
+      themeContents.forEach(function (themeContent) {
+        if (filter === themeContent.dataset.type) {
+          themeContent.classList.remove('invisible');
+        } else {
+          themeContent.classList.add('invisible');
+        }
+
+        const themeMenuBtn = themeMenu.querySelector('button.selected');
+        if (themeMenuBtn !== null) {
+          themeMenuBtn.classList.remove('selected');
+        }
+        event.target.classList.add('selected');
+      });
+    });
+  </script>
+</body>
+</html>

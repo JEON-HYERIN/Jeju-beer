@@ -1,0 +1,351 @@
+/* COMMON */
+.mobile {
+  display: none !important;
+}
+
+.pc {
+  display: block !important;
+}
+
+br.only-m {
+  content: '';
+}
+
+br.only-m::after {
+  content: '\00a0';
+}
+
+br.only-pc {
+  content: normal;
+}
+
+/* VIDEO */
+#video {
+  position: relative;
+}
+
+#video .video__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+
+#video .video__title span {
+  font-size: 24px;
+}
+
+#video .video__title em {
+  font-size: 45px;
+}
+
+/* PROGRAM */
+#program {
+  color: #3d464b;
+  text-align: center;
+  background-color: #fff;
+}
+
+#program .inner {
+  padding: 100px 0;
+}
+
+#program .text-group {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#program .text-group .text.text2 {
+  padding: 15px 0 60px 0;
+}
+
+#program .program__title {
+  font-size: 29px;
+  color: #1ecad3;
+  position: relative;
+  background-color: #fff;
+}
+
+#program .program__description {
+  font-size: 16px;
+  padding: 30px 0;
+}
+
+#program .program__content {
+  display: flex;
+  justify-content: space-evenly;
+  color: #55585b;
+  line-height: 1.6em;
+}
+
+#program .program__content .tour,
+#program .program__content .experience {
+  flex-basis: 48%;
+}
+
+#program .program__content img {
+  min-height: 590px;
+  width: 100%;
+}
+
+#program .program__content .text-group {
+  padding: 15px 0;
+}
+
+#program .program__content .text-group .title {
+  font-size: 16px;
+}
+
+#program .program__content .text-group .description {
+  font-size: 14px;
+}
+
+#program .btn {
+  display: inline-block;
+  padding: 8px 50px;
+  font-size: 14px;
+  background-color: #1ecad3;
+  color: #fff;
+}
+
+/* INFORMATION */
+#information {
+  background-color: #f4f4f4;
+  color: #3d464b;
+}
+
+#information .inner {
+  padding: 50px 0;
+}
+
+#information .information__title {
+  font-size: 24px;
+  padding: 0 0 30px 15px;
+}
+
+#information .info {
+  display: flex;
+  line-height: 1.8em;
+}
+
+#information .info > div {
+  padding: 0 15px;
+  flex-basis: 33.33%;
+}
+
+#information .info .title {
+  font-size: 18px;
+  border-bottom: 2px solid #55585b;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+#information .info .description .text {
+  padding: 20px 0;
+}
+
+#information .info .business-day .description .text.text1 em {
+  font-size: 26px;
+}
+
+#information .info .business-day .description .text.text1 span {
+  font-size: 16px;
+}
+
+#information .info .business-day .description .text.text2 span {
+  font-size: 14px;
+  line-height: 1.4em;
+}
+
+#information .info .business-day .description .text.text2 span.place {
+  padding-right: 15px;
+}
+
+#information .service .description {
+  font-size: 14px;
+}
+
+#information .service .description .text span.place {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#information .service .description .text em {
+  color: #1ecad3;
+}
+
+#information .service .description .text span:last-of-type {
+  font-weight: 400;
+}
+
+/* #information .ask .description .text {
+  font-size: 18px;
+  font-weight: 700;
+} */
+
+#information .ask .description .text span.type {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#information .ask .description .text.text1 {
+  display: flex;
+}
+
+#information .ask .description .text.text1 span.type {
+  margin-right: 15px;
+}
+
+#information .ask .description .text.text1 img {
+  width: 52px;
+  height: 52px;
+}
+
+#information .ask .description .text.text1 img:first-of-type {
+  margin-right: 15px;
+}
+
+#information .ask .description .text.text2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+/* 미디어쿼리 */
+@media screen and (max-width: 1023.9px) {
+  /* COMMON */
+  .pc {
+    display: none !important;
+  }
+
+  .mobile {
+    display: block !important;
+  }
+
+  br.only-m,
+  br.only-m::after {
+    content: normal;
+  }
+
+  br.only-pc {
+    content: '';
+  }
+  
+  br.only-pc::after {
+    content: '\00a0';
+  }
+
+  /* VIDEO */
+  #video .video__title span {
+    font-size: 12px;
+  }
+
+  #video .video__title em {
+    font-size: 25px;
+  }
+
+  /* PROGRAM */
+  #program .inner {
+    padding: 30px 0;
+  }
+
+  #program .text-group {
+    font-size: 17px;
+  }
+
+  #program .text-group .text.text2 {
+    padding-bottom: 30px;
+  }
+
+  #program .program__description {
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  #program .program__content {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+
+  #program .program__content img {
+    min-height: 0;
+  }
+
+  #program .program__content .text-group .title {
+    font-size: 15px;
+  }
+
+  #program .program__content .text-group .description {
+    font-size: 13px;
+  }
+
+  /* INFORMATION */
+  #information .inner {
+    padding: 30px 15px;
+  }
+
+  #information .information__title {
+    font-size: 16px;
+    padding-bottom: 15px;
+    padding-left: 0;
+  }
+
+  #information .info {
+    flex-direction: column;
+  }
+
+  #information .info > div {
+    padding: 0;
+  }
+
+  #information .info .title {
+    font-size: 16px;
+  }
+
+  #information .info .business-day .description .text.text1 em {
+    font-size: 17px;
+  }
+
+  #information .info .business-day .description .text.text1 span {
+    font-size: 15px;
+  }
+
+  #information .service .description {
+    font-size: 13px;
+  }
+
+  #information .service .description .text span.place {
+    font-size: 16px;
+  }
+
+  #information .ask .description .text span.type {
+    font-size: 16px;
+  }
+
+  #information .ask .description .text.text2 {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023.9px) {
+  #video video.pc {
+    display: block !important;
+  }
+
+  #video video.mobile {
+    display: none !important;
+  }
+
+  #video .video__title span {
+    font-size: 24px;
+  }
+  
+  #video .video__title em {
+    font-size: 45px;
+  }
+}
