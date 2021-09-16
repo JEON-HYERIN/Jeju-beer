@@ -240,6 +240,11 @@ br.only-pc {
   }
 
   /* VIDEO */
+  #video .video__title {
+    bottom: 5px;
+    transform: translate(-50%, 0);
+  }
+
   #video .video__title span {
     font-size: 12px;
   }
