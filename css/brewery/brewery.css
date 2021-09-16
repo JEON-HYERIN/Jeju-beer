@@ -11,10 +11,6 @@ br.only-m {
   content: '';
 }
 
-br.only-m::after {
-  content: '\00a0';
-}
-
 br.only-pc {
   content: normal;
 }
@@ -235,10 +231,6 @@ br.only-pc {
     content: '';
   }
   
-  br.only-pc::after {
-    content: '\00a0';
-  }
-
   /* VIDEO */
   #video .video__title {
     transform: translate(-50%, 0);

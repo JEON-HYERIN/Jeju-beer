@@ -11,10 +11,6 @@ br.only-m {
   content: '';
 }
 
-br.only-m::after {
-  content: '\00a0';
-}
-
 /* INNER */
 .inner {
   max-width: 1200px;

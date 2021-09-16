@@ -11,10 +11,6 @@ br.only-m {
   content: '';
 }
 
-br.only-m::after {
-  content: '\00a0';
-}
-
 br.only-pc {
   content: normal;
 }
@@ -72,17 +68,12 @@ br.only-pc {
     display: block !important;
   }
 
-  br.only-m,
-  br.only-m::after {
+  br.only-m {
     content: normal;
   }
 
   br.only-pc {
     content: '';
-  }
-  
-  br.only-pc::after {
-    content: '\00a0';
   }
   
   #shop .shop__items {

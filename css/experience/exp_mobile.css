@@ -11,10 +11,6 @@ br.only-pc {
   content: '';
 }
 
-br.only-pc::after {
-  content: '\00a0';
-}
-
 /* SWIPER */
 #slogan .swiper.visual-swiper {
   max-height: 440px;
@@ -26,10 +22,10 @@ br.only-pc::after {
   position: relative;
 }
 
-#question-and-answer .inner,
+#gift .inner,
 #together .inner,
 #notice .inner {
-  padding: 50px 15px;
+  padding: 50px 10px;
 }
 
 /* HEADER */
@@ -390,7 +386,6 @@ br.only-pc::after {
 }
 
 #gift .inner {
-  padding: 50px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -452,6 +447,10 @@ br.only-pc::after {
 /* QUESTION AND ANSWER */
 #question-and-answer {
   background-color: #f5f5f5;
+}
+
+#question-and-answer .inner {
+  padding: 50px 15px;
 }
 
 #question-and-answer h2 {

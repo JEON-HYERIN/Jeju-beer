@@ -11,10 +11,6 @@ br.only-pc {
   content: '';
 }
 
-br.only-pc::after {
-  content: '\00a0';
-}
-
 /* SWIPER */
 .swiper.visual-swiper,
 .swiper.sub-swiper {
