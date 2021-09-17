@@ -42,7 +42,6 @@ br.only-pc {
 #shop .shop__items .item {
   flex-basis: 50%;
   position: relative;
-  overflow: hidden;
   cursor: pointer;
 }
 
@@ -103,6 +102,7 @@ br.only-pc {
   
   #shop .shop__items {
     flex-direction: column;
+    flex-wrap: nowrap;
   }
 
   #shop .shop__items .item .text-group .title {
