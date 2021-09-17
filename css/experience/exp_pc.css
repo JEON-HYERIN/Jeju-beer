@@ -564,6 +564,7 @@ br.only-m {
 
 /* 미디어 쿼리 */
 @media screen and (max-width: 1023.9px) {
+  
   /* COMMON */
   .pc {
     display: none !important;
@@ -571,6 +572,14 @@ br.only-m {
 
   .mobile {
     display: block !important;
+  }
+
+  #video video.pc {
+    display: block !important;
+  }
+
+  #video video.mobile {
+    display: none !important;
   }
 
   br.only-pc {

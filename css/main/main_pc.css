@@ -881,6 +881,22 @@ body.main #wrapper {
 @media screen and (max-width: 1023.9px) {
   
   /* COMMON */
+  .pc {
+    display: none !important;
+  }
+
+  .mobile {
+    display: block !important;
+  }
+
+  #video video.pc {
+    display: block !important;
+  }
+
+  #video video.mobile {
+    display: none !important;
+  }
+
   #products br.only-pc {
     content: '';
   }
@@ -973,6 +989,24 @@ body.main #wrapper {
     flex-direction: column;
     background-color: #fff;
     padding-top: 0;
+  }
+
+  #header nav ul.main-menu li.shop {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  #header nav ul.main-menu li.shop a:first-child {
+    width: 100%;
+  }
+  
+  #header nav ul.main-menu li.shop a.cart {
+    position: absolute;
+    left: 100px;
+    width: 27px;
+    height: 24px;
+    padding: 5px;
   }
 
   #header nav ul.main-menu li a {
