@@ -42,6 +42,8 @@ br.only-pc {
 #shop .shop__items .item {
   flex-basis: 50%;
   position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 #shop .shop__items .item img {
@@ -69,6 +71,16 @@ br.only-pc {
   font-size: 22px;
   font-weight: 700;
 }
+
+#shop .more {
+  background-color: #1ecad3;
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
 
 /* 미디어쿼리 */
 @media screen and (max-width: 1023.9px) {
@@ -99,5 +111,9 @@ br.only-pc {
 
   #shop .shop__items .item .text-group .description {
     font-size: 24px;
+  }
+
+  #shop .more {
+    font-size: 17px;
   }
 }
