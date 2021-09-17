@@ -173,6 +173,24 @@ body.main #wrapper {
   background-color: #fff;
 }
 
+#header nav ul.main-menu li.shop {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#header nav ul.main-menu li.shop a:first-child {
+  width: 100%;
+}
+
+#header nav ul.main-menu li.shop a.cart {
+  position: absolute;
+  left: 100px;
+  width: 27px;
+  height: 24px;
+  padding: 5px;
+}
+
 #header nav ul.main-menu li a {
   display: block;
   font-size: 25px;
