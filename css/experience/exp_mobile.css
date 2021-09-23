@@ -252,6 +252,7 @@ br.only-pc {
 
 #theme .theme__menu li button span {
   font-weight: 700;
+  pointer-events: none;
 }
 
 #theme .theme__content {
