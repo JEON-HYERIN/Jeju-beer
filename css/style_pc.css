@@ -944,18 +944,18 @@ body.my-camping-car .visual.visual1 .inner {
 }
 
 body.my-camping-car .visual.visual1 .text-group .text {
-  max-width: 547px;
+  width: 400px;
   position: absolute;
 }
 
 body.my-camping-car .visual.visual1 .text-group .text.text1 {
   left: 20%;
-  top: 100px;
+  top: 20%;
 }
 
 body.my-camping-car .visual.visual1 .text-group .text.text2 {
   right: 0;
-  bottom: 100px;
+  top: 45%;
 }
 
 /* SLOAGN */
@@ -1982,22 +1982,6 @@ body.brewery .information .ask .description .text.text2 {
   /* VISUAL -1-*/
   body.my-camping-car .visual.visual1 {
     background-attachment: scroll;
-  }
-
-  body.my-camping-car .visual.visual1 .text-group .text.text1,
-  body.my-camping-car .visual.visual1 .text-group .text.text2 {
-    max-width: 350px;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0;
-  }
-
-  body.my-camping-car .visual.visual1 .text-group .text.text1 {
-    left: 100px;
-  }
-
-  body.my-camping-car .visual.visual1 .text-group .text.text2 {
-    bottom: -100px;
   }
 
   /* SLOGAN */
