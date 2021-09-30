@@ -2150,14 +2150,6 @@ body.brewery .information .ask .description .text.text2 {
     transform: translate(-50%, 0);
   }
 
-  body.brewery .video .video__title span {
-    font-size: 24px;
-  }
-  
-  body.brewery .video .video__title em {
-    font-size: 45px;
-  }
-
   /* PROGRAM */
   body.brewery .program .inner {
     padding: 30px 0;
