@@ -1601,7 +1601,7 @@ body.brewery .information .info .title {
   font-size: 18px;
   border-bottom: 2px solid #55585b;
   font-weight: 700;
-  padding-bottom: 10px;
+  padding:10px 0;
 }
 
 body.brewery .information .info .description .text {
