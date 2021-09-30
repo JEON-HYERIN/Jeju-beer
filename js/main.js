@@ -1,3 +1,5 @@
+'use strict';
+
 // 올해년도 구하기
 const thisYear = document.querySelector('.this-year');
 thisYear.textContent = new Date().getFullYear();
@@ -7,15 +9,15 @@ const header = document.querySelector('#header');
 const headerHeight = header.getBoundingClientRect().height;
 const topBtn = document.querySelector('.floating-btns .top-btn');
 
-window.addEventListener('scroll', () => {
+window.addEventListener('scroll', _.throttle(function () {
   if(window.scrollY > headerHeight * 1.5) {
     topBtn.classList.remove('hidden');
   } else {
     topBtn.classList.add('hidden');
   }
-});
+}, 300));
 
-topBtn.addEventListener('click', () => {
+topBtn.addEventListener('click', function () {
   header.scrollIntoView({behavior: "smooth"});
 });
 
