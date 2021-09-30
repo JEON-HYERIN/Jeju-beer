@@ -1331,7 +1331,7 @@ body.my-camping-car .question-and-answer .title {
 }
 
 body.my-camping-car .question-and-answer dl {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 1.8em;
   color: #3e474c;
@@ -1433,6 +1433,7 @@ body.my-camping-car .notice .notice__title {
 
 body.my-camping-car .notice .notice__description {
   font-size: 15px;
+  font-weight: 400;
 }
 
 
@@ -1614,11 +1615,11 @@ body.brewery .information .info .title {
   font-size: 16px;
   border-bottom: 2px solid #55585b;
   font-weight: 700;
-  padding-bottom: 10px;
+  padding: 10px 0;
 }
 
 body.brewery .information .info .description .text {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 body.brewery .information .info .business-day .description .text.text1 em {

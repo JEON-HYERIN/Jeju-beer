@@ -1421,6 +1421,7 @@ body.my-camping-car .notice .notice__title {
 
 body.my-camping-car .notice .notice__description {
   font-size: 16px;
+  font-weight: 400;
 }
 
 /* shop.html */
@@ -2171,11 +2172,11 @@ body.brewery .information .ask .description .text.text2 {
   }
 
   body.brewery .video .video__title span {
-    font-size: 12px;
+    font-size: 24px;
   }
-
+  
   body.brewery .video .video__title em {
-    font-size: 25px;
+    font-size: 45px;
   }
 
   /* PROGRAM */
@@ -2262,22 +2263,3 @@ body.brewery .information .ask .description .text.text2 {
   }
 }
 
-@media screen and (min-width:768px) and (max-width:1023.9px) {
-
-  /* brewery.html */
-  body.brewery .video video.pc {
-    display: block !important;
-  }
-
-  body.brewery .video video.mobile {
-    display: none !important;
-  }
-
-  body.brewery .video .video__title span {
-    font-size: 24px;
-  }
-  
-  body.brewery .video .video__title em {
-    font-size: 45px;
-  }
-}
