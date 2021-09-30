@@ -1143,16 +1143,17 @@ body.my-camping-car .theme .theme__content .content span {
 }
 
 body.my-camping-car .theme .theme__content.first .content span,
+body.my-camping-car .theme .theme__content.second .content.content2 span,
 body.my-camping-car .theme .theme__content.third .content span {
   bottom: 30px;
 }
 
-body.my-camping-car .theme .theme__content.first .content:last-child span,
-body.my-camping-car .theme .theme__content.third .content:first-child span {
+body.my-camping-car .theme .theme__content.first .content.content4 span,
+body.my-camping-car .theme .theme__content.third .content.content2 span {
   top: 30px;
 }
 
-body.my-camping-car .theme .theme__content.second .content span {
+body.my-camping-car .theme .theme__content.second .content:not(.content2) span {
   top: 30px;
 }
 
