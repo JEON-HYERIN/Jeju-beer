@@ -653,7 +653,6 @@ body.main .youtube {
 }
 
 body.main .youtube .inner {
-  height: 1000px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -664,13 +663,13 @@ body.main .youtube .youtube__area {
   width: 100%;
   height: 0;
   padding-bottom: 56.25%;
-  margin-top: 100px;
+  margin: 200px 0 100px;
 }
 
 body.main .youtube #player {
   position: absolute;
-  top: 0;
   left: 0;
+  top: 0;
   width: 100%;
   height: 100%;
 }
@@ -1888,13 +1887,9 @@ body.brewery .information .ask .description .text.text2 {
   }  
 
   /* YOUTUBE */
-  body.main .youtube .inner {
-    max-height: 540px;
-  }
-
   body.main .youtube .youtube__area {
     width: 90%;
-    margin-top: 20px;
+    margin: 100px 0 50px;
   }
 
   /* PRODUCTS */
