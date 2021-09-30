@@ -1337,7 +1337,6 @@ body.my-camping-car .question-and-answer dl {
   width: 100%;
   padding: 20px 0;
   border-bottom: 1px solid #1ecad3;
-  box-sizing: border-box;
 }
 
 body.my-camping-car .question-and-answer dl dt {
