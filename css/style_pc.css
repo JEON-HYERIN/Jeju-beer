@@ -1,0 +1,2283 @@
+/* COMMON */
+.mobile {
+  display: none !important;
+}
+
+.pc {
+  display: block !important;
+}
+
+br.only-m {
+  content: '';
+}
+
+video {
+  width: 100%;
+}
+
+#wrapper {
+  min-width: 768px;
+  overflow: hidden;
+}
+
+/* INNER */
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* SWIPER */
+.swiper.visual-swiper,
+.swiper.sub-swiper {
+  width: 83.3%;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper.visual-swiper .swiper-slide,
+.swiper.sub-swiper .swiper-slide {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper.sub-swiper .swiper-slide {
+  border-top: 1px solid #1ecad3;
+}
+
+.swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper .swiper-prev,
+.swiper .swiper-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.swiper .swiper-prev {
+  left: 20px;
+}
+
+.swiper .swiper-next {
+  right: 20px;
+}
+
+.swiper.visual-swiper .swiper-prev span,
+.swiper.visual-swiper .swiper-next span,
+.swiper.sub-swiper .swiper-prev span,
+.swiper.sub-swiper .swiper-next span {
+  color: #fff;
+  opacity: .9;
+}
+
+.swiper.visual-swiper {
+  height: 615px;
+  padding-bottom: 7px;
+}
+
+.swiper.visual-swiper .swiper-prev,
+.swiper.visual-swiper .swiper-next {
+  width: 60px;
+  height: 60px;
+}
+
+.swiper.visual-swiper .swiper-prev span,
+.swiper.visual-swiper .swiper-next span {
+  font-size: 60px;
+}
+
+.swiper.sub-swiper {
+  height: 216px;
+}
+
+.swiper.sub-swiper .swiper-prev,
+.swiper.sub-swiper .swiper-next {
+  width: 30px;
+  height: 30px;
+}
+
+.swiper.sub-swiper .swiper-prev span,
+.swiper.sub-swiper .swiper-next span {
+  font-size: 30px;
+}
+
+/* HEADER */
+#header {
+  background-color: #fff;
+}
+
+#header .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+}
+
+#header h1 {
+  padding: 30px 0;
+}
+
+#header h1 a {
+  display: block;
+  width: 120px;
+}
+
+#header h1 a img {
+  width: 100%;
+}
+
+#header .toggle-btn {
+  position: absolute;
+  top: 5px; 
+  right: 10px;
+  color: #1ecad3;
+  font-size: 25px;
+  display: none;
+  cursor: pointer;
+}
+
+#header nav ul.main-menu {
+  display: flex;
+  padding-top: 10px;
+}
+
+#header nav ul.main-menu li a {
+  display: block;
+  padding: 0 50px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #55585b;
+  transition: 250ms;
+}
+
+#header nav ul.main-menu li a:hover,
+#header nav ul.main-menu li.active a:hover {
+  color: #999;
+}
+
+#header nav ul.main-menu li.active a {
+  color: #1ecad3;
+}
+
+#header nav ul.main-menu li.active span {
+  padding: 12px 0;
+  border-bottom: 1px solid #1ecad3;
+}
+
+#header nav:last-of-type {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  display: flex;
+  padding: 30px 0;
+}
+
+#header nav ul.sub-menu {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+#header nav ul.sub-menu li a {
+  display: block;
+  margin: 0 10px;
+  font-size: 12px;
+  color: #888;
+  transition: 250ms;
+  font-weight: 500;
+}
+
+#header nav ul.sub-menu li a:hover {
+  color: #bdbdbd;
+}
+
+#header nav:last-of-type a.btn {
+  padding: 4px 20px;
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #1ecad3;
+  color: #fff;
+}
+
+/* FOOTER */
+#footer {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+#footer .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer .top .footer__menu {
+  display: flex;
+}
+
+#footer .top .footer__menu li a {
+  display: block;
+  padding: 10px;
+  margin: 0 15px 15px 0;
+  font-weight: 400;
+  color: #999;
+  font-size: 14px;
+}
+
+#footer .top .footer__menu li.active a {
+  color: #1ecad3;
+}
+
+#footer .top .links {
+  display: flex;
+  align-items: center;
+}
+
+#footer .top .links li:first-child a {
+  width: 190px;
+  padding-left: 0;
+}
+
+#footer .top .links li a {
+  display: block;
+  width: 40px;
+  padding-left: 10px;
+}
+
+#footer .top .links li img {
+  width: 100%;
+}
+
+#footer .bottom {
+  padding: 0 10px;
+}
+
+#footer .bottom .info {
+  margin-bottom: 15px;
+  font-size: 13px;
+  color: #999;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+#footer .bottom .copyright small {
+  font-size: 11px;
+  color: #999;
+  font-weight: 700;
+}
+
+/* floating action button */
+.floating-btns {
+  width: 60px;
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  z-index: 9;
+}
+
+.floating-btns li {
+  overflow: hidden;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.floating-btns li:first-child {
+  margin-top: 0;
+}
+
+.floating-btns li.top-btn.hidden {
+  display: none;
+}
+
+.floating-btns li button {
+  width: 60px;
+  height: 60px;
+}
+
+.floating-btns li button img {
+  width: 100%;
+  height: 100%;
+}
+
+/* share */
+.share {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.share.hidden {
+  display: none;
+}
+
+.share .share__title {
+  font-size: 19px;
+  color: #fff;
+  margin-bottom: 21px;
+}
+
+.share .share__links {
+  display: flex;
+}
+
+.share .share__links li {
+  overflow: hidden;
+  margin-left: 40px;
+}
+
+.share .share__links li:first-child {
+  margin-left: 0;
+}
+
+.share .share__links li .btn {
+  width: 80px;
+  height: 80px;
+  background-color: #1ecad3;
+  border-radius: 50%;
+}
+
+.share .share__links li .btn img {
+  width: 100%;
+  height: 100%;
+}
+
+/* inquiry */
+.inquiry {
+  background-color: rgb(246, 246, 247);
+  width: 360px;
+  box-shadow: rgb(81 99 120 / 30%) 0px 6px 60px 0px;
+  min-height: 520px;
+  max-height: 720px;
+  border-radius: 16px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9;
+}
+
+.inquiry.hidden {
+  display: none;
+}
+
+.inquiry .top.fade-in,
+.inquiry .bottom .channel-talk.fade-in,
+.inquiry .bottom .messenger.fade-in {
+  opacity: 0;
+}
+
+.inquiry .top {
+  background: linear-gradient(
+    130deg, rgb(29, 202, 211) 0%, rgb(29, 202, 211) 50%, rgb(29, 160, 211)) 100% center;
+  color: #fff;
+  padding: 23px 22px 16px 24px;
+  border-radius: 16px;
+  opacity: 1;
+  transition: opacity .5s ease-in-out 0s;
+}
+
+.inquiry .top .inquiry__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.inquiry .top .inquiry__title h4 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.inquiry .top .inquiry__title .btn-group {
+  display: flex;
+}
+
+.inquiry .top .inquiry__title .btn-group li:last-child {
+  margin-left: 15px;
+}
+
+.inquiry .top .inquiry__title .btn-group .btn {
+  width: 18px;
+  height: 18px;
+}
+
+.inquiry .top .inquiry__title .btn-group .btn img {
+  width: 100%;
+  height: 100%;
+}
+
+.inquiry .top .inquiry__description {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.inquiry .top .inquiry__description span {
+  display: inline-block;
+  position: relative;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: .7;
+  margin-top: 2px;
+  line-height: 1.4em;
+}
+
+.inquiry .top .inquiry__description span:first-child {
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 1;
+  margin-bottom: 4px;
+  margin-top: 0;
+  line-height: 1.6em;
+}
+
+.inquiry .top .inquiry__description span:first-child::after,
+.inquiry .top .inquiry__description span.inquiry__description__hours::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.inquiry .top .inquiry__description span:first-child::after {
+  width: 22px;
+  height: 22px;
+  background-image: url("../../img/on.png");
+}
+
+.inquiry .top .inquiry__description span.night::after {
+  background-image: url("../../img/moon.png");
+}
+
+.inquiry .top .inquiry__description span.inquiry__description__hours {
+  cursor: pointer;
+  transition: 250ms;
+}
+
+.inquiry .top .inquiry__description span.inquiry__description__hours::after {
+  width: 14px;
+  height: 14px;
+  background-image: url("../../img/clock.png");
+  margin-left: 5px;
+}
+
+.inquiry .top .inquiry__description span.inquiry__description__hours:hover {
+  opacity: 1;
+}
+
+.inquiry .top .inquiry__description .business-hours {
+  position: absolute;
+  top: 75px;
+  left: -10px;
+  z-index: 9;
+  max-width: 200px;
+  box-sizing: border-box;
+  padding: 12px 16px;
+  border-radius: 6px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 4px 12px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgb(255, 255, 255);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 250ms;
+}
+
+.inquiry .top .inquiry__description .business-hours.open {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.inquiry .bottom .channel-talk {
+  transition: opacity .5s ease-in-out .2s;
+}
+
+.inquiry .bottom .title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 8px;
+  line-height: 1.4em;
+}
+
+.inquiry .bottom .channel-talk,
+.inquiry .bottom .messenger {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: rgb(0 0 0 / 5%) 0px 0px 2px 1px, rgb(0 0 0 / 15%) 0px 4px 16px, rgb(255 255 255 / 12%) 0px 0px 2px inset;
+  background-color: #fff;
+  margin: 8px;
+  opacity: 1;
+}
+
+.inquiry .bottom .channel-talk > div:nth-child(2) {
+  display: flex;
+  padding: 8px;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.inquiry .bottom .channel-talk > div:nth-child(2):hover {
+  background-color: rgb(246, 246, 247);
+}
+
+.inquiry .bottom .channel-talk .image {
+  width: 56px;
+}
+
+.inquiry .bottom .channel-talk .image img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.inquiry .bottom .channel-talk .text-group {
+  min-width: 180px;
+  color: #242428;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.inquiry .bottom .channel-talk .text-group p {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.inquiry .bottom .channel-talk .text-group .text:first-child {
+  margin-bottom: 30px;
+}
+
+.inquiry .bottom .channel-talk .text-group .text:first-child em {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.inquiry .bottom .channel-talk .text-group .text:last-child img {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: 0 1px;
+  vertical-align: middle;
+}
+
+.inquiry .bottom .channel-talk .btn {
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  padding: 12px 18px;
+  border-radius: 50px;
+  background-color: #1ecad3;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  box-shadow: rgb(0 0 0 / 5%) 0px 0px 2px 1px, rgb(0 0 0 / 15%) 0px 4px 16px, rgb(255 255 255 / 12%) 0px 0px 2px inset;
+}
+
+.inquiry .bottom .channel-talk .btn img {
+  margin-right: 5px;
+}
+
+.inquiry .bottom .messenger {
+  transition: opacity .5s ease-in-out .4s;
+}
+
+.inquiry .bottom .messenger .messenger__links {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.inquiry .bottom .messenger .messenger__links li {
+  margin-right: 8px;
+}
+
+.inquiry .bottom .messenger .messenger__links li:last-child {
+  margin-right: 0;
+}
+
+.inquiry .bottom .messenger .messenger__links li .btn {
+  width: 36px;
+  height: 36px;
+}
+
+.inquiry .bottom .messenger .messenger__links li img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+/* index.html */
+/* VIDEO */
+body.main .video {
+  position: relative;
+}
+
+body.main .video .video__title {
+  max-width: 790px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+body.main .video .video__title img {
+  width: 100%;
+}
+
+/* YOUTUBE */
+body.main .youtube {
+  background-image: url("../../img/youtube_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+body.main .youtube .inner {
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body.main .youtube .youtube__area {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  margin-top: 100px;
+}
+
+body.main .youtube #player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* PRODUCTS */
+body.main .products .product {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body.main .products .product .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0 150px 0;
+}
+
+body.main .products .product .title {
+  margin-bottom: 70px;
+}
+
+body.main .products .product .description {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+body.main .products .product .description .text {
+  padding-left: 40px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+
+/* jeju wit ale */
+body.main .products .wit {
+  background-image: url("../../img/witale_bg.png");
+}
+
+body.main .products .wit .wit__title {
+  height: 110px;
+}
+
+body.main .products .wit .wit__title img {
+  height: 100%;
+  width: auto;
+}
+
+body.main .products .wit .wit__description img {
+  height: 309px;
+}
+
+body.main .products .wit .swiper.visual-swiper .swiper-slide.slide0 {
+  background-image: url("../../img/first_slide0.png");
+}
+body.main .products .wit .swiper.visual-swiper .swiper-slide.slide1 {
+  background-image: url("../../img/first_slide1.jpg");
+}
+body.main .products .wit .swiper.visual-swiper .swiper-slide.slide2 {
+  background-image: url("../../img/first_slide2.jpg");
+}
+body.main .products .wit .swiper.visual-swiper .swiper-slide.slide3 {
+  background-image: url("../../img/first_slide3.jpg");
+}
+
+body.main .products .wit .swiper.sub-swiper .swiper-slide.slide0 {
+  background-image: url("../../img/first_0.png");
+}
+body.main .products .wit .swiper.sub-swiper .swiper-slide.slide1 {
+  background-image: url("../../img/first_1.jpg");
+}
+body.main .products .wit .swiper.sub-swiper .swiper-slide.slide2 {
+  background-image: url("../../img/first_2.jpg");
+}
+body.main .products .wit .swiper.sub-swiper .swiper-slide.slide3 {
+  background-image: url("../../img/first_3.jpg");
+}
+
+/* jeju pellong ale */
+body.main .products .pellong {
+  background-image: url("../../img/pellongale_bg.png");
+}
+
+body.main .products .pellong .pellong__title {
+  width: 400px;
+}
+
+body.main .products .pellong .pellong__title img {
+  width: 100%;
+}
+
+body.main .products .pellong .pellong__description img {
+  width: auto;
+  height: 279px;
+}
+
+body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide0 {
+  background-image: url("../../img/second_slide0.png");
+}
+body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide1 {
+  background-image: url("../../img/second_slide1.jpg");
+}
+body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide2 {
+  background-image: url("../../img/second_slide2.jpg");
+}
+body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide3 {
+  background-image: url("../../img/second_slide3.jpg");
+}
+body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide4 {
+  background-image: url("../../img/second_slide4.jpg");
+}
+body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide5 {
+  background-image: url("../../img/second_slide5.jpg");
+}
+body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide6 {
+  background-image: url("../../img/second_slide6.jpg");
+}
+
+
+body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide0 {
+  background-image: url("../../img/second_0.png");
+}
+body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide1 {
+  background-image: url("../../img/second_1.jpg");
+}
+body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide2 {
+  background-image: url("../../img/second_2.jpg");
+}
+body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide3 {
+  background-image: url("../../img/second_3.jpg");
+}
+body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide4 {
+  background-image: url("../../img/second_4.jpg");
+}
+body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide5 {
+  background-image: url("../../img/second_5.jpg");
+}
+body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide6 {
+  background-image: url("../../img/second_6.jpg");
+}
+
+
+/* jeju geomeong ale */
+body.main .products .geomeong {
+  background-image: url("../../img/geomeongale_bg.png");
+}
+
+body.main .products .geomeong .inner {
+  padding-bottom: 50px;
+}
+
+body.main .products .geomeong .geomeong__title {
+  width: 400px;
+}
+
+body.main .products .geomeong .geomeong__title img {
+  width: 100%;
+}
+
+body.main .products .geomeong .geomeong__description img {
+  width: auto;
+  height: 279px;
+}
+
+body.main .products .geomeong .swiper.visual-swiper .swiper-slide.slide0 {
+  background-image: url("../../img/third_slide0.png");
+}
+body.main .products .geomeong .swiper.visual-swiper .swiper-slide.slide1 {
+  background-image: url("../../img/third_slide1.jpg");
+}
+body.main .products .geomeong .swiper.visual-swiper .swiper-slide.slide2 {
+  background-image: url("../../img/third_slide2.jpg");
+}
+body.main .products .geomeong .swiper.visual-swiper .swiper-slide.slide3 {
+  background-image: url("../../img/third_slide3.jpg");
+}
+
+body.main .products .geomeong .swiper.sub-swiper .swiper-slide.slide0 {
+  background-image: url("../../img/third_0.png");
+}
+body.main .products .geomeong .swiper.sub-swiper .swiper-slide.slide1 {
+  background-image: url("../../img/third_1.jpg");
+}
+body.main .products .geomeong .swiper.sub-swiper .swiper-slide.slide2 {
+  background-image: url("../../img/third_2.jpg");
+}
+body.main .products .geomeong .swiper.sub-swiper .swiper-slide.slide3 {
+  background-image: url("../../img/third_3.jpg");
+}
+
+/* STORE */
+body.main .store {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+body.main .store .store__description {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #1ecad3;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+/* mycampingcar.html */
+/* HEADER */
+body.my-camping-car #header {
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+body.my-camping-car #header .inner {
+  padding: 25px 0;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+body.my-camping-car #header nav ul.main-menu li a,
+body.my-camping-car #header nav ul.sub-menu li a,
+body.my-camping-car #header nav ul.main-menu li.active a {
+  color: #fff;
+}
+
+body.my-camping-car #header nav ul.main-menu li a:hover,
+body.my-camping-car #header nav ul.main-menu li.active a:hover {
+  color: #999;
+}
+
+body.my-camping-car #header nav ul.main-menu li.active span {
+  border-bottom: 1px solid #fff;
+}
+
+body.my-camping-car #header nav ul.sub-menu li a:hover {
+  color: #bdbdbd;
+}
+
+/* VIDEO */
+body.my-camping-car .video .video__title {
+  background-color: #0f1b28;
+  max-width: none;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+body.my-camping-car .video .video__title span + span {
+  margin-left: 5px;
+}
+
+/* VISUAL -1-*/
+body.my-camping-car .visual {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body.my-camping-car .visual.visual1 {
+  background-image: url("../../img/experience/visual1_bg.jpg");
+  background-attachment: fixed;
+}
+
+body.my-camping-car .visual.visual1 .inner {
+  height: 100vh;
+}
+
+body.my-camping-car .visual.visual1 .text-group .text {
+  max-width: 547px;
+  position: absolute;
+}
+
+body.my-camping-car .visual.visual1 .text-group .text.text1 {
+  left: 20%;
+  top: 100px;
+}
+
+body.my-camping-car .visual.visual1 .text-group .text.text2 {
+  right: 0;
+  bottom: 100px;
+}
+
+/* SLOAGN */
+body.my-camping-car .slogan {
+  background-color: #fff;
+}
+
+body.my-camping-car .slogan .inner {
+  padding: 100px 0;
+}
+
+body.my-camping-car .slogan .swiper.visual-swiper .swiper-slide.slide0 {
+  background-image: url("../../img/experience/slogan_slide0.jpg");
+}
+body.my-camping-car .slogan .swiper.visual-swiper .swiper-slide.slide1 {
+  background-image: url("../../img/experience/slogan_slide1.jpg");
+}
+body.my-camping-car .slogan .swiper.visual-swiper .swiper-slide.slide2 {
+  background-image: url("../../img/experience/slogan_slide2.jpg");
+}
+body.my-camping-car .slogan .swiper.visual-swiper .swiper-slide.slide3 {
+  background-image: url("../../img/experience/slogan_slide3.jpg");
+}
+body.my-camping-car .slogan .swiper.visual-swiper .swiper-slide.slide4 {
+  background-image: url("../../img/experience/slogan_slide4.jpg");
+}
+
+body.my-camping-car .slogan .swiper.visual-swiper .swiper-pagination-bullet {
+  width: 25px;
+  height: 2px;
+  margin: 5px 7.5px;
+  background-color: #fff;
+  border-radius: 0;
+  opacity: .5;
+}
+
+body.my-camping-car .slogan .swiper.visual-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+body.my-camping-car .slogan .text-group {
+  text-align: center;
+  padding: 100px 0;
+}
+
+body.my-camping-car .slogan .text-group .text {
+  font-size: 26px;
+  color: #3d464b;
+}
+
+body.my-camping-car .slogan .text-group .text.text2 {
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+body.my-camping-car .slogan .swiper.visual-swiper {
+  padding-bottom: 0;
+}
+
+body.my-camping-car .slogan .swiper.sub-swiper {
+  display: block;
+  height: 520px;
+}
+
+body.my-camping-car .slogan .swiper.sub-swiper .swiper-slide.slide0 {
+  background-image: url("../../img/experience/slogan_slide2.jpg");
+}
+body.my-camping-car .slogan .swiper.sub-swiper .swiper-slide.slide1 {
+  background-image: url("../../img/experience/slogan_slide3.jpg");
+}
+body.my-camping-car .slogan .swiper.sub-swiper .swiper-slide.slide2 {
+  background-image: url("../../img/experience/slogan_slide4.jpg");
+}
+
+/* VISUAL -2-*/
+body.my-camping-car .visual.visual2 {
+  background-image: url("../../img/experience/visual2_bg.png");
+}
+
+body.my-camping-car .visual.visual2 .inner {
+  height: 1000px;
+}
+
+body.my-camping-car .visual.visual2 .title {
+  width: 930px;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+/* THEME */
+body.my-camping-car .theme {
+  background-color: #fff;
+  text-align: center;
+}
+
+body.my-camping-car .theme .inner {
+  padding: 100px 0;
+}
+
+body.my-camping-car .theme .theme__title {
+  font-size: 48px;
+  color: #1ecad3;
+}
+
+body.my-camping-car .theme .theme__description {
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  color: #3d464b;
+  padding: 30px 0 100px 0;
+}
+
+body.my-camping-car .theme .theme__menu {
+  display: flex;
+  justify-content: center;
+}
+
+body.my-camping-car .theme .theme__menu li {
+  margin: 0 15px;
+}
+
+body.my-camping-car .theme .theme__menu li:nth-child(1) button.selected {
+  background-color: #8592ef;
+}
+body.my-camping-car .theme .theme__menu li:nth-child(2) button.selected {
+  background-color: #1ecad3;
+}
+body.my-camping-car .theme .theme__menu li:nth-child(3) button.selected {
+  background-color: #edac91;
+}
+
+body.my-camping-car .theme .theme__menu li button {
+  width: 260px;
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #cbcccd;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+body.my-camping-car .theme .theme__menu li button span {
+  font-weight: 700;
+  pointer-events: none;
+}
+
+body.my-camping-car .theme .theme__content {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
+
+body.my-camping-car .theme .theme__content.invisible {
+  display: none;
+}
+
+body.my-camping-car .theme .theme__content .content {
+  position: relative;
+}
+
+body.my-camping-car .theme .theme__content .content span {
+  position: absolute;
+  left: 30px;
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+}
+
+body.my-camping-car .theme .theme__content.first .content span,
+body.my-camping-car .theme .theme__content.third .content span {
+  bottom: 30px;
+}
+
+body.my-camping-car .theme .theme__content.first .content:last-child span,
+body.my-camping-car .theme .theme__content.third .content:first-child span {
+  top: 30px;
+}
+
+body.my-camping-car .theme .theme__content.second .content span {
+  top: 30px;
+}
+
+body.my-camping-car .theme .theme__content.first .left,
+body.my-camping-car .theme .theme__content.second .right,
+body.my-camping-car .theme .theme__content.third .left {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 400;
+  color: #545759;
+}
+
+body.my-camping-car .theme .theme__content.first .left,
+body.my-camping-car .theme .theme__content.third .left {
+  flex-basis: 60%;
+}
+body.my-camping-car .theme .theme__content.second .left {
+  flex-basis: 35%;
+}
+
+body.my-camping-car .theme .theme__content .version {
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  max-width: 520px;
+  line-height: 50px;
+  text-align: center;
+}
+
+body.my-camping-car .theme .theme__content.first .version {
+  background-color: #8592ef;
+}
+body.my-camping-car .theme .theme__content.second .version {
+  background-color: #1ecad3;
+}
+body.my-camping-car .theme .theme__content.third .version {
+  background-color: #edac91;
+}
+
+body.my-camping-car .theme .theme__content .version span::after {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: -4px;
+  width: 45px;
+  height: 45px;
+  margin: 0 10px;
+  background: url("../../img/experience/theme_title.png") no-repeat center/cover;
+}
+
+body.my-camping-car .theme .theme__content .title {
+  font-size: 56px;
+  letter-spacing: -0.05em;
+  line-height: 1.3em;
+  margin: 50px 0;
+}
+
+body.my-camping-car .theme .theme__content.first .left .description p:last-child,
+body.my-camping-car .theme .theme__content.second .right .description p:last-child,
+body.my-camping-car .theme .theme__content.third .left .description p:last-child {
+  margin-top: 20px;
+}
+
+body.my-camping-car .theme .theme__content.first .left .content,
+body.my-camping-car .theme .theme__content.second .right .content,
+body.my-camping-car .theme .theme__content.third .left .content {
+  margin: 50px 0;
+}
+
+body.my-camping-car .theme .theme__content.first .right,
+body.my-camping-car .theme .theme__content.third .right {
+  flex-basis: 35%;
+}
+body.my-camping-car .theme .theme__content.second .right {
+  flex-basis: 60%;
+}
+
+body.my-camping-car .theme .theme__content.first .right .content ~ .content,
+body.my-camping-car .theme .theme__content.second .left .content ~ .content,
+body.my-camping-car .theme .theme__content.third .right .content ~ .content {
+  margin-top: 30px;
+}
+
+/* GIFT */
+body.my-camping-car .gift {
+  background-color: #6ad1d6;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+}
+
+body.my-camping-car .gift .inner {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body.my-camping-car .gift .mark {
+  width: 250px;
+  line-height: 35px;
+  border-radius: 50px;
+  font-weight: 700;
+  color: #6ad1d6;
+  background-color: #fff;
+}
+
+body.my-camping-car .gift .gift__title {
+  font-size: 48px;
+  padding: 20px 0;
+}
+
+body.my-camping-car .gift .todays-gift {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+body.my-camping-car .gift .todays-gift img {
+  width: 150px;
+}
+
+body.my-camping-car .gift .todays-gift > div {
+  padding-left: 30px;
+  text-align: left;
+}
+
+body.my-camping-car .gift .todays-gift > div .title {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+body.my-camping-car .gift .todays-gift > div .description:first-of-type {
+  padding: 10px 0;
+}
+
+body.my-camping-car .gift .todays-gift > div .description:last-of-type {
+  font-size: 16px;
+}
+
+body.my-camping-car .gift .image-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+body.my-camping-car .gift .image-group img {
+  width: 32%;
+}
+
+/* QUESTION AND ANSWER */
+body.my-camping-car .question-and-answer {
+  background-color: #f5f5f5;
+}
+
+body.my-camping-car .question-and-answer .inner {
+  padding: 100px 0;
+}
+
+body.my-camping-car .question-and-answer .title {
+  color: #1ecad3;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.8em;
+}
+
+body.my-camping-car .question-and-answer dl {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #3e474c;
+  width: 100%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body.my-camping-car .question-and-answer dl::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  width: 80%;
+  height: 1px;
+  background-color: #1ecad3;
+}
+
+body.my-camping-car .question-and-answer dl dt {
+  color: #1ecad3;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+body.my-camping-car .question-and-answer dl dd {
+  padding: 2px 0 10px 40px;
+}
+
+body.my-camping-car .question-and-answer dl dd em {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+body.my-camping-car .question-and-answer dl:first-of-type dd p {
+  font-weight: 700;
+}
+
+body.my-camping-car .question-and-answer dl:first-of-type dd:first-of-type strong {
+  text-decoration: underline;
+}
+
+body.my-camping-car .question-and-answer dl:first-of-type dd:nth-of-type(2) strong {
+  color: #ef8470;
+}
+
+/* TOGETHER */
+body.my-camping-car .together {
+  background-color: #fff;
+  color: #3d464b;
+  text-align: center;
+}
+
+body.my-camping-car .together .inner {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body.my-camping-car .together .together__title {
+  font-size: 48px;
+}
+
+body.my-camping-car .together .together__description {
+  font-size: 26px;
+  padding: 60px 0;
+}
+
+body.my-camping-car .together .together__links {
+  display: flex;
+  justify-content: center;
+}
+
+body.my-camping-car .together .together__links li .btn {
+  background-color: #3d464b;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+body.my-camping-car .together .together__links li ~ li {
+  margin-left: 40px;
+}
+
+/* NOTICE */
+body.my-camping-car .notice {
+  background-color: #ef8470;
+  color: #fff;
+  text-align: center;
+}
+
+body.my-camping-car .notice .inner {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body.my-camping-car .notice img {
+  width: 120px;
+}
+
+body.my-camping-car .notice .notice__title,
+body.my-camping-car .notice .notice__description {
+  padding-top: 25px;
+}
+
+body.my-camping-car .notice .notice__title {
+  font-size: 26px;
+}
+
+body.my-camping-car .notice .notice__description {
+  font-size: 16px;
+}
+
+/* shop.html */
+/* SHOP */
+body.shop .shop .inner {
+  overflow: hidden;
+}
+
+body.shop .shop .shop__items {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+body.shop .shop .shop__items .item {
+  flex-basis: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+body.shop .shop .shop__items .item img {
+  width: 100%;
+}
+
+body.shop .shop .shop__items .item .text-group {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+body.shop .shop .shop__items .item .text-group .mark {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body.shop .shop .shop__items .item .text-group .title {
+  font-size: 26px;
+  margin: 5px 0 10px 0;
+  font-weight: 400;
+}
+
+body.shop .shop .shop__items .item .text-group .description {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+body.shop .shop .more {
+  background-color: #1ecad3;
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+/* brewery.html */
+/* VIDEO */
+body.brewery .video {
+  position: relative;
+}
+
+body.brewery .video .video__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+
+body.brewery .video .video__title span {
+  font-size: 24px;
+}
+
+body.brewery .video .video__title em {
+  font-size: 45px;
+}
+
+/* PROGRAM */
+body.brewery .program {
+  color: #3d464b;
+  text-align: center;
+  background-color: #fff;
+}
+
+body.brewery .program .inner {
+  padding: 100px 0;
+}
+
+body.brewery .program .text-group {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+body.brewery .program .text-group .text.text2 {
+  padding: 15px 0 60px 0;
+}
+
+body.brewery .program .program__title {
+  font-size: 29px;
+  color: #1ecad3;
+  position: relative;
+  background-color: #fff;
+}
+
+body.brewery .program .program__description {
+  font-size: 16px;
+  padding: 30px 0;
+}
+
+body.brewery .program .program__content {
+  display: flex;
+  justify-content: space-evenly;
+  color: #55585b;
+  line-height: 1.6em;
+}
+
+body.brewery .program .program__content .tour,
+body.brewery .program .program__content .experience {
+  flex-basis: 48%;
+}
+
+body.brewery .program .program__content img {
+  min-height: 590px;
+  width: 100%;
+}
+
+body.brewery .program .program__content .text-group {
+  padding: 15px 0;
+}
+
+body.brewery .program .program__content .text-group .title {
+  font-size: 16px;
+}
+
+body.brewery .program .program__content .text-group .description {
+  font-size: 14px;
+}
+
+body.brewery .program .btn {
+  display: inline-block;
+  padding: 8px 50px;
+  font-size: 14px;
+  background-color: #1ecad3;
+  color: #fff;
+}
+
+/* INFORMATION */
+body.brewery .information {
+  background-color: #f4f4f4;
+  color: #3d464b;
+}
+
+body.brewery .information .inner {
+  padding: 50px 0;
+}
+
+body.brewery .information .information__title {
+  font-size: 24px;
+  padding: 0 0 30px 15px;
+}
+
+body.brewery .information .info {
+  display: flex;
+  line-height: 1.8em;
+}
+
+body.brewery .information .info > div {
+  padding: 0 15px;
+  flex-basis: 33.33%;
+}
+
+body.brewery .information .info .title {
+  font-size: 18px;
+  border-bottom: 2px solid #55585b;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+body.brewery .information .info .description .text {
+  padding: 20px 0;
+}
+
+body.brewery .information .info .business-day .description .text.text1 em {
+  font-size: 26px;
+}
+
+body.brewery .information .info .business-day .description .text.text1 span {
+  font-size: 16px;
+}
+
+body.brewery .information .info .business-day .description .text.text2 span {
+  font-size: 14px;
+  line-height: 1.4em;
+}
+
+body.brewery .information .info .business-day .description .text.text2 span.place {
+  padding-right: 15px;
+}
+
+body.brewery .information .service .description {
+  font-size: 14px;
+}
+
+body.brewery .information .service .description .text span.place {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+body.brewery .information .service .description .text em {
+  color: #1ecad3;
+}
+
+body.brewery .information .service .description .text span:last-of-type {
+  font-weight: 400;
+}
+
+body.brewery .information .ask .description .text span.type {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+body.brewery .information .ask .description .text.text1 {
+  display: flex;
+}
+
+body.brewery .information .ask .description .text.text1 span.type {
+  margin-right: 15px;
+}
+
+body.brewery .information .ask .description .text.text1 img {
+  width: 52px;
+  height: 52px;
+}
+
+body.brewery .information .ask .description .text.text1 img:first-of-type {
+  margin-right: 15px;
+}
+
+body.brewery .information .ask .description .text.text2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+
+
+
+
+/* 미디어 쿼리 */
+@media screen and (max-width: 1023.9px) {
+  
+  /* COMMON */
+  .pc {
+    display: none !important;
+  }
+
+  .mobile {
+    display: block !important;
+  }
+
+  .video video.pc {
+    display: block !important;
+  }
+
+  .video video.mobile {
+    display: none !important;
+  }
+
+  br.only-pc {
+    content: '';
+  }
+
+  br.only-m {
+    content: normal;
+  }
+    
+  /* SWIPER */
+  .swiper.visual-swiper .swiper-prev,
+  .swiper.visual-swiper .swiper-next,
+  .swiper.sub-swiper .swiper-prev,
+  .swiper.sub-swiper .swiper-next {
+    width: 20px;
+    height: 20px;
+  }
+
+  .swiper.visual-swiper .swiper-prev span,
+  .swiper.visual-swiper .swiper-next span,
+  .swiper.sub-swiper .swiper-prev span,
+  .swiper.sub-swiper .swiper-next span {
+    font-size: 20px;
+  }
+
+  /* HEADER */
+  #header .inner {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 48px;
+  }
+
+  #header h1 {
+    padding: 15px 0;
+  }
+
+  #header h1 a {
+    width: 80px;
+  }
+
+  #header nav {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    top: 0;
+  }
+
+  #header nav.open:first-of-type {
+    display: block;
+  }
+
+  #header nav.open:last-of-type {
+    display: flex;
+  }
+
+  #header nav:first-of-type,
+  #header nav:last-of-type {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+
+  #header nav:first-of-type {
+    margin-top: calc(48px + 40px);
+  }
+
+  #header nav:last-of-type {
+    justify-content: space-around;
+    margin-top: 48px;
+    padding: 10px 0;
+    background-color: #1ecad3;
+  }
+
+  #header nav ul.main-menu {
+    flex-direction: column;
+    background-color: #fff;
+    padding-top: 0;
+  }
+
+  #header nav ul.main-menu li.shop {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  #header nav ul.main-menu li.shop a:first-child {
+    width: 100%;
+  }
+  
+  #header nav ul.main-menu li.shop a.cart {
+    position: absolute;
+    left: 100px;
+    width: 27px;
+    height: 24px;
+    padding: 5px;
+  }
+
+  #header nav ul.main-menu li a {
+    font-size: 25px;
+    padding: 20px;
+  }
+
+  #header nav ul.main-menu li.active a {
+    color: #55585b;
+  }
+
+  #header nav ul.main-menu li.active span {
+    border-width: 2px;
+  }
+
+  #header nav ul.sub-menu {
+    margin-right: 0;
+  }
+
+  #header nav ul.sub-menu li {
+    margin-right: 10px;
+  }
+
+  #header nav ul.sub-menu li:last-child {
+    margin-right: 0;
+  }
+
+  #header nav ul.sub-menu li:nth-child(3) {
+    display: none;
+  }
+
+  #header nav ul.sub-menu li a {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  #header nav:last-of-type a.btn {
+    position: relative;
+    padding: 0;
+    margin-left: 0;
+    font-weight: 500;
+  }
+
+  #header nav:last-of-type a.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -20px;
+    margin: auto 0;
+    width: 1px;
+    height: 20px;
+    background-color: #fff;
+  }
+
+  #header .toggle-btn {
+    display: block;
+  }
+
+  /* FOOTER */
+  #footer .top {
+    display: none;
+  }
+
+  #footer .bottom {
+    padding: 0 20px;
+  }  
+
+  
+  /* index.html */
+  body.main br.only-m,
+  body.main .products br.only-pc {
+    content: '';
+  }
+
+  body.main br.only-pc,
+  body.main .products br.only-m {
+    content: normal;
+  }
+  
+  /* SWIPER */
+  body.main .products .swiper.visual-swiper {
+    max-height: 350px;
+  }
+
+  body.main .products .swiper.sub-swiper {
+    max-height: 200px;
+  }
+
+  body.main .store .swiper {
+    width: 83.3%;
+  }  
+
+  /* YOUTUBE */
+  body.main .youtube .inner {
+    max-height: 540px;
+  }
+
+  body.main .youtube .youtube__area {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  /* PRODUCTS */
+  body.main .products .product .inner {
+    padding: 10px 0 70px 0;
+  }
+
+  body.main .products .product .title {
+    width: 322px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  body.main .products .product .title img {
+    width: 100%;
+    height: auto;
+  }
+
+  body.main .products .product .description {
+    flex-direction: column;
+  }
+
+  body.main .products .product .description .text {
+    padding-left: 0;
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  body.main .products .wit .wit__description img {
+    height: 189px;
+  }
+
+  body.main .products .pellong .pellong__description img {
+    height: 181px;
+  }
+
+  body.main .products .geomeong .geomeong__description img {
+    height: 186px;
+  }
+
+  body.main .products .geomeong .inner {
+    padding-bottom: 40px;
+  }
+
+  /* STORE */
+  body.main .store {
+    padding: 20px 0;
+  }
+
+  body.main .store .store__description {
+    font-size: 16px;
+  }
+
+  /* mycampingcar.html */
+  /* SWIPER */
+  body.my-camping-car .slogan .swiper.visual-swiper {
+    min-height: 1000px;
+  }  
+
+  /* HEADER */
+  body.my-camping-car #header.white {
+    background-color: #fff;
+  }
+
+  body.my-camping-car #header .inner {
+    padding: 0 10px;
+  }
+
+  body.my-camping-car #header nav ul.main-menu li a,
+  body.my-camping-car #header nav ul.main-menu li.active a {
+    color: #55585b;
+  }
+
+  body.my-camping-car #header nav ul.main-menu li.active span {
+    border-bottom: 2px solid #1ecad3;
+  }
+
+  /* VIDEO */
+  body.my-camping-car .video .video__title {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  /* VISUAL -1-*/
+  body.my-camping-car .visual.visual1 {
+    background-attachment: scroll;
+  }
+
+  body.my-camping-car .visual.visual1 .text-group .text.text1,
+  body.my-camping-car .visual.visual1 .text-group .text.text2 {
+    max-width: 350px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+  }
+
+  body.my-camping-car .visual.visual1 .text-group .text.text1 {
+    left: 100px;
+  }
+
+  body.my-camping-car .visual.visual1 .text-group .text.text2 {
+    bottom: -100px;
+  }
+
+  /* SLOGAN */
+  body.my-camping-car .slogan .text-group {
+    text-align: center;
+    padding: 100px 0 0 0;
+  }
+  
+  /* VISUAL -2-*/
+  body.my-camping-car .visual.visual2 .inner {
+    height: 600px;
+  }
+
+  body.my-camping-car .visual.visual2 .title {
+    max-width: 100%;
+    padding-top: 20px;
+  }
+
+  /* THEME */
+  body.my-camping-car .theme .inner {
+    padding: 50px 0;
+  }
+
+  body.my-camping-car .theme .theme__title {
+    font-size: 24px;
+  }
+
+  body.my-camping-car .theme .theme__description {
+    font-size: 16px;
+    padding: 15px 0 50px 0;
+  }
+
+  body.my-camping-car .theme .theme__menu li {
+    margin: 0 5px;
+  }
+
+  body.my-camping-car .theme .theme__menu li button {
+    font-size: 20px;
+    width: 200px;
+  }
+
+  body.my-camping-car .theme .theme__content {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+  }
+
+  body.my-camping-car .theme .theme__content.second {
+    flex-direction: column-reverse;
+  }
+
+  body.my-camping-car .theme .theme__content .content span {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  body.my-camping-car .theme .theme__content .version {
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  body.my-camping-car .theme .theme__content .version span::after {
+    width: 25px;
+    height: 25px;
+  }
+
+  body.my-camping-car .theme .theme__content .title {
+    font-size: 50px;
+    padding: 0 10px;
+  }
+
+  body.my-camping-car .theme .theme__content.first .left .description p:last-child,
+  body.my-camping-car .theme .theme__content.second .right .description p:last-child,
+  body.my-camping-car .theme .theme__content.third .left .description p:last-child {
+    margin: 20px 0;
+  }
+
+  body.my-camping-car .theme .theme__content .description {
+    padding: 0 10px;
+    letter-spacing: -0.5px;
+  }
+
+  /* GIFT */
+  body.my-camping-car .gift .inner {
+    padding: 50px 10px;
+  }
+
+  /* QUESTION AND ANSWER */
+  body.my-camping-car .question-and-answer .inner {
+    padding: 50px 15px;
+  }
+
+  body.my-camping-car .question-and-answer h2 {
+    font-size: 40px;
+  }
+
+  body.my-camping-car .question-and-answer dl {
+    font-size: 16px;
+    padding: 20px 0;
+    border-bottom: 1px solid #1ecad3;
+  }
+
+  body.my-camping-car .question-and-answer dl::after {
+    display: none;
+  }
+
+  body.my-camping-car .question-and-answer dl dt {
+    font-size: 16px;
+  }
+
+  body.my-camping-car .question-and-answer dl dd em {
+    font-size: 16px;
+  }
+
+  /* TOGETHER */
+  body.my-camping-car .together .inner {
+    padding: 50px 15px;
+  }
+
+  body.my-camping-car .together .together__title {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  body.my-camping-car .together .together__description {
+    font-size: 17px;
+    padding: 40px 0;
+  }
+
+  body.my-camping-car .together .together__links li .btn {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* NOTICE */
+  body.my-camping-car .notice .inner {
+    padding: 50px 15px;
+  }
+
+  body.my-camping-car .notice .notice__title {
+    font-size: 17px;
+  }
+
+  body.my-camping-car .notice .notice__description {
+    font-size: 15px;
+  }
+
+
+  /* shop.html */
+  body.shop .shop .shop__items {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  body.shop .shop .shop__items .item .text-group .title {
+    font-size: 20px;
+  }
+
+  body.shop .shop .shop__items .item .text-group .description {
+    font-size: 24px;
+  }
+
+  body.shop .shop .more {
+    font-size: 17px;
+  }
+
+
+  /* brewery.html */
+  /* VIDEO */
+  body.brewery .video .video__title {
+    transform: translate(-50%, 0);
+  }
+
+  body.brewery .video .video__title span {
+    font-size: 12px;
+  }
+
+  body.brewery .video .video__title em {
+    font-size: 25px;
+  }
+
+  /* PROGRAM */
+  body.brewery .program .inner {
+    padding: 30px 0;
+  }
+
+  body.brewery .program .text-group {
+    font-size: 17px;
+  }
+
+  body.brewery .program .text-group .text.text2 {
+    padding-bottom: 30px;
+  }
+
+  body.brewery .program .program__description {
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  body.brewery .program .program__content {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+
+  body.brewery .program .program__content img {
+    min-height: 0;
+  }
+
+  body.brewery .program .program__content .text-group .title {
+    font-size: 15px;
+  }
+
+  body.brewery .program .program__content .text-group .description {
+    font-size: 13px;
+  }
+
+  /* INFORMATION */
+  body.brewery .information .inner {
+    padding: 30px 15px;
+  }
+
+  body.brewery .information .information__title {
+    font-size: 16px;
+    padding-bottom: 15px;
+    padding-left: 0;
+  }
+
+  body.brewery .information .info {
+    flex-direction: column;
+  }
+
+  body.brewery .information .info > div {
+    padding: 0;
+  }
+
+  body.brewery .information .info .title {
+    font-size: 16px;
+  }
+
+  body.brewery .information .info .business-day .description .text.text1 em {
+    font-size: 17px;
+  }
+
+  body.brewery .information .info .business-day .description .text.text1 span {
+    font-size: 15px;
+  }
+
+  body.brewery .information .service .description {
+    font-size: 13px;
+  }
+
+  body.brewery .information .service .description .text span.place {
+    font-size: 16px;
+  }
+
+  body.brewery .information .ask .description .text span.type {
+    font-size: 16px;
+  }
+
+  body.brewery .information .ask .description .text.text2 {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023.9px) {
+
+  /* brewery.html */
+  body.brewery .video video.pc {
+    display: block !important;
+  }
+
+  body.brewery .video video.mobile {
+    display: none !important;
+  }
+
+  body.brewery .video .video__title span {
+    font-size: 24px;
+  }
+  
+  body.brewery .video .video__title em {
+    font-size: 45px;
+  }
+}

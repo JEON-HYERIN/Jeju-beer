@@ -29,49 +29,49 @@ br.only-pc {
 }
 
 /* SHOP */
-#shop .inner {
+body.shop .shop .inner {
   overflow: hidden;
 }
 
-#shop .shop__items {
+body.shop .shop .shop__items {
   display: flex;
   flex-wrap: wrap;
   color: #fff;
 }
 
-#shop .shop__items .item {
+body.shop .shop .shop__items .item {
   flex-basis: 50%;
   position: relative;
   cursor: pointer;
 }
 
-#shop .shop__items .item img {
+body.shop .shop .shop__items .item img {
   width: 100%;
 }
 
-#shop .shop__items .item .text-group {
+body.shop .shop .shop__items .item .text-group {
   position: absolute;
   top: 30px;
   left: 30px;
 }
 
-#shop .shop__items .item .text-group .mark {
+body.shop .shop .shop__items .item .text-group .mark {
   font-size: 16px;
   font-weight: 400;
 }
 
-#shop .shop__items .item .text-group .title {
+body.shop .shop .shop__items .item .text-group .title {
   font-size: 26px;
   margin: 5px 0 10px 0;
   font-weight: 400;
 }
 
-#shop .shop__items .item .text-group .description {
+body.shop .shop .shop__items .item .text-group .description {
   font-size: 22px;
   font-weight: 700;
 }
 
-#shop .more {
+body.shop .shop .more {
   background-color: #1ecad3;
   font-size: 26px;
   font-weight: 700;
@@ -92,28 +92,28 @@ br.only-pc {
     display: block !important;
   }
 
-  br.only-m {
+  body.shop br.only-m {
     content: normal;
   }
 
-  br.only-pc {
+  body.shop br.only-pc {
     content: '';
   }
   
-  #shop .shop__items {
+  body.shop .shop .shop__items {
     flex-direction: column;
     flex-wrap: nowrap;
   }
 
-  #shop .shop__items .item .text-group .title {
+  body.shop .shop .shop__items .item .text-group .title {
     font-size: 20px;
   }
 
-  #shop .shop__items .item .text-group .description {
+  body.shop .shop .shop__items .item .text-group .description {
     font-size: 24px;
   }
 
-  #shop .more {
+  body.shop .shop .more {
     font-size: 17px;
   }
 }

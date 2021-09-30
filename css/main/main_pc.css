@@ -11,7 +11,7 @@ br.only-m {
   content: '';
 }
 
-body.main #wrapper {
+#wrapper {
   min-width: 768px;
   overflow: hidden;
 }
@@ -204,26 +204,26 @@ body.main #wrapper {
 }
 
 /* VIDEO */
-#video {
+body.main .video {
   position: relative;
 }
 
-#video video {
+body.main .video video {
   width: 100%;
 }
 
-#video .video__title {
+body.main .video .video__title {
   max-width: 790px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-#video .video__title img {
+body.main .video .video__title img {
   width: 100%;
 }
 
 /* YOUTUBE */
-#youtube {
+body.main .youtube {
   background-image: url("../../img/youtube_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -231,14 +231,14 @@ body.main #wrapper {
   position: relative;
 }
 
-#youtube .inner {
+body.main .youtube .inner {
   height: 1000px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#youtube .youtube__area {
+body.main .youtube .youtube__area {
   position: relative;
   width: 100%;
   height: 0;
@@ -246,7 +246,7 @@ body.main #wrapper {
   margin-top: 100px;
 }
 
-#youtube #player {
+body.main .youtube #player {
   position: absolute;
   top: 0;
   left: 0;
@@ -255,30 +255,30 @@ body.main #wrapper {
 }
 
 /* PRODUCTS */
-#products .product {
+body.main .products .product {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-#products .product .inner {
+body.main .products .product .inner {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 30px 0 150px 0;
 }
 
-#products .product .title {
+body.main .products .product .title {
   margin-bottom: 70px;
 }
 
-#products .product .description {
+body.main .products .product .description {
   display: flex;
   align-items: center;
   padding-bottom: 20px;
 }
 
-#products .product .description .text {
+body.main .products .product .description .text {
   padding-left: 40px;
   font-size: 20px;
   color: #fff;
@@ -286,169 +286,168 @@ body.main #wrapper {
 }
 
 /* jeju wit ale */
-#products .wit {
+body.main .products .wit {
   background-image: url("../../img/witale_bg.png");
 }
 
-#products .wit .wit__title {
+body.main .products .wit .wit__title {
   height: 110px;
 }
 
-#products .wit .wit__title img {
+body.main .products .wit .wit__title img {
   height: 100%;
   width: auto;
 }
 
-#products .wit .wit__description img {
+body.main .products .wit .wit__description img {
   height: 309px;
 }
 
-#products .wit .swiper.visual-swiper .swiper-slide.slide0 {
+body.main .products .wit .swiper.visual-swiper .swiper-slide.slide0 {
   background-image: url("../../img/first_slide0.png");
 }
-#products .wit .swiper.visual-swiper .swiper-slide.slide1 {
+body.main .products .wit .swiper.visual-swiper .swiper-slide.slide1 {
   background-image: url("../../img/first_slide1.jpg");
 }
-#products .wit .swiper.visual-swiper .swiper-slide.slide2 {
+body.main .products .wit .swiper.visual-swiper .swiper-slide.slide2 {
   background-image: url("../../img/first_slide2.jpg");
 }
-#products .wit .swiper.visual-swiper .swiper-slide.slide3 {
+body.main .products .wit .swiper.visual-swiper .swiper-slide.slide3 {
   background-image: url("../../img/first_slide3.jpg");
 }
 
-#products .wit .swiper.sub-swiper .swiper-slide.slide0 {
+body.main .products .wit .swiper.sub-swiper .swiper-slide.slide0 {
   background-image: url("../../img/first_0.png");
 }
-#products .wit .swiper.sub-swiper .swiper-slide.slide1 {
+body.main .products .wit .swiper.sub-swiper .swiper-slide.slide1 {
   background-image: url("../../img/first_1.jpg");
 }
-#products .wit .swiper.sub-swiper .swiper-slide.slide2 {
+body.main .products .wit .swiper.sub-swiper .swiper-slide.slide2 {
   background-image: url("../../img/first_2.jpg");
 }
-#products .wit .swiper.sub-swiper .swiper-slide.slide3 {
+body.main .products .wit .swiper.sub-swiper .swiper-slide.slide3 {
   background-image: url("../../img/first_3.jpg");
 }
 
 /* jeju pellong ale */
-#products .pellong {
+body.main .products .pellong {
   background-image: url("../../img/pellongale_bg.png");
 }
 
-#products .pellong .pellong__title {
+body.main .products .pellong .pellong__title {
   width: 400px;
 }
 
-#products .pellong .pellong__title img {
+body.main .products .pellong .pellong__title img {
   width: 100%;
 }
 
-#products .pellong .pellong__description img {
+body.main .products .pellong .pellong__description img {
   width: auto;
   height: 279px;
 }
 
-#products .pellong .swiper.visual-swiper .swiper-slide.slide0 {
+body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide0 {
   background-image: url("../../img/second_slide0.png");
 }
-#products .pellong .swiper.visual-swiper .swiper-slide.slide1 {
+body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide1 {
   background-image: url("../../img/second_slide1.jpg");
 }
-#products .pellong .swiper.visual-swiper .swiper-slide.slide2 {
+body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide2 {
   background-image: url("../../img/second_slide2.jpg");
 }
-#products .pellong .swiper.visual-swiper .swiper-slide.slide3 {
+body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide3 {
   background-image: url("../../img/second_slide3.jpg");
 }
-#products .pellong .swiper.visual-swiper .swiper-slide.slide4 {
+body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide4 {
   background-image: url("../../img/second_slide4.jpg");
 }
-#products .pellong .swiper.visual-swiper .swiper-slide.slide5 {
+body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide5 {
   background-image: url("../../img/second_slide5.jpg");
 }
-#products .pellong .swiper.visual-swiper .swiper-slide.slide6 {
+body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide6 {
   background-image: url("../../img/second_slide6.jpg");
 }
 
 
-#products .pellong .swiper.sub-swiper .swiper-slide.slide0 {
+body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide0 {
   background-image: url("../../img/second_0.png");
 }
-#products .pellong .swiper.sub-swiper .swiper-slide.slide1 {
+body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide1 {
   background-image: url("../../img/second_1.jpg");
 }
-#products .pellong .swiper.sub-swiper .swiper-slide.slide2 {
+body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide2 {
   background-image: url("../../img/second_2.jpg");
 }
-#products .pellong .swiper.sub-swiper .swiper-slide.slide3 {
+body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide3 {
   background-image: url("../../img/second_3.jpg");
 }
-#products .pellong .swiper.sub-swiper .swiper-slide.slide4 {
+body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide4 {
   background-image: url("../../img/second_4.jpg");
 }
-#products .pellong .swiper.sub-swiper .swiper-slide.slide5 {
+body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide5 {
   background-image: url("../../img/second_5.jpg");
 }
-#products .pellong .swiper.sub-swiper .swiper-slide.slide6 {
+body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide6 {
   background-image: url("../../img/second_6.jpg");
 }
 
 
 /* jeju geomeong ale */
-#products .geomeong {
+body.main .products .geomeong {
   background-image: url("../../img/geomeongale_bg.png");
 }
 
-#products .geomeong .inner {
+body.main .products .geomeong .inner {
   padding-bottom: 50px;
 }
 
-#products .geomeong .geomeong__title {
+body.main .products .geomeong .geomeong__title {
   width: 400px;
 }
 
-#products .geomeong .geomeong__title img {
+body.main .products .geomeong .geomeong__title img {
   width: 100%;
 }
 
-#products .geomeong .geomeong__description img {
+body.main .products .geomeong .geomeong__description img {
   width: auto;
   height: 279px;
 }
 
-#products .geomeong .swiper.visual-swiper .swiper-slide.slide0 {
+body.main .products .geomeong .swiper.visual-swiper .swiper-slide.slide0 {
   background-image: url("../../img/third_slide0.png");
 }
-#products .geomeong .swiper.visual-swiper .swiper-slide.slide1 {
+body.main .products .geomeong .swiper.visual-swiper .swiper-slide.slide1 {
   background-image: url("../../img/third_slide1.jpg");
 }
-#products .geomeong .swiper.visual-swiper .swiper-slide.slide2 {
+body.main .products .geomeong .swiper.visual-swiper .swiper-slide.slide2 {
   background-image: url("../../img/third_slide2.jpg");
 }
-#products .geomeong .swiper.visual-swiper .swiper-slide.slide3 {
+body.main .products .geomeong .swiper.visual-swiper .swiper-slide.slide3 {
   background-image: url("../../img/third_slide3.jpg");
 }
 
-#products .geomeong .swiper.sub-swiper .swiper-slide.slide0 {
+body.main .products .geomeong .swiper.sub-swiper .swiper-slide.slide0 {
   background-image: url("../../img/third_0.png");
 }
-#products .geomeong .swiper.sub-swiper .swiper-slide.slide1 {
+body.main .products .geomeong .swiper.sub-swiper .swiper-slide.slide1 {
   background-image: url("../../img/third_1.jpg");
 }
-#products .geomeong .swiper.sub-swiper .swiper-slide.slide2 {
+body.main .products .geomeong .swiper.sub-swiper .swiper-slide.slide2 {
   background-image: url("../../img/third_2.jpg");
 }
-#products .geomeong .swiper.sub-swiper .swiper-slide.slide3 {
+body.main .products .geomeong .swiper.sub-swiper .swiper-slide.slide3 {
   background-image: url("../../img/third_3.jpg");
 }
 
 /* STORE */
-#store {
+body.main .store {
   padding: 50px 0;
   background-color: #fff;
 }
 
-#store .store__description {
-  /* width: 1000px; */
+body.main .store .store__description {
   margin: 0 auto;
   padding-bottom: 30px;
   text-align: center;

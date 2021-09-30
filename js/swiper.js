@@ -1,4 +1,4 @@
-new Swiper('#products .swiper.visual-swiper', {
+new Swiper('body.main .products .swiper.visual-swiper', {
   loop: true,
   autoplay: true,
   navigation: {
@@ -7,7 +7,7 @@ new Swiper('#products .swiper.visual-swiper', {
   }
 });
 
-new Swiper('#products .swiper.sub-swiper', {
+new Swiper('body.main .products .swiper.sub-swiper', {
   loop: true,
   autoplay: {
     delay: 5000
@@ -34,7 +34,7 @@ new Swiper('#products .swiper.sub-swiper', {
   },
 });
 
-new Swiper('#store .swiper', {
+new Swiper('body.main .store .swiper', {
   loop: true,
   autoplay: {
     delay: 1000
@@ -57,7 +57,7 @@ new Swiper('#store .swiper', {
 });
 
 // MY CAMPING CAR
-new Swiper('#slogan .swiper.visual-swiper', {
+new Swiper('body.my-camping-car .slogan .swiper.visual-swiper', {
   loop: true,
   autoplay: true,
   navigation: {
@@ -65,12 +65,12 @@ new Swiper('#slogan .swiper.visual-swiper', {
     nextEl: '.swiper-next'
   },
   pagination: {
-    el: '#slogan .swiper-pagination',
+    el: '.slogan .swiper-pagination',
     clickable: true
   }
 });
 
-new Swiper('#slogan .swiper.sub-swiper', {
+new Swiper('body.my-camping-car .slogan .swiper.sub-swiper', {
   loop: true,
   slidesPerView: 3,
   spaceBetween: 5,

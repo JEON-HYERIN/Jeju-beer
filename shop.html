@@ -44,18 +44,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
 
   <link rel="stylesheet" href="./css/reset.css" />
-  <link rel="stylesheet" href="./css/main/main_pc.css" media="screen and (min-width: 768px)" />
-  <link rel="stylesheet" href="./css/main/main_mobile.css" media="screen and (max-width: 767.9px)" />
-
-  <link rel="stylesheet" href="./css/shop/shop.css">
+  <link rel="stylesheet" href="./css/style_pc.css" media="screen and (min-width: 768px)" />
+  <link rel="stylesheet" href="./css/style_mobile.css" media="screen and (max-width: 767.9px)" />
 
   <script defer src="./js/scrollmagic.js"></script>
   <script defer src="./js/swiper.js"></script>
   <script defer src="./js/main.js"></script>
 </head>
-<body>
+<body class="shop">
   <div id="wrapper">
-    <a href="#main" class="skip-nav">본문 바로가기</a>
+    <a href="#main" id="skip-nav">본문 바로가기</a>
 
     <!-- HEADER -->
     <header id="header">
@@ -114,7 +112,7 @@
     <main id="main">
 
       <!-- SHOP -->
-      <section id="shop">
+      <section class="shop">
         <h2 class="hide">온라인 상품</h2>
         <div class="inner">
 

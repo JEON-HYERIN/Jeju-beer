@@ -45,8 +45,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
 
   <link rel="stylesheet" href="./css/reset.css" />
-  <link rel="stylesheet" href="./css/main/main_pc.css" media="screen and (min-width: 768px)" />
-  <link rel="stylesheet" href="./css/main/main_mobile.css" media="screen and (max-width: 767.9px)" />
+  <link rel="stylesheet" href="./css/style_pc.css" media="screen and (min-width: 768px)" />
+  <link rel="stylesheet" href="./css/style_mobile.css" media="screen and (max-width: 767.9px)" />
 
   <script defer src="./js/scrollmagic.js"></script>
   <script defer src="./js/swiper.js"></script>
@@ -55,7 +55,7 @@
 </head>
 <body class="main">
   <div id="wrapper">
-    <a href="#main" class="skip-nav">본문 바로가기</a>
+    <a href="#main" id="skip-nav">본문 바로가기</a>
 
     <!-- HEADER -->
     <header id="header">
@@ -114,7 +114,7 @@
     <main id="main">
 
       <!-- VIDEO -->
-      <section id="video">
+      <section class="video">
         <h2 class="hide">비디오 재생영역</h2>
         <video src="./video/jb_tvc_event_web.mp4" class="pc" autoplay muted loop preload="metadata" playsinline></video>
         <video src="./video/jb_tvc_event_mo.mp4" class="mobile" autoplay muted loop preload="metadata"
@@ -126,7 +126,7 @@
       </section>
 
       <!-- YOUTUBE -->
-      <section id="youtube" class="scroll-spy">
+      <section class="youtube scroll-spy">
         <h2 class="hide">YOUTUBE PLAYER</h2>
         <div class="inner">
           <div class="youtube__area movement to-top delay-0">
@@ -138,7 +138,7 @@
       </section>
 
       <!-- PRODUCTS -->
-      <section id="products">
+      <section class="products">
         <h2 class="hide">상품 안내</h2>
         <!-- jeju wit ale -->
         <div class="wit product scroll-spy">
@@ -354,7 +354,7 @@
       </section>
 
       <!-- STORE -->
-      <section id="store">
+      <section class="store">
         <h2 class="hide">판매처</h2>
         <div class="inner">
 

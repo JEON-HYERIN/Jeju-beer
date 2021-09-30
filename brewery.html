@@ -45,18 +45,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
 
   <link rel="stylesheet" href="./css/reset.css" />
-  <link rel="stylesheet" href="./css/main/main_pc.css" media="screen and (min-width: 768px)" />
-  <link rel="stylesheet" href="./css/main/main_mobile.css" media="screen and (max-width: 767.9px)" />
-
-  <link rel="stylesheet" href="./css/brewery/brewery.css">
+  <link rel="stylesheet" href="./css/style_pc.css" media="screen and (min-width: 768px)" />
+  <link rel="stylesheet" href="./css/style_mobile.css" media="screen and (max-width: 767.9px)" />
 
   <script defer src="./js/scrollmagic.js"></script>
   <script defer src="./js/swiper.js"></script>
   <script defer src="./js/main.js"></script>
 </head>
-<body>
+<body class="brewery">
   <div id="wrapper">
-    <a href="#main" class="skip-nav">본문 바로가기</a>
+    <a href="#main" id="skip-nav">본문 바로가기</a>
 
     <!-- HEADER -->
     <header id="header">
@@ -115,7 +113,7 @@
     <main id="main">
 
       <!-- VIDEO -->
-      <section id="video">
+      <section class="video">
         <h2 class="hide">비디오 재생영역</h2>
         <video src="./video/brewery_web.mp4" class="pc" autoplay muted loop preload="metadata" playsinline></video>
         <video src="./video/brewery_mo.mp4" class="mobile" autoplay muted loop preload="metadata" playsinline></video>
@@ -126,7 +124,7 @@
       </section>
 
       <!-- PROGRAM -->
-      <section id="program">
+      <section class="program">
         <h2 class="hide">양조장 프로그램 안내</h2>
         <div class="inner">
 
@@ -168,7 +166,7 @@
       </section>
 
       <!-- INFORMATION -->
-      <section id="information">
+      <section class="information">
         <h2 class="hide">양조장 문의 및 이용 안내</h2>
         <div class="inner">
 

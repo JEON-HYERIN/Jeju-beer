@@ -45,19 +45,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
 
   <link rel="stylesheet" href="./css/reset.css" />
-  <link rel="stylesheet" href="./css/main/main_pc.css" media="screen and (min-width: 768px)" />
-  <link rel="stylesheet" href="./css/main/main_mobile.css" media="screen and (max-width: 767.9px)" />
-
-  <link rel="stylesheet" href="./css/experience/exp_pc.css" media="screen and (min-width: 768px)" />
-  <link rel="stylesheet" href="./css/experience/exp_mobile.css" media="screen and (max-width: 767.9px)" />
+  <link rel="stylesheet" href="./css/style_pc.css" media="screen and (min-width: 768px)" />
+  <link rel="stylesheet" href="./css/style_mobile.css" media="screen and (max-width: 767.9px)" />
   
   <script defer src="./js/scrollmagic.js"></script>
   <script defer src="./js/swiper.js"></script>
   <script defer src="./js/main.js"></script>
 </head>
-<body>
+<body class="my-camping-car">
   <div id="wrapper">
-    <a href="#main" class="skip-nav">본문 바로가기</a>
+    <a href="#main" id="skip-nav">본문 바로가기</a>
 
     <!-- HEADER -->
     <header id="header">
@@ -116,7 +113,7 @@
     <main id="main">
 
       <!-- VIDEO -->
-      <section id="video">
+      <section class="video">
         <h2 class="hide">비디오 재생영역</h2>
         <video src="./video/jb_experience_campingcar_web.mp4" class="pc" autoplay muted loop preload="metadata"
           playsinline></video>
@@ -132,7 +129,7 @@
 
       <!-- VISUAL -->
       <section class="visual visual1">
-        <h3 class="hide">비주얼 영역</h3>
+        <h2 class="hide">비주얼 영역</h2>
         <div class="inner">
 
           <div class="text-group">
@@ -149,7 +146,7 @@
       </section>
 
       <!-- SLOGAN-->
-      <section id="slogan" class="scroll-spy">
+      <section class="slogan scroll-spy">
         <h2 class="hide">제주맥주 슬로건</h2>
         <div class="inner">
 
@@ -201,14 +198,14 @@
 
       <!-- VISUAL -->
       <section class="visual visual2">
-        <h3 class="hide">비주얼 영역</h3>
+        <h2 class="hide">비주얼 영역</h2>
         <div class="inner">
           <img src="./img/experience/visual2_title.gif" alt="당신의 일상을 더 특별한 순간으로" class="title" />
         </div>
       </section>
 
       <!-- THEME -->
-      <section id="theme">
+      <section class="theme">
         <h2 class="hide">여행 테마 소개</h2>
         <div class="inner">
 
@@ -458,7 +455,7 @@
       </section>
 
       <!-- GIFT -->
-      <section id="gift" class="scroll-spy">
+      <section class="gift scroll-spy">
         <h2 class="hide">당첨 선물</h2>
         <div class="inner">
 
@@ -473,7 +470,7 @@
             <em>SG다인힐 캠핑세트</em>를 함께 드려요.
           </p>
 
-          <div class="today-gift movement to-top delay-2">
+          <div class="todays-gift movement to-top delay-2">
             <img src="./img/experience/gift.png" alt="" />
             <div>
               <div class="title">
@@ -496,10 +493,11 @@
       </section>
 
       <!-- QUESTION AND ANSWER -->
-      <section id="question-and-answer">
+      <section class="question-and-answer">
+        <h2 class="hide">질의응답</h2>
         <div class="inner">
 
-          <h2>Q &amp; A</h2>
+          <div class="title">Q &amp; A</div>
           <dl>
             <dt>Q1.&nbsp;신청 자격이 어떻게 되나요?</dt>
             <dd>
@@ -575,7 +573,7 @@
       </section>
 
       <!-- TOGETHER -->
-      <section id="together">
+      <section class="together">
         <h2 class="hide">지인에게 공유하기</h2>
 
         <div class="inner">
@@ -605,7 +603,7 @@
     </main>
 
     <!-- NOTICE -->
-    <section id="notice">
+    <section class="notice">
       <h2 class="hide">공지사항</h2>
       <div class="inner">
         <img src="./img/experience/mask.png" alt="" />
@@ -795,7 +793,7 @@
   </div>
 
   <script>
-    const urlBtn2 = document.querySelector('#together .url-btn');
+    const urlBtn2 = document.querySelector('.together .url-btn');
     urlBtn2.addEventListener('click', function () {
       alert('URL이 복사 되었습니다. 원하시는 곳에 붙여넣기 해 주세요.');
     });
