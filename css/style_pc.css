@@ -1424,10 +1424,6 @@ video {
 
 /* shop.html */
 /* SHOP */
-.shop .inner {
-  overflow: hidden;
-}
-
 .shop .shop__menu {
   display: flex;
   flex-wrap: wrap;
