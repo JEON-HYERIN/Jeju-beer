@@ -1665,52 +1665,51 @@ video {
 
 
 /* collaboration.html */
-main.collaboration {
+.collaboration {
   background-color: #fff;
   color: #4e5558;
 }
 
-main.collaboration .inner {
+.collaboration .inner {
   max-width: none;
   padding: 100px 0 100px 140px;
   box-sizing: border-box;
 }
 
-main.collaboration .inner::after {
+.collaboration .inner::after {
   content: '';
   position: absolute;
-  bottom: 10px;
+  bottom: 0;
   width: 100%;
   height: 1px;
   background-color: #4e5558;
 }
 
-main.collaboration section {
+.collaboration section {
 
 }
 
-main.collaboration section img {
+.collaboration section img {
   width: 100%;
 }
 
-main.collaboration section .title {
+.collaboration section .title {
   font-size: 20px;
   font-weight: 700;
 }
 
-main.collaboration section .title .number {
+.collaboration section .title .number {
   display: inline-block;
   padding-bottom: 15px;
 }
 
-main.collaboration section .description {
+.collaboration section .description {
   font-size: 16px;
   font-weight: 400;
-  padding-bottom: 100px;
 }
 
 /* VIDEO */
-main.collaboration section.video {
+.collaboration section.video {
   padding: 0;
 }
 
@@ -1806,6 +1805,7 @@ main.collaboration section.video {
 
 .collaboration-story .description {
   flex-basis: 75%;
+  padding-bottom: 100px;
 }
 
 .collaboration-story .description .text-group {}
@@ -1822,9 +1822,16 @@ main.collaboration section.video {
 /* COFFEE GOLDEN ALE */
 .coffee-golden-ale {}
 
-.coffee-golden-ale .inner {}
+.coffee-golden-ale .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+}
 
-.coffee-golden-ale .left {}
+.coffee-golden-ale .left {
+  flex-basis: 55%;
+}
 
 .coffee-golden-ale .left .title {}
 
@@ -1832,31 +1839,23 @@ main.collaboration section.video {
 
 .coffee-golden-ale .left .title .number {}
 
-.coffee-golden-ale .left .description {}
+.coffee-golden-ale .left .description {
+  padding: 35px 0 50px;
+}
 
 .coffee-golden-ale .left .description p {}
 
+.coffee-golden-ale .left .description p + p {
+  padding-top: 30px;
+}
+
 .coffee-golden-ale .left .table {}
 
-.coffee-golden-ale .right {}
-
-.coffee-golden-ale .right .swiper {}
-
-.coffee-golden-ale .right .swiper .swiper-slide {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.coffee-golden-ale .right {
+  flex-basis: 45%;
 }
 
-.coffee-golden-ale .right .swiper .swiper-slide.slide1 {
-  background-image: url("../img/collaboration/coffee_slide1.jpg");
-}
-.coffee-golden-ale .right .swiper .swiper-slide.slide2 {
-  background-image: url("../img/collaboration/coffee_slide2.jpg");
-}
-.coffee-golden-ale .right .swiper .swiper-slide.slide3 {
-  background-image: url("../img/collaboration/coffee_slide3.jpg");
-}
+
 
 /* 미디어 쿼리 */
 @media screen and (max-width: 1023.9px) {
