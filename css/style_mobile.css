@@ -933,7 +933,6 @@ video {
 /* VIDEO */
 .my-camping-car .video .video__title {
   background-color: #0f1b28;
-  max-width: none;
   text-align: center;
   padding: 20px;
   color: #fff;
@@ -956,21 +955,21 @@ video {
   background-image: url("../img/experience/visual1_bg.jpg");
 }
 
-.my-camping-car .visual.visual1 .inner {
+.my-camping-car .visual1 .inner {
   height: 100vh;
 }
 
-.my-camping-car .visual.visual1 .text-group .text {
+.my-camping-car .visual1 .text-group .text {
   max-width: 350px;
   position: absolute;
 }
 
-.my-camping-car .visual.visual1 .text-group .text.text1 {
+.my-camping-car .visual1 .text-group .text.text1 {
   left: 20%;
   top: 20%;
 }
 
-.my-camping-car .visual.visual1 .text-group .text.text2 {
+.my-camping-car .visual1 .text-group .text.text2 {
   right: 0;
   top: 45%;
 }
@@ -1047,11 +1046,11 @@ video {
   background-image: url("../img/experience/visual2_bg.png");
 }
 
-.my-camping-car .visual.visual2 .inner {
+.my-camping-car .visual2 .inner {
   height: 600px;
 }
 
-.my-camping-car .visual.visual2 .title {
+.my-camping-car .visual2 .title {
   width: 930px;
   margin: 0 auto;
   padding-top: 20px;
@@ -1441,40 +1440,40 @@ video {
   overflow: hidden;
 }
 
-.shop .shop__items {
+.shop .shop__menu {
   display: flex;
   flex-direction: column;
   color: #fff;
 }
 
-.shop .shop__items .item {
+.shop .shop__menu .item {
   flex-basis: 50%;
   position: relative;
   cursor: pointer;
 }
 
-.shop .shop__items .item img {
+.shop .shop__menu .item img {
   width: 100%;
 }
 
-.shop .shop__items .item .text-group {
+.shop .shop__menu .item .text-group {
   position: absolute;
   top: 30px;
   left: 30px;
 }
 
-.shop .shop__items .item .text-group .mark {
+.shop .shop__menu .item .eng-name {
   font-size: 16px;
   font-weight: 400;
 }
 
-.shop .shop__items .item .text-group .title {
+.shop .shop__menu .item .title {
   font-size: 20px;
   margin: 5px 0 10px 0;
   font-weight: 400;
 }
 
-.shop .shop__items .item .text-group .description {
+.shop .shop__menu .item .description {
   font-size: 24px;
   font-weight: 700;
 }
