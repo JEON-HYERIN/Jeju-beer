@@ -1667,13 +1667,14 @@ video {
 /* collaboration.html */
 main.collaboration {
   background-color: #fff;
+  color: #4e5558;
 }
 
-.collaboration .inner {
+main.collaboration .inner {
   max-width: none;
 }
 
-.collaboration .inner::after {
+main.collaboration .inner::after {
   content: '';
   position: absolute;
   bottom: -50px;
@@ -1682,19 +1683,38 @@ main.collaboration {
   background-color: #4e5558;
 }
 
-.collaboration section {
-  padding: 100px 0 100px 140px;
+main.collaboration section {
+  padding: 100px 0 50px 140px;
   box-sizing: border-box;
 }
 
+main.collaboration section img {
+  width: 100%;
+}
+
+main.collaboration section .title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+main.collaboration section .title .number {
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+main.collaboration section .description {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 /* VIDEO */
-.collaboration section.video {
+main.collaboration section.video {
   padding: 0;
 }
 
 /* INTRODUCTION */
 .introduction {
-  color: #4e5558;
+
 }
 
 .introduction .inner {
@@ -1734,22 +1754,42 @@ main.collaboration {
 /* BLUE BOTTLE STORY */
 .blue-bottle-story {}
 
-.blue-bottle-story .inner {}
+.blue-bottle-story .inner {
+  display: flex;
+  justify-content: space-between;
+}
 
-.blue-bottle-story .title {}
+.blue-bottle-story .title {
+  flex-basis: 25%;
+}
 
 .blue-bottle-story .title span {}
 
-.blue-bottle-story .title .number {}
+.blue-bottle-story .title .number {
+  display: inline-block;
+  padding-bottom: 15px;
+}
 
-
-.blue-bottle-story .description {}
+.blue-bottle-story .description {
+  flex-basis: 75%;
+}
 
 .blue-bottle-story .description img {}
 
-.blue-bottle-story .description .text-group {}
+.blue-bottle-story .description .text-group {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0 130px;
+}
 
-.blue-bottle-story .description .text-group p {}
+.blue-bottle-story .description .text-group p {
+  flex-basis: 50%;
+  box-sizing: border-box;
+}
+
+.blue-bottle-story .description .text-group p:nth-child(1) {
+  padding-bottom: 20px;
+}
 
 
 /* 미디어 쿼리 */
