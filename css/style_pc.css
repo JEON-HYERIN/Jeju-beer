@@ -1883,6 +1883,100 @@ video {
   padding-bottom: 60px;
 }
 
+/* CORNER SHOP */
+.corner-shop {
+  background-color: #1ecad3;
+  color: #fff;
+}
+
+.corner-shop .inner {
+  padding: 100px 0 0;
+}
+
+.visual .inner::after,
+.corner-shop .inner::after,
+.corner-shop .inner::after,
+.promotion .inner::after {
+  display: none;
+}
+
+.corner-shop .top {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 140px;
+}
+
+.corner-shop .top .title {
+  flex-basis: 25%;
+}
+
+.corner-shop .top .title span {}
+
+.corner-shop .top .title .number {}
+
+.corner-shop .top .description {
+  flex-basis: 75%;
+  line-height: 1.6em;
+}
+
+.corner-shop .middle {
+  display: flex;
+  align-items: center;
+  padding: 60px 0 150px 140px;
+}
+
+.corner-shop .middle .text-group {
+  flex-basis: 25%;
+  margin-top: 300px;
+}
+
+.corner-shop .middle .text-group .description {
+  padding: 20px 0 40px;
+}
+
+.corner-shop .middle .opening-hours {}
+
+.corner-shop .middle .opening-hours .title {}
+
+.corner-shop .middle .opening-hours .description {}
+
+.corner-shop .middle .location {}
+
+.corner-shop .middle .location .title {}
+
+.corner-shop .middle .location .description {}
+
+.corner-shop .middle .remark {}
+
+.corner-shop .middle .swiper {
+  flex-basis: 75%;
+}
+
+.corner-shop .middle .swiper .swiper-slide {}
+
+.corner-shop .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.corner-shop .bottom .swiper:first-child {
+  flex-basis: 32%;
+}
+
+.corner-shop .bottom .blank {
+  flex-basis: 43%;
+}
+
+.corner-shop .bottom .swiper:last-child {
+  flex-basis: 25%;
+}
+
+.corner-shop .bottom .swiper .swiper-slide {}
+
+
+
+
+
 
 
 /* 미디어 쿼리 */

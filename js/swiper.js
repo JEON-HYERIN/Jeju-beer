@@ -80,3 +80,8 @@ new Swiper('.coffee-golden-ale .swiper', {
   loop: true,
   autoplay: true,
 });
+
+new Swiper('.corner-shop .swiper', {
+  loop: true,
+  autoplay: true,
+});
