@@ -1676,7 +1676,7 @@ video {
   box-sizing: border-box;
 }
 
-.collaboration .inner::after {
+section.line .inner::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -1891,13 +1891,6 @@ video {
 
 .corner-shop .inner {
   padding: 100px 0 0;
-}
-
-.visual .inner::after,
-.corner-shop .inner::after,
-.corner-shop .inner::after,
-.promotion .inner::after {
-  display: none;
 }
 
 .corner-shop .top {
