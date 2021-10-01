@@ -1672,20 +1672,21 @@ main.collaboration {
 
 main.collaboration .inner {
   max-width: none;
+  padding: 100px 0 100px 140px;
+  box-sizing: border-box;
 }
 
 main.collaboration .inner::after {
   content: '';
   position: absolute;
-  bottom: -50px;
+  bottom: 10px;
   width: 100%;
   height: 1px;
   background-color: #4e5558;
 }
 
 main.collaboration section {
-  padding: 100px 0 50px 140px;
-  box-sizing: border-box;
+
 }
 
 main.collaboration section img {
@@ -1705,6 +1706,7 @@ main.collaboration section .title .number {
 main.collaboration section .description {
   font-size: 16px;
   font-weight: 400;
+  padding-bottom: 100px;
 }
 
 /* VIDEO */
@@ -1765,11 +1767,6 @@ main.collaboration section.video {
 
 .blue-bottle-story .title span {}
 
-.blue-bottle-story .title .number {
-  display: inline-block;
-  padding-bottom: 15px;
-}
-
 .blue-bottle-story .description {
   flex-basis: 75%;
 }
@@ -1779,7 +1776,7 @@ main.collaboration section.video {
 .blue-bottle-story .description .text-group {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 0 130px;
+  padding: 50px 0 100px;
 }
 
 .blue-bottle-story .description .text-group p {
@@ -1791,6 +1788,75 @@ main.collaboration section.video {
   padding-bottom: 20px;
 }
 
+/* COLLABORATION STORY */
+.collaboration-story {}
+
+.collaboration-story .inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collaboration-story .title {
+  flex-basis: 25%;
+}
+
+.collaboration-story .title span {}
+
+.collaboration-story .title .number {}
+
+.collaboration-story .description {
+  flex-basis: 75%;
+}
+
+.collaboration-story .description .text-group {}
+
+.collaboration-story .description .text-group p {}
+
+.collaboration-story .description .text-group p:last-child {
+  padding: 30px 0 70px;
+}
+.collaboration-story .description img {
+  width: 90%;
+}
+
+/* COFFEE GOLDEN ALE */
+.coffee-golden-ale {}
+
+.coffee-golden-ale .inner {}
+
+.coffee-golden-ale .left {}
+
+.coffee-golden-ale .left .title {}
+
+.coffee-golden-ale .left .title span {}
+
+.coffee-golden-ale .left .title .number {}
+
+.coffee-golden-ale .left .description {}
+
+.coffee-golden-ale .left .description p {}
+
+.coffee-golden-ale .left .table {}
+
+.coffee-golden-ale .right {}
+
+.coffee-golden-ale .right .swiper {}
+
+.coffee-golden-ale .right .swiper .swiper-slide {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.coffee-golden-ale .right .swiper .swiper-slide.slide1 {
+  background-image: url("../img/collaboration/coffee_slide1.jpg");
+}
+.coffee-golden-ale .right .swiper .swiper-slide.slide2 {
+  background-image: url("../img/collaboration/coffee_slide2.jpg");
+}
+.coffee-golden-ale .right .swiper .swiper-slide.slide3 {
+  background-image: url("../img/collaboration/coffee_slide3.jpg");
+}
 
 /* 미디어 쿼리 */
 @media screen and (max-width: 1023.9px) {

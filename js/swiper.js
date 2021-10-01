@@ -75,3 +75,8 @@ new Swiper('.slogan .swiper.sub-swiper', {
   slidesPerView: 3,
   spaceBetween: 5,
 });
+
+new Swiper('.coffee-golden-ale .swiper', {
+  loop: true,
+  autoplay: true,
+});
