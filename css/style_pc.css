@@ -1725,9 +1725,6 @@ section.line .inner::after {
 
 .introduction .title {
   flex-basis: 25%;
-}
-
-.introduction .title span {
   font-size: 20px;
   font-weight: 700;
 }
