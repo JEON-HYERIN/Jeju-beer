@@ -281,7 +281,7 @@ video {
 }
 
 /* floating action button */
-.floating-btns {
+#floating-btns {
   width: 45px;
   position: fixed;
   right: 15px;
@@ -289,31 +289,31 @@ video {
   z-index: 9;
 }
 
-.floating-btns li {
+#floating-btns li {
   overflow: hidden;
   border-radius: 50%;
 }
 
-.floating-btns li + li {
+#floating-btns li + li {
   margin-top: 10px;
 }
 
-.floating-btns li button {
+#floating-btns li button {
   width: 45px;
   height: 45px;
 }
 
-.floating-btns li button img {
+#floating-btns li button img {
   width: 100%;
   height: 100%;
 }
 
-.floating-btns li.top-btn.hidden {
+#floating-btns li.top-btn.hidden {
   display: none;
 }
 
 /* share */
-.share {
+#share {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -327,43 +327,43 @@ video {
   justify-content: center;
 }
 
-.share.hidden {
+#share.hidden {
   display: none;
 }
 
-.share .share__title {
+#share .title {
   font-size: 19px;
   color: #fff;
   margin-bottom: 21px;
 }
 
-.share .share__links {
+#share .links {
   display: flex;
 }
 
-.share .share__links li {
+#share .links li {
   overflow: hidden;
   margin-left: 40px;
 }
 
-.share .share__links li:first-child {
+#share .links li:first-child {
   margin-left: 0;
 }
 
-.share .share__links li .btn {
+#share .links li .btn {
   width: 60px;
   height: 60px;
   background-color: #1ecad3;
   border-radius: 50%;
 }
 
-.share .share__links li .btn img {
+#share .links li .btn img {
   width: 100%;
   height: 100%;
 }
 
 /* inquiry */
-.inquiry {
+#inquiry {
   background-color: rgb(246, 246, 247);
   width: 360px;
   box-shadow: rgb(81 99 120 / 30%) 0px 6px 60px 0px;
@@ -376,17 +376,17 @@ video {
   z-index: 9;
 }
 
-.inquiry.hidden {
+#inquiry.hidden {
   display: none;
 }
 
-.inquiry .top.fade-in,
-.inquiry .bottom .channel-talk.fade-in,
-.inquiry .bottom .messenger.fade-in {
+#inquiry .top.fade-in,
+#inquiry .bottom .channel-talk.fade-in,
+#inquiry .bottom .messenger.fade-in {
   opacity: 0;
 }
 
-.inquiry .top {
+#inquiry .top {
   background: linear-gradient(
     130deg, rgb(29, 202, 211) 0%, rgb(29, 202, 211) 50%, rgb(29, 160, 211)) 100% center;
   color: #fff;
@@ -396,43 +396,43 @@ video {
   transition: opacity .5s ease-in-out 0s;
 }
 
-.inquiry .top .inquiry__title {
+#inquiry .top .title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.inquiry .top .inquiry__title h4 {
+#inquiry .top .title h4 {
   font-weight: 700;
   font-size: 20px;
 }
 
-.inquiry .top .inquiry__title .btn-group {
+#inquiry .top .title .btn-group {
   display: flex;
 }
 
-.inquiry .top .inquiry__title .btn-group li:last-child {
+#inquiry .top .title .btn-group li:last-child {
   margin-left: 15px;
 }
 
-.inquiry .top .inquiry__title .btn-group .btn {
+#inquiry .top .title .btn-group .btn {
   width: 18px;
   height: 18px;
 }
 
-.inquiry .top .inquiry__title .btn-group .btn img {
+#inquiry .top .title .btn-group .btn img {
   width: 100%;
   height: 100%;
 }
 
-.inquiry .top .inquiry__description {
+#inquiry .top .description {
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
-.inquiry .top .inquiry__description span {
+#inquiry .top .description span {
   display: inline-block;
   position: relative;
   font-size: 13px;
@@ -442,7 +442,7 @@ video {
   line-height: 1.4em;
 }
 
-.inquiry .top .inquiry__description span:first-child {
+#inquiry .top .description span:first-child {
   font-size: 15px;
   font-weight: 500;
   opacity: 1;
@@ -451,8 +451,8 @@ video {
   line-height: 1.6em;
 }
 
-.inquiry .top .inquiry__description span:first-child::after,
-.inquiry .top .inquiry__description span.inquiry__description__hours::after {
+#inquiry .top .description span:first-child::after,
+#inquiry .top .description span.show-hours::after {
   content: '';
   position: absolute;
   top: 0;
@@ -463,33 +463,33 @@ video {
   background-size: cover;
 }
 
-.inquiry .top .inquiry__description span:first-child::after {
+#inquiry .top .description span:first-child::after {
   width: 22px;
   height: 22px;
   background-image: url("../img/on.png");
 }
 
-.inquiry .top .inquiry__description span.night::after {
+#inquiry .top .description span.night::after {
   background-image: url("../img/moon.png");
 }
 
-.inquiry .top .inquiry__description span.inquiry__description__hours {
+#inquiry .top .description .show-hours {
   cursor: pointer;
   transition: 250ms;
 }
 
-.inquiry .top .inquiry__description span.inquiry__description__hours::after {
+#inquiry .top .description .show-hours::after {
   width: 14px;
   height: 14px;
   background-image: url("../img/clock.png");
   margin-left: 5px;
 }
 
-.inquiry .top .inquiry__description span.inquiry__description__hours:hover {
+#inquiry .top .description .show-hours:hover {
   opacity: 1;
 }
 
-.inquiry .top .inquiry__description .business-hours {
+#inquiry .top .description .business-hours {
   position: absolute;
   top: 75px;
   left: -10px;
@@ -507,24 +507,24 @@ video {
   transition: opacity 250ms;
 }
 
-.inquiry .top .inquiry__description .business-hours.open {
+#inquiry .top .description .business-hours.open {
   pointer-events: auto;
   opacity: 1;
 }
 
-.inquiry .bottom .channel-talk {
+#inquiry .bottom .channel-talk {
   transition: opacity .5s ease-in-out .2s;
 }
 
-.inquiry .bottom .title {
+#inquiry .bottom .title {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.4);
   padding: 8px;
   line-height: 1.4em;
 }
 
-.inquiry .bottom .channel-talk,
-.inquiry .bottom .messenger {
+#inquiry .bottom .channel-talk,
+#inquiry .bottom .messenger {
   overflow: hidden;
   border-radius: 12px;
   box-shadow: rgb(0 0 0 / 5%) 0px 0px 2px 1px, rgb(0 0 0 / 15%) 0px 4px 16px, rgb(255 255 255 / 12%) 0px 0px 2px inset;
@@ -533,28 +533,28 @@ video {
   opacity: 1;
 }
 
-.inquiry .bottom .channel-talk > div:nth-child(2) {
+#inquiry .bottom .channel-talk > div:nth-child(2) {
   display: flex;
   padding: 8px;
   transition: 300ms;
   cursor: pointer;
 }
 
-.inquiry .bottom .channel-talk > div:nth-child(2):hover {
+#inquiry .bottom .channel-talk > div:nth-child(2):hover {
   background-color: rgb(246, 246, 247);
 }
 
-.inquiry .bottom .channel-talk .image {
+#inquiry .bottom .channel-talk .image {
   width: 56px;
 }
 
-.inquiry .bottom .channel-talk .image img {
+#inquiry .bottom .channel-talk .image img {
   width: 34px;
   height: 34px;
   border-radius: 50%;
 }
 
-.inquiry .bottom .channel-talk .text-group {
+#inquiry .bottom .channel-talk .text-group {
   min-width: 180px;
   color: #242428;
   font-size: 14px;
@@ -562,21 +562,21 @@ video {
   padding-left: 10px;
 }
 
-.inquiry .bottom .channel-talk .text-group p {
+#inquiry .bottom .channel-talk .text-group p {
   font-weight: 700;
   margin-bottom: 5px;
 }
 
-.inquiry .bottom .channel-talk .text-group .text:first-child {
+#inquiry .bottom .channel-talk .text-group .text:first-child {
   margin-bottom: 30px;
 }
 
-.inquiry .bottom .channel-talk .text-group .text:first-child em {
+#inquiry .bottom .channel-talk .text-group .text:first-child em {
   font-size: 18px;
   font-weight: 500;
 }
 
-.inquiry .bottom .channel-talk .text-group .text:last-child img {
+#inquiry .bottom .channel-talk .text-group .text:last-child img {
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -584,7 +584,7 @@ video {
   vertical-align: middle;
 }
 
-.inquiry .bottom .channel-talk .btn {
+#inquiry .bottom .channel-talk .btn {
   margin: 30px auto;
   display: flex;
   align-items: center;
@@ -597,34 +597,34 @@ video {
   box-shadow: rgb(0 0 0 / 5%) 0px 0px 2px 1px, rgb(0 0 0 / 15%) 0px 4px 16px, rgb(255 255 255 / 12%) 0px 0px 2px inset;
 }
 
-.inquiry .bottom .channel-talk .btn img {
+#inquiry .bottom .channel-talk .btn img {
   margin-right: 5px;
 }
 
-.inquiry .bottom .messenger {
+#inquiry .bottom .messenger {
   transition: opacity .5s ease-in-out .4s;
 }
 
-.inquiry .bottom .messenger .messenger__links {
+#inquiry .bottom .messenger .messenger__links {
   display: flex;
   justify-content: center;
   padding: 8px;
 }
 
-.inquiry .bottom .messenger .messenger__links li {
+#inquiry .bottom .messenger .messenger__links li {
   margin-right: 8px;
 }
 
-.inquiry .bottom .messenger .messenger__links li:last-child {
+#inquiry .bottom .messenger .messenger__links li:last-child {
   margin-right: 0;
 }
 
-.inquiry .bottom .messenger .messenger__links li .btn {
+#inquiry .bottom .messenger .messenger__links li .btn {
   width: 36px;
   height: 36px;
 }
 
-.inquiry .bottom .messenger .messenger__links li img {
+#inquiry .bottom .messenger .messenger__links li img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -633,39 +633,39 @@ video {
 
 
 /* index.html */
-body.main .products .swiper.visual-swiper {
+.main-products .swiper.visual-swiper {
   max-height: 170px;
 }
 
-body.main .products .swiper.sub-swiper {
+.main-products .swiper.sub-swiper {
   max-height: 90px;
 }
 
-body.main .store .swiper {
+.main-store .swiper {
   width: 83.3%;
 }
 
 /* VIDEO */
-body.main .video {
+.main-video {
   position: relative;
 }
 
-body.main .video video {
+.main-video video {
   width: 100%;
 }
 
-body.main .video .video__title {
+.main-video .video__title {
   max-width: 790px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-body.main .video .video__title img {
+.main-video .video__title img {
   width: 100%;
 }
 
 /* YOUTUBE */
-body.main .youtube {
+.main-youtube {
   background-image: url("../img/youtube_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -673,13 +673,13 @@ body.main .youtube {
   position: relative;
 }
 
-body.main .youtube .inner {
+.main-youtube .inner {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-body.main .youtube .youtube__area {
+.main-youtube .youtube__area {
   position: relative;
   width: 90%;
   height: 0;
@@ -687,7 +687,7 @@ body.main .youtube .youtube__area {
   padding-bottom: 56.25%;
 }
 
-body.main .youtube #player {
+.main-youtube #player {
   position: absolute;
   left: 0;
   top: 0;
@@ -696,38 +696,38 @@ body.main .youtube #player {
 }
 
 /* PRODUCTS */
-body.main .products .product {
+.main-products .product {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-body.main .products .product .inner {
+.main-products .product .inner {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px 0 70px 0;
 }
 
-body.main .products .product .title {
+.main-products .product .title {
   width: 240px;
   height: auto;
   margin-bottom: 20px;
 }
 
-body.main .products .product .title img {
+.main-products .product .title img {
   width: 100%;
   height: auto;
 }
 
-body.main .products .product .description {
+.main-products .product .description {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
 }
 
-body.main .products .product .description .text {
+.main-products .product .description .text {
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -736,139 +736,139 @@ body.main .products .product .description .text {
 }
 
 /* jeju wit ale */
-body.main .products .wit {
+.main-products .product.wit {
   background-image: url("../img/witale_bg.png");
 }
 
-body.main .products .wit .wit__description img {
+.main-products .product.wit .description img {
   height: 189px;
 }
 
-body.main .products .wit .swiper.visual-swiper .swiper-slide.slide0 {
+.main-products .product.wit .swiper.visual-swiper .swiper-slide.slide0 {
   background-image: url("../img/first_slide0.png");
 }
-body.main .products .wit .swiper.visual-swiper .swiper-slide.slide1 {
+.main-products .product.wit .swiper.visual-swiper .swiper-slide.slide1 {
   background-image: url("../img/first_slide1.jpg");
 }
-body.main .products .wit .swiper.visual-swiper .swiper-slide.slide2 {
+.main-products .product.wit .swiper.visual-swiper .swiper-slide.slide2 {
   background-image: url("../img/first_slide2.jpg");
 }
-body.main .products .wit .swiper.visual-swiper .swiper-slide.slide3 {
+.main-products .product.wit .swiper.visual-swiper .swiper-slide.slide3 {
   background-image: url("../img/first_slide3.jpg");
 }
 
-body.main .products .wit .swiper.sub-swiper .swiper-slide.slide0 {
+.main-products .product.wit .swiper.sub-swiper .swiper-slide.slide0 {
   background-image: url("../img/first_0.png");
 }
-body.main .products .wit .swiper.sub-swiper .swiper-slide.slide1 {
+.main-products .product.wit .swiper.sub-swiper .swiper-slide.slide1 {
   background-image: url("../img/first_1.jpg");
 }
-body.main .products .wit .swiper.sub-swiper .swiper-slide.slide2 {
+.main-products .product.wit .swiper.sub-swiper .swiper-slide.slide2 {
   background-image: url("../img/first_2.jpg");
 }
-body.main .products .wit .swiper.sub-swiper .swiper-slide.slide3 {
+.main-products .product.wit .swiper.sub-swiper .swiper-slide.slide3 {
   background-image: url("../img/first_3.jpg");
 }
 
 /* jeju pellong ale */
-body.main .products .pellong {
+.main-products .product.pellong {
   background-image: url("../img/pellongale_bg.png");
 }
 
-body.main .products .pellong .pellong__description img {
+.main-products .product.pellong .description img {
   height: 181px;
 }
 
-body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide0 {
+.main-products .product.pellong .swiper.visual-swiper .swiper-slide.slide0 {
   background-image: url("../img/second_slide0.png");
 }
-body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide1 {
+.main-products .product.pellong .swiper.visual-swiper .swiper-slide.slide1 {
   background-image: url("../img/second_slide1.jpg");
 }
-body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide2 {
+.main-products .product.pellong .swiper.visual-swiper .swiper-slide.slide2 {
   background-image: url("../img/second_slide2.jpg");
 }
-body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide3 {
+.main-products .product.pellong .swiper.visual-swiper .swiper-slide.slide3 {
   background-image: url("../img/second_slide3.jpg");
 }
-body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide4 {
+.main-products .product.pellong .swiper.visual-swiper .swiper-slide.slide4 {
   background-image: url("../img/second_slide4.jpg");
 }
-body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide5 {
+.main-products .product.pellong .swiper.visual-swiper .swiper-slide.slide5 {
   background-image: url("../img/second_slide5.jpg");
 }
-body.main .products .pellong .swiper.visual-swiper .swiper-slide.slide6 {
+.main-products .product.pellong .swiper.visual-swiper .swiper-slide.slide6 {
   background-image: url("../img/second_slide6.jpg");
 }
 
-body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide0 {
+.main-products .product.pellong .swiper.sub-swiper .swiper-slide.slide0 {
   background-image: url("../img/second_0.png");
 }
-body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide1 {
+.main-products .product.pellong .swiper.sub-swiper .swiper-slide.slide1 {
   background-image: url("../img/second_1.jpg");
 }
-body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide2 {
+.main-products .product.pellong .swiper.sub-swiper .swiper-slide.slide2 {
   background-image: url("../img/second_2.jpg");
 }
-body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide3 {
+.main-products .product.pellong .swiper.sub-swiper .swiper-slide.slide3 {
   background-image: url("../img/second_3.jpg");
 }
-body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide4 {
+.main-products .product.pellong .swiper.sub-swiper .swiper-slide.slide4 {
   background-image: url("../img/second_4.jpg");
 }
-body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide5 {
+.main-products .product.pellong .swiper.sub-swiper .swiper-slide.slide5 {
   background-image: url("../img/second_5.jpg");
 }
-body.main .products .pellong .swiper.sub-swiper .swiper-slide.slide6 {
+.main-products .product.pellong .swiper.sub-swiper .swiper-slide.slide6 {
   background-image: url("../img/second_6.jpg");
 }
 
 /* jeju geomeong ale */
-body.main .products .geomeong {
+.main-products .product.geomeong {
   background-image: url("../img/geomeongale_bg.png");
 }
 
-body.main .products .geomeong .inner {
+.main-products .product.geomeong .inner {
   padding-bottom: 40px;
 }
 
-body.main .products .geomeong .geomeong__description img {
+.main-products .product.geomeong .description img {
   height: 186px;
 }
 
-body.main .products .geomeong .swiper.visual-swiper .swiper-slide.slide0 {
+.main-products .product.geomeong .swiper.visual-swiper .swiper-slide.slide0 {
   background-image: url("../img/third_slide0.png");
 }
-body.main .products .geomeong .swiper.visual-swiper .swiper-slide.slide1 {
+.main-products .product.geomeong .swiper.visual-swiper .swiper-slide.slide1 {
   background-image: url("../img/third_slide1.jpg");
 }
-body.main .products .geomeong .swiper.visual-swiper .swiper-slide.slide2 {
+.main-products .product.geomeong .swiper.visual-swiper .swiper-slide.slide2 {
   background-image: url("../img/third_slide2.jpg");
 }
-body.main .products .geomeong .swiper.visual-swiper .swiper-slide.slide3 {
+.main-products .product.geomeong .swiper.visual-swiper .swiper-slide.slide3 {
   background-image: url("../img/third_slide3.jpg");
 }
 
-body.main .products .geomeong .swiper.sub-swiper .swiper-slide.slide0 {
+.main-products .product.geomeong .swiper.sub-swiper .swiper-slide.slide0 {
   background-image: url("../img/third_0.png");
 }
-body.main .products .geomeong .swiper.sub-swiper .swiper-slide.slide1 {
+.main-products .product.geomeong .swiper.sub-swiper .swiper-slide.slide1 {
   background-image: url("../img/third_1.jpg");
 }
-body.main .products .geomeong .swiper.sub-swiper .swiper-slide.slide2 {
+.main-products .product.geomeong .swiper.sub-swiper .swiper-slide.slide2 {
   background-image: url("../img/third_2.jpg");
 }
-body.main .products .geomeong .swiper.sub-swiper .swiper-slide.slide3 {
+.main-products .product.geomeong .swiper.sub-swiper .swiper-slide.slide3 {
   background-image: url("../img/third_3.jpg");
 }
 
 /* STORE */
-body.main .store {
+.main-store {
   padding: 20px 0;
   background-color: #fff;
 }
 
-body.main .store .store__description {
+.main-store .store__description {
   margin: 0 auto;
   padding-bottom: 30px;
   text-align: center;
@@ -879,18 +879,18 @@ body.main .store .store__description {
 
 /* mycampingcar.html */
 /* SWIPER */
-body.my-camping-car .slogan .swiper.visual-swiper {
+.slogan .swiper.visual-swiper {
   max-height: 440px;
 } 
 
-body.my-camping-car .gift .inner,
-body.my-camping-car .together .inner,
-body.my-camping-car .notice .inner {
+.gift .inner,
+.together .inner,
+.notice .inner {
   padding: 50px 10px;
 }
 
 /* HEADER */
-body.my-camping-car #header {
+.my-camping-car #header {
   background-color: transparent;
   position: absolute;
   left: 0;
@@ -899,39 +899,39 @@ body.my-camping-car #header {
   z-index: 9;
 }
 
-body.my-camping-car #header.white {
+.my-camping-car #header.white {
   background-color: #fff;
 }
 
-body.my-camping-car #header .inner {
+.my-camping-car #header .inner {
   padding: 0 10px;
   border-bottom: 1px solid #bdbdbd;
 }
 
-body.my-camping-car #header nav ul.main-menu li a,
-body.my-camping-car #header nav ul.main-menu li.active a {
+.my-camping-car #header nav ul.main-menu li a,
+.my-camping-car #header nav ul.main-menu li.active a {
   color: #55585b;
 }
 
-body.my-camping-car #header nav ul.main-menu li a:hover,
-body.my-camping-car #header nav ul.main-menu li.active a:hover {
+.my-camping-car #header nav ul.main-menu li a:hover,
+.my-camping-car #header nav ul.main-menu li.active a:hover {
   color: #999;
 }
 
-body.my-camping-car #header nav ul.main-menu li.active span {
+.my-camping-car #header nav ul.main-menu li.active span {
   border-bottom: 2px solid #1ecad3; 
 }
 
-body.my-camping-car #header nav ul.sub-menu li a {
+.my-camping-car #header nav ul.sub-menu li a {
   color: #fff;
 }
 
-body.my-camping-car #header nav ul.sub-menu li a:hover {
+.my-camping-car #header nav ul.sub-menu li a:hover {
   color: #bdbdbd;
 }
 
 /* VIDEO */
-body.my-camping-car .video .video__title {
+.my-camping-car .video .video__title {
   background-color: #0f1b28;
   max-width: none;
   text-align: center;
@@ -941,66 +941,66 @@ body.my-camping-car .video .video__title {
   font-weight: 400;
 }
 
-body.my-camping-car .video .video__title span + span {
+.my-camping-car .video .video__title span + span {
   margin-left: 5px;
 }
 
 /* VISUAL -1-*/
-body.my-camping-car .visual {
+.my-camping-car .visual {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-body.my-camping-car .visual.visual1 {
+.my-camping-car .visual.visual1 {
   background-image: url("../img/experience/visual1_bg.jpg");
 }
 
-body.my-camping-car .visual.visual1 .inner {
+.my-camping-car .visual.visual1 .inner {
   height: 100vh;
 }
 
-body.my-camping-car .visual.visual1 .text-group .text {
+.my-camping-car .visual.visual1 .text-group .text {
   max-width: 350px;
   position: absolute;
 }
 
-body.my-camping-car .visual.visual1 .text-group .text.text1 {
+.my-camping-car .visual.visual1 .text-group .text.text1 {
   left: 20%;
   top: 20%;
 }
 
-body.my-camping-car .visual.visual1 .text-group .text.text2 {
+.my-camping-car .visual.visual1 .text-group .text.text2 {
   right: 0;
   top: 45%;
 }
 
 /* SLOAGN */
-body.my-camping-car .slogan {
+.slogan {
   background-color: #fff;
 }
 
-body.my-camping-car .slogan .inner {
+.slogan .inner {
   padding: 50px 0;
 }
 
-body.my-camping-car .slogan .swiper.visual-swiper .swiper-slide.slide0 {
+.slogan .swiper.visual-swiper .swiper-slide.slide0 {
   background-image: url("../img/experience/slogan_slide0.jpg");
 }
-body.my-camping-car .slogan .swiper.visual-swiper .swiper-slide.slide1 {
+.slogan .swiper.visual-swiper .swiper-slide.slide1 {
   background-image: url("../img/experience/slogan_slide1.jpg");
 }
-body.my-camping-car .slogan .swiper.visual-swiper .swiper-slide.slide2 {
+.slogan .swiper.visual-swiper .swiper-slide.slide2 {
   background-image: url("../img/experience/slogan_slide2.jpg");
 }
-body.my-camping-car .slogan .swiper.visual-swiper .swiper-slide.slide3 {
+.slogan .swiper.visual-swiper .swiper-slide.slide3 {
   background-image: url("../img/experience/slogan_slide3.jpg");
 }
-body.my-camping-car .slogan .swiper.visual-swiper .swiper-slide.slide4 {
+.slogan .swiper.visual-swiper .swiper-slide.slide4 {
   background-image: url("../img/experience/slogan_slide4.jpg");
 }
 
-body.my-camping-car .slogan .swiper.visual-swiper .swiper-pagination-bullet {
+.slogan .swiper.visual-swiper .swiper-pagination-bullet {
   width: 25px;
   height: 2px;
   margin: 5px 7.5px;
@@ -1009,70 +1009,70 @@ body.my-camping-car .slogan .swiper.visual-swiper .swiper-pagination-bullet {
   opacity: .5;
 }
 
-body.my-camping-car .slogan .swiper.visual-swiper .swiper-pagination-bullet-active {
+.slogan .swiper.visual-swiper .swiper-pagination-bullet-active {
   opacity: 1;
 }
 
-body.my-camping-car .slogan .text-group {
+.slogan .text-group {
   text-align: center;
   padding: 30px 10px 0;
 }
 
-body.my-camping-car .slogan .text-group .text {
+.slogan .text-group .text {
   font-size: 16px;
   color: #3d464b;
 }
 
-body.my-camping-car .slogan .text-group .text.text2 {
+.slogan .text-group .text.text2 {
   font-weight: 700;
   margin-top: 30px;
 }
 
-body.my-camping-car .slogan .swiper.visual-swiper {
+.slogan .swiper.visual-swiper {
   padding-bottom: 0;
 }
 
-body.my-camping-car .slogan .swiper.sub-swiper .swiper-slide.slide0 {
+.slogan .swiper.sub-swiper .swiper-slide.slide0 {
   background-image: url("../img/experience/slogan_slide2.jpg");
 }
-body.my-camping-car .slogan .swiper.sub-swiper .swiper-slide.slide1 {
+.slogan .swiper.sub-swiper .swiper-slide.slide1 {
   background-image: url("../img/experience/slogan_slide3.jpg");
 }
-body.my-camping-car .slogan .swiper.sub-swiper .swiper-slide.slide2 {
+.slogan .swiper.sub-swiper .swiper-slide.slide2 {
   background-image: url("../img/experience/slogan_slide4.jpg");
 }
 
 /* VISUAL -2-*/
-body.my-camping-car .visual.visual2 {
+.my-camping-car .visual.visual2 {
   background-image: url("../img/experience/visual2_bg.png");
 }
 
-body.my-camping-car .visual.visual2 .inner {
+.my-camping-car .visual.visual2 .inner {
   height: 600px;
 }
 
-body.my-camping-car .visual.visual2 .title {
+.my-camping-car .visual.visual2 .title {
   width: 930px;
   margin: 0 auto;
   padding-top: 20px;
 }
 
 /* THEME */
-body.my-camping-car .theme {
+.theme {
   background-color: #fff;
   text-align: center;
 }
 
-body.my-camping-car .theme .inner {
+.theme .inner {
   padding: 50px 0;
 }
 
-body.my-camping-car .theme .theme__title {
+.theme .theme__title {
   font-size: 24px;
   color: #1ecad3;
 }
 
-body.my-camping-car .theme .theme__description {
+.theme .theme__description {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: -0.5px;
@@ -1080,26 +1080,26 @@ body.my-camping-car .theme .theme__description {
   padding: 15px 0 50px 0;
 }
 
-body.my-camping-car .theme .theme__menu {
+.theme .theme__menu {
   display: flex;
   justify-content: center;
 }
 
-body.my-camping-car .theme .theme__menu li {
+.theme .theme__menu li {
   margin: 0 5px;
 }
 
-body.my-camping-car .theme .theme__menu li:nth-child(1) button.selected {
+.theme .theme__menu li:nth-child(1) button.selected {
   background-color: #8592ef;
 }
-body.my-camping-car .theme .theme__menu li:nth-child(2) button.selected {
+.theme .theme__menu li:nth-child(2) button.selected {
   background-color: #1ecad3;
 }
-body.my-camping-car .theme .theme__menu li:nth-child(3) button.selected {
+.theme .theme__menu li:nth-child(3) button.selected {
   background-color: #edac91;
 }
 
-body.my-camping-car .theme .theme__menu li button {
+.theme .theme__menu li button {
   width: 100px;
   font-size: 14px;
   font-weight: 500;
@@ -1109,30 +1109,30 @@ body.my-camping-car .theme .theme__menu li button {
   padding: 10px;
 }
 
-body.my-camping-car .theme .theme__menu li button span {
+.theme .theme__menu li button span {
   font-weight: 700;
   pointer-events: none;
 }
 
-body.my-camping-car .theme .theme__content {
+.theme .theme__content {
   display: flex;
   flex-direction: column;
   margin: 30px 0;
 }
 
-body.my-camping-car .theme .theme__content.second {
+.theme .theme__content.second {
   flex-direction: column-reverse;
 }
 
-body.my-camping-car .theme .theme__content.invisible {
+.theme .theme__content.invisible {
   display: none;
 }
 
-body.my-camping-car .theme .theme__content .content {
+.theme .theme__content .content {
   position: relative;
 }
 
-body.my-camping-car .theme .theme__content .content span {
+.theme .theme__content .content span {
   position: absolute;
   left: 30px;
   color: #fff;
@@ -1141,39 +1141,39 @@ body.my-camping-car .theme .theme__content .content span {
   text-align: left;
 }
 
-body.my-camping-car .theme .theme__content.first .content span,
-body.my-camping-car .theme .theme__content.second .content.content2 span,
-body.my-camping-car .theme .theme__content.third .content span {
+.theme .theme__content.first .content span,
+.theme .theme__content.second .content.content2 span,
+.theme .theme__content.third .content span {
   bottom: 30px;
 }
 
-body.my-camping-car .theme .theme__content.first .content.content4 span,
-body.my-camping-car .theme .theme__content.third .content.content2 span {
+.theme .theme__content.first .content.content4 span,
+.theme .theme__content.third .content.content2 span {
   top: 30px;
 }
 
-body.my-camping-car .theme .theme__content.second .content:not(.content2) span {
+.theme .theme__content.second .content:not(.content2) span {
   top: 30px;
 }
 
-body.my-camping-car .theme .theme__content.first .left,
-body.my-camping-car .theme .theme__content.second .right,
-body.my-camping-car .theme .theme__content.third .left {
+.theme .theme__content.first .left,
+.theme .theme__content.second .right,
+.theme .theme__content.third .left {
   text-align: left;
   font-size: 15px;
   font-weight: 400;
   color: #545759;
 }
 
-body.my-camping-car .theme .theme__content.first .left,
-body.my-camping-car .theme .theme__content.third .left {
+.theme .theme__content.first .left,
+.theme .theme__content.third .left {
   flex-basis: 60%;
 }
-body.my-camping-car .theme .theme__content.second .left {
+.theme .theme__content.second .left {
   flex-basis: 35%;
 }
 
-body.my-camping-car .theme .theme__content .version {
+.theme .theme__content .version {
   width: 70%;
   margin: 0 auto;
   padding: 10px 15px;
@@ -1184,17 +1184,17 @@ body.my-camping-car .theme .theme__content .version {
   text-align: center;
 }
 
-body.my-camping-car .theme .theme__content.first .version {
+.theme .theme__content.first .version {
   background-color: #8592ef;
 }
-body.my-camping-car .theme .theme__content.second .version {
+.theme .theme__content.second .version {
   background-color: #1ecad3;
 }
-body.my-camping-car .theme .theme__content.third .version {
+.theme .theme__content.third .version {
   background-color: #edac91;
 }
 
-body.my-camping-car .theme .theme__content .version span::after {
+.theme .theme__content .version span::after {
   content: '';
   display: inline-block;
   position: relative;
@@ -1206,46 +1206,46 @@ body.my-camping-car .theme .theme__content .version span::after {
   background: url("../img/experience/theme_title.png") no-repeat center/cover;
 }
 
-body.my-camping-car .theme .theme__content .title {
+.theme .theme__content .title {
   font-size: 30px;
   padding: 50px 10px;
   letter-spacing: -0.05em;
   line-height: 1.3em;
 }
 
-body.my-camping-car .theme .theme__content .description {
+.theme .theme__content .description {
   padding: 0 10px;
   letter-spacing: -0.5px;
 }
 
-body.my-camping-car .theme .theme__content.first .left .description p:last-child,
-body.my-camping-car .theme .theme__content.second .right .description p:last-child,
-body.my-camping-car .theme .theme__content.third .left .description p:last-child {
+.theme .theme__content.first .left .description p:last-child,
+.theme .theme__content.second .right .description p:last-child,
+.theme .theme__content.third .left .description p:last-child {
   margin: 20px 0;
 }
 
-body.my-camping-car .theme .theme__content.first .left .content,
-body.my-camping-car .theme .theme__content.second .right .content,
-body.my-camping-car .theme .theme__content.third .left .content {
+.theme .theme__content.first .left .content,
+.theme .theme__content.second .right .content,
+.theme .theme__content.third .left .content {
   margin: 50px 0;
 }
 
-body.my-camping-car .theme .theme__content.first .right,
-body.my-camping-car .theme .theme__content.third .right {
+.theme .theme__content.first .right,
+.theme .theme__content.third .right {
   flex-basis: 35%;
 }
-body.my-camping-car .theme .theme__content.second .right {
+.theme .theme__content.second .right {
   flex-basis: 60%;
 }
 
-body.my-camping-car .theme .theme__content.first .right .content + .content,
-body.my-camping-car .theme .theme__content.second .left .content + .content,
-body.my-camping-car .theme .theme__content.third .right .content + .content {
+.theme .theme__content.first .right .content + .content,
+.theme .theme__content.second .left .content + .content,
+.theme .theme__content.third .right .content + .content {
   margin-top: 30px;
 }
 
 /* GIFT */
-body.my-camping-car .gift {
+.gift {
   background-color: #6ad1d6;
   color: #fff;
   font-size: 17px;
@@ -1253,13 +1253,13 @@ body.my-camping-car .gift {
   text-align: center;
 }
 
-body.my-camping-car .gift .inner {
+.gift .inner {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-body.my-camping-car .gift .mark {
+.gift .mark {
   width: 250px;
   line-height: 35px;
   border-radius: 50px;
@@ -1268,60 +1268,60 @@ body.my-camping-car .gift .mark {
   background-color: #fff;
 }
 
-body.my-camping-car .gift .gift__title {
+.gift .gift__title {
   font-size: 24px;
   padding: 20px 0;
 }
 
-body.my-camping-car .gift .todays-gift {
+.gift .todays-gift {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 30px 0;
 }
 
-body.my-camping-car .gift .todays-gift img {
+.gift .todays-gift img {
   width: 140px;
   margin-bottom: 10px;
 }
 
-body.my-camping-car .gift .todays-gift > div {
+.gift .todays-gift > div {
   text-align: left;
 }
 
-body.my-camping-car .gift .todays-gift > div .title {
+.gift .todays-gift > div .title {
   font-weight: 500;
   font-size: 17px;
 }
 
-body.my-camping-car .gift .todays-gift > div .description:first-of-type,
-body.my-camping-car .gift .todays-gift > div .description:last-of-type {
+.gift .todays-gift > div .description:first-of-type,
+.gift .todays-gift > div .description:last-of-type {
   font-size: 15px;
 }
 
-body.my-camping-car .gift .todays-gift > div .description:first-of-type {
+.gift .todays-gift > div .description:first-of-type {
   padding: 10px 0;
 }
 
-body.my-camping-car .gift .image-group {
+.gift .image-group {
   display: flex;
   justify-content: space-between;
 }
 
-body.my-camping-car .gift .image-group img {
+.gift .image-group img {
   width: 32%;
 }
 
 /* QUESTION AND ANSWER */
-body.my-camping-car .question-and-answer {
+.question-and-answer {
   background-color: #f5f5f5;
 }
 
-body.my-camping-car .question-and-answer .inner {
+.question-and-answer .inner {
   padding: 50px 15px;
 }
 
-body.my-camping-car .question-and-answer .title {
+.question-and-answer .title {
   color: #1ecad3;
   font-size: 40px;
   font-weight: 700;
@@ -1329,7 +1329,7 @@ body.my-camping-car .question-and-answer .title {
   line-height: 1.8em;
 }
 
-body.my-camping-car .question-and-answer dl {
+.question-and-answer dl {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.8em;
@@ -1339,97 +1339,97 @@ body.my-camping-car .question-and-answer dl {
   border-bottom: 1px solid #1ecad3;
 }
 
-body.my-camping-car .question-and-answer dl dt {
+.question-and-answer dl dt {
   color: #1ecad3;
   font-weight: 700;
 }
 
-body.my-camping-car .question-and-answer dl dd {
+.question-and-answer dl dd {
   padding: 2px 0 10px 40px;
 }
 
-body.my-camping-car .question-and-answer dl dd em {
+.question-and-answer dl dd em {
   font-weight: 700;
 }
 
-body.my-camping-car .question-and-answer dl:first-of-type dd p {
+.question-and-answer dl:first-of-type dd p {
   font-weight: 700;
 }
 
-body.my-camping-car .question-and-answer dl:first-of-type dd:first-of-type strong {
+.question-and-answer dl:first-of-type dd:first-of-type strong {
   text-decoration: underline;
 }
 
-body.my-camping-car .question-and-answer dl:first-of-type dd:nth-of-type(2) strong {
+.question-and-answer dl:first-of-type dd:nth-of-type(2) strong {
   color: #ef8470;
 }
 
 /* TOGETHER */
-body.my-camping-car .together {
+.together {
   background-color: #fff;
   color: #3d464b;
   text-align: center;
 }
 
-body.my-camping-car .together .inner {
+.together .inner {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-body.my-camping-car .together .together__title {
+.together .together__title {
   font-size: 24px;
   font-weight: 400;
 }
 
-body.my-camping-car .together .together__description {
+.together .together__description {
   font-size: 17px;
   padding: 40px 0;
 }
 
-body.my-camping-car .together .together__links {
+.together .together__links {
   display: flex;
   justify-content: center;
 }
 
-body.my-camping-car .together .together__links li .btn {
+.together .together__links li .btn {
   background-color: #3d464b;
   width: 60px;
   height: 60px;
   border-radius: 50%;
 }
 
-body.my-camping-car .together .together__links li + li {
+.together .together__links li + li {
   margin-left: 40px;
 }
 
 /* NOTICE */
-body.my-camping-car .notice {
+.notice {
   background-color: #ef8470;
   color: #fff;
   text-align: center;
 }
 
-body.my-camping-car .notice .inner {
+.notice .inner {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-body.my-camping-car .notice img {
+.notice img {
   width: 120px;
 }
 
-body.my-camping-car .notice .notice__title,
-body.my-camping-car .notice .notice__description {
+.notice .notice__title,
+.notice .notice__description {
   padding-top: 25px;
 }
 
-body.my-camping-car .notice .notice__title {
+.notice .notice__title {
   font-size: 17px;
 }
 
-body.my-camping-car .notice .notice__description {
+.notice .notice__description {
   font-size: 15px;
   font-weight: 400;
 }
@@ -1437,49 +1437,49 @@ body.my-camping-car .notice .notice__description {
 
 /* shop.html */
 /* SHOP */
-body.shop .shop .inner {
+.shop .inner {
   overflow: hidden;
 }
 
-body.shop .shop .shop__items {
+.shop .shop__items {
   display: flex;
   flex-direction: column;
   color: #fff;
 }
 
-body.shop .shop .shop__items .item {
+.shop .shop__items .item {
   flex-basis: 50%;
   position: relative;
   cursor: pointer;
 }
 
-body.shop .shop .shop__items .item img {
+.shop .shop__items .item img {
   width: 100%;
 }
 
-body.shop .shop .shop__items .item .text-group {
+.shop .shop__items .item .text-group {
   position: absolute;
   top: 30px;
   left: 30px;
 }
 
-body.shop .shop .shop__items .item .text-group .mark {
+.shop .shop__items .item .text-group .mark {
   font-size: 16px;
   font-weight: 400;
 }
 
-body.shop .shop .shop__items .item .text-group .title {
+.shop .shop__items .item .text-group .title {
   font-size: 20px;
   margin: 5px 0 10px 0;
   font-weight: 400;
 }
 
-body.shop .shop .shop__items .item .text-group .description {
+.shop .shop__items .item .text-group .description {
   font-size: 24px;
   font-weight: 700;
 }
 
-body.shop .shop .more {
+.shop .more {
   background-color: #1ecad3;
   font-size: 17px;
   font-weight: 700;
@@ -1491,11 +1491,11 @@ body.shop .shop .more {
 
 /* brewery.html */
 /* VIDEO */
-body.brewery .video {
+.brewery .video {
   position: relative;
 }
 
-body.brewery .video .video__title {
+.brewery .video .video__title {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1506,48 +1506,48 @@ body.brewery .video .video__title {
   width: 100%;
 }
 
-body.brewery .video .video__title span {
+.brewery .video .video__title span {
   font-size: 12px;
 }
 
-body.brewery .video .video__title em {
+.brewery .video .video__title em {
   font-size: 25px;
 }
 
 /* PROGRAM */
-body.brewery .program {
+.program {
   color: #3d464b;
   text-align: center;
   background-color: #fff;
 }
 
-body.brewery .program .inner {
+.program .inner {
   padding: 30px 0;
 }
 
-body.brewery .program .text-group {
+.program .text-group {
   font-size: 17px;
   font-weight: 400;
 }
 
-body.brewery .program .text-group .text.text2 {
+.program .text-group .text.text2 {
   padding: 15px 0 30px;
 }
 
-body.brewery .program .program__title {
+.program .program__title {
   font-size: 29px;
   color: #1ecad3;
   position: relative;
   background-color: #fff;
 }
 
-body.brewery .program .program__description {
+.program .program__description {
   padding: 15px 0;
   font-size: 15px;
   font-weight: 400;
 }
 
-body.brewery .program .program__content {
+.program .program__content {
   display: flex;
   flex-direction: column;
   padding: 0 15px;
@@ -1555,28 +1555,28 @@ body.brewery .program .program__content {
   line-height: 1.6em;
 }
 
-body.brewery .program .program__content .tour,
-body.brewery .program .program__content .experience {
+.program .program__content .tour,
+.program .program__content .experience {
   flex-basis: 48%;
 }
 
-body.brewery .program .program__content img {
+.program .program__content img {
   width: 100%;
 }
 
-body.brewery .program .program__content .text-group {
+.program .program__content .text-group {
   padding: 15px 0;
 }
 
-body.brewery .program .program__content .text-group .title {
+.program .program__content .text-group .title {
   font-size: 15px;
 }
 
-body.brewery .program .program__content .text-group .description {
+.program .program__content .text-group .description {
   font-size: 13px;
 }
 
-body.brewery .program .btn {
+.program .btn {
   display: inline-block;
   padding: 8px 50px;
   font-size: 14px;
@@ -1585,98 +1585,98 @@ body.brewery .program .btn {
 }
 
 /* INFORMATION */
-body.brewery .information {
+.information {
   background-color: #f4f4f4;
   color: #3d464b;
 }
 
-body.brewery .information .inner {
+.information .inner {
   padding: 30px 15px;
 }
 
-body.brewery .information .information__title {
+.information .information__title {
   font-size: 16px;
   padding-bottom: 15px;
 }
 
-body.brewery .information .info {
+.information .info {
   display: flex;
   flex-direction: column;
   line-height: 1.8em;
 }
 
-body.brewery .information .info > div {
+.information .info > div {
   flex-basis: 33.33%;
 }
 
-body.brewery .information .info .title {
+.information .info .title {
   font-size: 16px;
   border-bottom: 2px solid #55585b;
   font-weight: 700;
   padding: 10px 0;
 }
 
-body.brewery .information .info .description .text {
+.information .info .description .text {
   padding: 10px 0;
 }
 
-body.brewery .information .info .business-day .description .text.text1 em {
+.information .info .business-day .description .text.text1 em {
   font-size: 17px;
 }
 
-body.brewery .information .info .business-day .description .text.text1 span {
+.information .info .business-day .description .text.text1 span {
   font-size: 15px;
 }
 
-body.brewery .information .info .business-day .description .text.text2 span {
+.information .info .business-day .description .text.text2 span {
   font-size: 14px;
   line-height: 1.4em;
 }
 
-body.brewery .information .info .business-day .description .text.text2 span.place {
+.information .info .business-day .description .text.text2 span.place {
   padding-right: 15px;
 }
 
-body.brewery .information .service .description {
+.information .service .description {
   font-size: 13px;
 }
 
-body.brewery .information .service .description .text span.place {
+.information .service .description .text span.place {
   font-size: 16px;
   font-weight: 700;
 }
 
-body.brewery .information .service .description .text em {
+.information .service .description .text em {
   color: #1ecad3;
 }
 
-body.brewery .information .service .description .text span:last-of-type {
+.information .service .description .text span:last-of-type {
   font-weight: 400;
 }
 
-body.brewery .information .ask .description .text span.type {
+.information .ask .description .text span.type {
   font-size: 16px;
   font-weight: 700;
 }
 
-body.brewery .information .ask .description .text.text1 {
+.information .ask .description .text.text1 {
   display: flex;
 }
 
-body.brewery .information .ask .description .text.text1 span.type {
+.information .ask .description .text.text1 span.type {
   margin-right: 15px;
 }
 
-body.brewery .information .ask .description .text.text1 img {
+.information .ask .description .text.text1 img {
   width: 52px;
   height: 52px;
 }
 
-body.brewery .information .ask .description .text.text1 img:first-of-type {
+.information .ask .description .text.text1 img:first-of-type {
   margin-right: 15px;
 }
 
-body.brewery .information .ask .description .text.text2 {
+.information .ask .description .text.text2 {
   font-size: 13px;
   font-weight: 400;
 }
@@ -1706,66 +1706,66 @@ body.brewery .information .ask .description .text.text2 {
 
   /* index.html */
   /* VIDEO */
-  body.main .video .video__title {
+  .main-video .video__title {
     padding: 0 20px;
   }
 
   /* PRODUCTS */
-  body.main .products .product .title {
+  .main-products .product .title {
     width: 187px;
   }
 
-  body.main .products .product .description .text {
+  .main-products .product .description .text {
     padding: 20px 20px 0 20px;
   }
 
   /* STORE */
-  body.main .store .store__description {
+  .main-store .store__description {
     padding: 0 15px 30px 15px;
   }
 
 
   /* mycampingcar.html */
   /* SWIPER */
-  body.my-camping-car .slogan .swiper.visual-swiper {
+  .slogan .swiper.visual-swiper {
     max-height: 350px;
   }
 
   /* VIDEO */
-  body.my-camping-car .video .video__title {
+  .my-camping-car .video .video__title {
     font-size: 14px;
     padding: 10px;
     display: flex;
     flex-direction: column;
   }
 
-  body.my-camping-car .video .video__title span + span {
+  .my-camping-car .video .video__title span + span {
     margin-left: 0;
   }
 
   /* THEME */
-  body.my-camping-car .theme .theme__title {
+  .theme .theme__title {
     padding: 0 10px;
   }
 
-  body.my-camping-car .theme .theme__description {
+  .theme .theme__description {
     padding: 10px 10px 50px 10px;
   }
 
-  body.my-camping-car .theme .theme__menu li {
+  .theme .theme__menu li {
     margin: 0;
   }
 
-  body.my-camping-car .theme .theme__menu li button {
+  .theme .theme__menu li button {
     width: 90px;
   }
 
-  body.my-camping-car .theme .theme__content .version {
+  .theme .theme__content .version {
     line-height: normal;
   }
 
   /* NOTICE */
-  body.my-camping-car .notice .inner {
+  .notice .inner {
     padding: 50px 15px;
   }
 

@@ -109,7 +109,7 @@
     </header>
 
     <!-- MAIN -->
-    <main id="main">
+    <main id="main" class="my-camping-car">
 
       <!-- VIDEO -->
       <section class="video">
@@ -127,7 +127,7 @@
       </section>
 
       <!-- VISUAL -->
-      <section class="visual visual1">
+      <section class="visual1 visual">
         <h2 class="hide">비주얼 영역</h2>
         <div class="inner">
 
@@ -196,7 +196,7 @@
       </section>
 
       <!-- VISUAL -->
-      <section class="visual visual2">
+      <section class="visual2 visual">
         <h2 class="hide">비주얼 영역</h2>
         <div class="inner">
           <img src="./img/experience/visual2_title.gif" alt="당신의 일상을 더 특별한 순간으로" class="title" />
@@ -599,28 +599,27 @@
 
         </div>
       </section>
-    </main>
 
-    <!-- NOTICE -->
-    <section class="notice">
-      <h2 class="hide">공지사항</h2>
-      <div class="inner">
-        <img src="./img/experience/mask.png" alt="" />
+      <!-- NOTICE -->
+      <section class="notice">
+        <h2 class="hide">공지사항</h2>
+        <div class="inner">
+          <img src="./img/experience/mask.png" alt="" />
 
-        <div class="notice__title">
-          제주맥주는 코로나19 확산 방지를 위해<br />
-          최선을 다 하고 있습니다.
+          <div class="notice__title">
+            제주맥주는 코로나19 확산 방지를 위해<br />
+            최선을 다 하고 있습니다.
+          </div>
+          <p class="notice__description">
+            나만의 캠핑카 참가자에게 캠핑하는 동안 사용할 수 있는<br class="only-m" />
+            마스크 및 손소독제 등 방역 키트를 지원합니다.<br />
+            제주맥주 캠핑카에서는 정부 방역 수칙을 준수하며<br class="only-m" />
+            코로나 예방을 위해 매일 방역 작업을 시행합니다.
+          </p>
+
         </div>
-        <p class="notice__description">
-          나만의 캠핑카 참가자에게 캠핑하는 동안 사용할 수 있는<br class="only-m" />
-          마스크 및 손소독제 등 방역 키트를 지원합니다.<br />
-          제주맥주 캠핑카에서는 정부 방역 수칙을 준수하며<br class="only-m" />
-          코로나 예방을 위해 매일 방역 작업을 시행합니다.
-        </p>
-
-      </div>
-    </section>
-
+      </section>
+    </main>
 
     <!-- FOOTER -->
     <footer id="footer">
@@ -671,7 +670,7 @@
     </footer>
 
     <!-- floating action button -->
-    <ul class="floating-btns">
+    <ul id="floating-btns">
       <li class="chat-btn">
         <button>
           <img src="./img/chat_btn.png" alt="채팅버튼" />
@@ -690,9 +689,9 @@
     </ul>
 
     <!-- share -->
-    <div class="share hidden">
-      <p class="share__title">공유하기</p>
-      <ul class="share__links">
+    <div id="share" class="hidden">
+      <p class="title">공유하기</p>
+      <ul class="links">
         <li>
           <a href="https://accounts.kakao.com" class="btn" target="_blank"><img src="./img/share_talk.png"
               alt="카카오톡 링크" /></a>
@@ -708,9 +707,9 @@
     </div>
 
     <!-- inquiry -->
-    <div class="inquiry hidden">
+    <div id="inquiry" class="hidden">
       <div class="top fade-in">
-        <div class="inquiry__title">
+        <div class="title">
           <h4>제주맥주 양조장</h4>
           <ul class="btn-group">
             <li>
@@ -726,10 +725,10 @@
           </ul>
         </div>
 
-        <div class="inquiry__description">
+        <div class="description">
           <span></span>
           <span></span>
-          <span class="inquiry__description__hours">운영시간 보기</span>
+          <span class="show-hours">운영시간 보기</span>
           <span class="business-hours">
             월, 화, 수, 목, 금<br />
             09:00 AM ~ 18:00 PM<br />

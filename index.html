@@ -113,7 +113,7 @@
     <main id="main">
 
       <!-- VIDEO -->
-      <section class="video">
+      <section class="main-video">
         <h2 class="hide">비디오 재생영역</h2>
         <video src="./video/jb_tvc_event_web.mp4" class="pc" autoplay muted loop preload="metadata" playsinline></video>
         <video src="./video/jb_tvc_event_mo.mp4" class="mobile" autoplay muted loop preload="metadata"
@@ -125,7 +125,7 @@
       </section>
 
       <!-- YOUTUBE -->
-      <section class="youtube scroll-spy">
+      <section class="main-youtube scroll-spy">
         <h2 class="hide">YOUTUBE PLAYER</h2>
         <div class="inner">
           <div class="youtube__area movement to-top delay-0">
@@ -137,17 +137,17 @@
       </section>
 
       <!-- PRODUCTS -->
-      <section class="products">
+      <section class="main-products">
         <h2 class="hide">상품 안내</h2>
         <!-- jeju wit ale -->
         <div class="wit product scroll-spy">
           <h3 class="hide">제주 위트 에일</h3>
           <div class="inner">
 
-            <div class="wit__title title movement to-top delay-0">
+            <div class="title movement to-top delay-0">
               <img src="./img/witale_title.png" alt="제주 위트 에일" />
             </div>
-            <div class="wit__description description">
+            <div class="description">
               <img src="./img/witale_img.png" alt="제주 위트 에일 이미지" class="movement to-top delay-1" />
               <div class="text movement to-top delay-2">
                 <em>제주 위트 에일</em>은<br class="only-m" />제주 감귤 껍질의 상큼함과 섬세한 꽃 향,<br />
@@ -211,10 +211,10 @@
           <h3 class="hide">제주 펠롱 에일</h3>
           <div class="inner">
 
-            <div class="pellong__title title movement to-top delay-0">
+            <div class="title movement to-top delay-0">
               <img src="./img/pellongale_title.png" alt="제주 펠롱 에일" />
             </div>
-            <div class="pellong__description description">
+            <div class="description">
               <img src="./img/pellongale_img.png" alt="제주 펠롱 에일 이미지" class="movement to-top delay-1" />
               <div class="text movement to-top delay-2">
                 <em>제주 펠롱 에일</em>은 반딧불이 반짝이는 곶자왈에서<br class="only-m" />영감을 받아 탄생하였습니다.<br />
@@ -289,10 +289,10 @@
           <h3 class="hide">제주 거멍 에일</h3>
           <div class="inner">
 
-            <div class="geomeong__title title movement to-top delay-0">
+            <div class="title movement to-top delay-0">
               <img src="./img/geomeongale_title.png" alt="제주 거멍 에일" />
             </div>
-            <div class="geomeong__description description">
+            <div class="description">
               <img src="./img/geomeongale_img.png" alt="제주 거멍 에일 이미지" class="movement to-top delay-1" />
               <div class="text movement to-top delay-2">
                 <em>제주 거멍 에일</em>은<br class="only-m" />제주의 여름밤을 떠올리게 하는 짙은 빛깔 속에서,<br />
@@ -353,7 +353,7 @@
       </section>
 
       <!-- STORE -->
-      <section class="store">
+      <section class="main-store">
         <h2 class="hide">판매처</h2>
         <div class="inner">
 
@@ -459,7 +459,7 @@
     </footer>
 
     <!-- floating action button -->
-    <ul class="floating-btns">
+    <ul id="floating-btns">
       <li class="chat-btn">
         <button>
           <img src="./img/chat_btn.png" alt="채팅버튼" />
@@ -478,9 +478,9 @@
     </ul>
 
     <!-- share -->
-    <div class="share hidden">
-      <p class="share__title">공유하기</p>
-      <ul class="share__links">
+    <div id="share" class="hidden">
+      <p class="title">공유하기</p>
+      <ul class="links">
         <li>
           <a href="https://accounts.kakao.com" class="btn" target="_blank"><img src="./img/share_talk.png"
               alt="카카오톡 링크" /></a>
@@ -496,9 +496,9 @@
     </div>
 
     <!-- inquiry -->
-    <div class="inquiry hidden">
+    <div id="inquiry" class="hidden">
       <div class="top fade-in">
-        <div class="inquiry__title">
+        <div class="title">
           <h4>제주맥주 양조장</h4>
           <ul class="btn-group">
             <li>
@@ -514,10 +514,10 @@
           </ul>
         </div>
 
-        <div class="inquiry__description">
+        <div class="description">
           <span></span>
           <span></span>
-          <span class="inquiry__description__hours">운영시간 보기</span>
+          <span class="show-hours">운영시간 보기</span>
           <span class="business-hours">
             월, 화, 수, 목, 금<br />
             09:00 AM ~ 18:00 PM<br />

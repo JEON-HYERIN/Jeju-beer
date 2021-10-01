@@ -7,10 +7,10 @@ thisYear.textContent = new Date().getFullYear();
 // 상단버튼(top-btn)
 const header = document.querySelector('#header');
 const headerHeight = header.getBoundingClientRect().height;
-const topBtn = document.querySelector('.floating-btns .top-btn');
+const topBtn = document.querySelector('#floating-btns .top-btn');
 
 window.addEventListener('scroll', _.throttle(function () {
-  if(window.scrollY > headerHeight * 1.5) {
+  if(window.scrollY > headerHeight) {
     topBtn.classList.remove('hidden');
   } else {
     topBtn.classList.add('hidden');
@@ -32,8 +32,8 @@ toggleBtn.addEventListener('click', function () {
 });
 
 // 링크버튼(link-btn)
-const shareEl = document.querySelector('.share');
-const linkBtn = document.querySelector('.floating-btns .link-btn');
+const shareEl = document.querySelector('#share');
+const linkBtn = document.querySelector('#floating-btns .link-btn');
 linkBtn.addEventListener('click', function () {
   shareEl.classList.remove('hidden');
 });
@@ -49,10 +49,12 @@ urlBtn.addEventListener('click', function() {
 });
 
 // inquiry창 활성화
-const chatBtn = document.querySelector('.floating-btns .chat-btn');
-const inquiryEl = document.querySelector('.inquiry');
+const chatBtn = document.querySelector('#floating-btns .chat-btn');
+const inquiryEl = document.querySelector('#inquiry');
 const closeBtn = inquiryEl.querySelector('.btn.close');
 const fadeInEls = inquiryEl.querySelectorAll('.fade-in');
+const inquiryHours = inquiryEl.querySelector('.show-hours');
+const inquiryHoursOpen = inquiryEl.querySelector('.business-hours');
 
 chatBtn.addEventListener('click', function () {
   inquiryEl.classList.remove('hidden');
@@ -64,11 +66,18 @@ chatBtn.addEventListener('click', function () {
 
 closeBtn.addEventListener('click', function () {
   inquiryEl.classList.add('hidden');
+  inquiryHoursOpen.classList.remove('open');
   fadeInEls.forEach(function(fadeInEl) {
     fadeInEl.classList.add('fade-in');
   });
 });
 
+// inquiry 운영시간 보기
+inquiryHours.addEventListener('click', function () {
+  inquiryHoursOpen.classList.toggle('open');
+});
+
+// inquiry url복사 버튼
 const messengerEl = inquiryEl.querySelector('.messenger');
 const copyBtn = document.querySelector('.messenger__links li:nth-child(2) button.btn');
 
@@ -79,7 +88,7 @@ copyBtn.addEventListener('click', function () {
 // 운영시간 체크(9 to 6)
 const hours = new Date().getHours();
 const day = new Date().getDay();
-const inquiryDescriptionEls = inquiryEl.querySelectorAll('.inquiry__description span');
+const inquiryDescriptionEls = inquiryEl.querySelectorAll('.top .description span');
 
 if ((hours >= 9 && hours < 18) && (day >= 1 && day <= 5)) {
   inquiryDescriptionEls.forEach(function (el, index) {
@@ -106,11 +115,4 @@ if ((hours >= 9 && hours < 18) && (day >= 1 && day <= 5)) {
     }
   });
 }
-
-// inquiry 운영시간 보기
-const inquiryHours = inquiryEl.querySelector('.inquiry__description__hours');
-const inquiryHoursOpen = inquiryEl.querySelector('.business-hours');
-inquiryHours.addEventListener('click', function () {
-  inquiryHoursOpen.classList.toggle('open');
-});
 

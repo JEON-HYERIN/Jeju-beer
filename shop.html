@@ -50,7 +50,7 @@
   <script defer src="./js/swiper.js"></script>
   <script defer src="./js/main.js"></script>
 </head>
-<body class="shop">
+<body class="shop-page">
   <div id="wrapper">
     <a href="#main" id="skip-nav">본문 바로가기</a>
 
@@ -108,7 +108,7 @@
     </header>
 
     <!-- MAIN -->
-    <main id="main">
+    <main id="main" class="shop-page">
 
       <!-- SHOP -->
       <section class="shop">
@@ -230,7 +230,7 @@
     </footer>
 
     <!-- floating action button -->
-    <ul class="floating-btns">
+    <ul id="floating-btns">
       <li class="chat-btn">
         <button>
           <img src="./img/chat_btn.png" alt="채팅버튼" />
@@ -249,9 +249,9 @@
     </ul>
 
     <!-- share -->
-    <div class="share hidden">
-      <p class="share__title">공유하기</p>
-      <ul class="share__links">
+    <div id="share" class="hidden">
+      <p class="title">공유하기</p>
+      <ul class="links">
         <li>
           <a href="https://accounts.kakao.com" class="btn" target="_blank"><img src="./img/share_talk.png"
               alt="카카오톡 링크" /></a>
@@ -267,9 +267,9 @@
     </div>
 
     <!-- inquiry -->
-    <div class="inquiry hidden">
+    <div id="inquiry" class="hidden">
       <div class="top fade-in">
-        <div class="inquiry__title">
+        <div class="title">
           <h4>제주맥주 양조장</h4>
           <ul class="btn-group">
             <li>
@@ -285,10 +285,10 @@
           </ul>
         </div>
 
-        <div class="inquiry__description">
+        <div class="description">
           <span></span>
           <span></span>
-          <span class="inquiry__description__hours">운영시간 보기</span>
+          <span class="show-hours">운영시간 보기</span>
           <span class="business-hours">
             월, 화, 수, 목, 금<br />
             09:00 AM ~ 18:00 PM<br />
