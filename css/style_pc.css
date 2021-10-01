@@ -1664,6 +1664,94 @@ video {
 }
 
 
+/* collaboration.html */
+main.collaboration {
+  background-color: #fff;
+}
+
+.collaboration .inner {
+  max-width: none;
+}
+
+.collaboration .inner::after {
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  height: 1px;
+  background-color: #4e5558;
+}
+
+.collaboration section {
+  padding: 100px 0 100px 140px;
+  box-sizing: border-box;
+}
+
+/* VIDEO */
+.collaboration section.video {
+  padding: 0;
+}
+
+/* INTRODUCTION */
+.introduction {
+  color: #4e5558;
+}
+
+.introduction .inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduction .title {
+  flex-basis: 25%;
+}
+
+.introduction .title span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.introduction .title span:last-of-type {
+  display: inline-block;
+  padding: 10px 0 30px;
+}
+
+.introduction .title img {
+  width: 100px;
+}
+
+.introduction .description {
+  flex-basis: 75%;
+  font-weight: 400;
+}
+
+.introduction .description span:last-child {
+  display: inline-block;
+  padding-top: 25px;
+  color: #3d464b;
+}
+
+/* BLUE BOTTLE STORY */
+.blue-bottle-story {}
+
+.blue-bottle-story .inner {}
+
+.blue-bottle-story .title {}
+
+.blue-bottle-story .title span {}
+
+.blue-bottle-story .title .number {}
+
+
+.blue-bottle-story .description {}
+
+.blue-bottle-story .description img {}
+
+.blue-bottle-story .description .text-group {}
+
+.blue-bottle-story .description .text-group p {}
+
+
 /* 미디어 쿼리 */
 @media screen and (max-width: 1023.9px) {
   
