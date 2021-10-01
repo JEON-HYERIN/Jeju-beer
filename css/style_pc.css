@@ -1431,8 +1431,8 @@ video {
 }
 
 .shop .shop__menu .item {
-  flex-basis: 50%;
   position: relative;
+  flex-basis: 50%;
   cursor: pointer;
 }
 
@@ -1442,8 +1442,8 @@ video {
 
 .shop .shop__menu .item .text-group {
   position: absolute;
-  top: 30px;
-  left: 30px;
+  left: 35px;
+  top: 50px;
 }
 
 .shop .shop__menu .item .eng-name {
@@ -1453,7 +1453,7 @@ video {
 
 .shop .shop__menu .item .title {
   font-size: 26px;
-  margin: 5px 0 10px 0;
+  margin-bottom: 30px;
   font-weight: 400;
 }
 

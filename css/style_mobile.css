@@ -1443,8 +1443,8 @@ video {
 }
 
 .shop .shop__menu .item {
-  flex-basis: 50%;
   position: relative;
+  flex-basis: 50%;
   cursor: pointer;
 }
 
@@ -1454,8 +1454,8 @@ video {
 
 .shop .shop__menu .item .text-group {
   position: absolute;
-  top: 30px;
   left: 30px;
+  top: 30px;
 }
 
 .shop .shop__menu .item .eng-name {
