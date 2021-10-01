@@ -2126,8 +2126,13 @@ video {
     flex-wrap: nowrap;
   }
 
+  .shop .shop__menu .item .eng-name {
+    font-size: 14px;
+  }
+
   .shop .shop__menu .item .title {
     font-size: 20px;
+    margin-bottom: 10px;
   }
 
   .shop .shop__menu .item .description {
