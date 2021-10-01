@@ -1966,7 +1966,34 @@ section.line .inner::after {
 
 .corner-shop .bottom .swiper .swiper-slide {}
 
+/* PROMOTION */
+.promotion {}
 
+.promotion .inner {}
+
+.promotion .text-group {}
+
+.promotion .text.text1 {}
+
+.promotion .text.text1 .title {
+  font-size: 18px;
+}
+
+.promotion .text.text1 .description {
+  padding: 10px 0 40px;
+}
+
+.promotion .text.text2 {
+  color: rgb(131, 138, 141);
+  padding-bottom: 25px;
+  font-weight: 700;
+}
+
+.promotion .text-group .remark {
+  color: rgb(131, 138, 141);
+}
+
+.promotion img {}
 
 
 
