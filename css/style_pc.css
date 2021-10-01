@@ -2134,21 +2134,11 @@ video {
 
   /* PROGRAM */
   .program .inner {
-    padding: 30px 0;
-  }
-
-  .program .text-group {
-    font-size: 17px;
+    padding: 50px 0;
   }
 
   .program .text-group .text.text2 {
     padding-bottom: 30px;
-  }
-
-  .program .program__description {
-    padding: 15px 0;
-    font-size: 15px;
-    font-weight: 400;
   }
 
   .program .program__content {
@@ -2160,59 +2150,14 @@ video {
     min-height: 0;
   }
 
-  .program .program__content .text-group .title {
-    font-size: 15px;
-  }
-
-  .program .program__content .text-group .description {
-    font-size: 13px;
-  }
-
   /* INFORMATION */
   .information .inner {
-    padding: 30px 15px;
-  }
-
-  .information .information__title {
-    font-size: 16px;
-    padding-bottom: 15px;
-    padding-left: 0;
+    padding: 30px 0;
   }
 
   .information .info {
     flex-direction: column;
   }
 
-  .information .info > div {
-    padding: 0;
-  }
-
-  .information .info .title {
-    font-size: 16px;
-  }
-
-  .information .info .business-day .description .text.text1 em {
-    font-size: 17px;
-  }
-
-  .information .info .business-day .description .text.text1 span {
-    font-size: 15px;
-  }
-
-  .information .service .description {
-    font-size: 13px;
-  }
-
-  .information .service .description .text span.place {
-    font-size: 16px;
-  }
-
-  .information .ask .description .text span.type {
-    font-size: 16px;
-  }
-
-  .information .ask .description .text.text2 {
-    font-size: 13px;
-  }
 }
 
