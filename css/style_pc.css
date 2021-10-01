@@ -1855,6 +1855,34 @@ video {
   flex-basis: 45%;
 }
 
+.collaboration .visual {
+
+}
+
+.collaboration .visual .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.collaboration .visual .text {
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.collaboration .visual .text em {
+  display: inline-block;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.collaboration .visual .text span {}
+
+.collaboration .visual img {
+  width: 840px;
+  padding-bottom: 60px;
+}
+
 
 
 /* 미디어 쿼리 */
