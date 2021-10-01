@@ -2126,24 +2126,6 @@ video {
     flex-wrap: nowrap;
   }
 
-  .shop .shop__menu .item .eng-name {
-    font-size: 15px;
-  }
-
-  .shop .shop__menu .item .title {
-    font-size: 20px;
-    margin-bottom: 0;
-  }
-
-  .shop .shop__menu .item .description {
-    font-size: 24px;
-  }
-
-  .shop .more {
-    font-size: 17px;
-  }
-
-
   /* brewery.html */
   /* VIDEO */
   .brewery .video .video__title {
