@@ -1459,13 +1459,12 @@ video {
 }
 
 .shop .shop__menu .item .eng-name {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
 }
 
 .shop .shop__menu .item .title {
   font-size: 20px;
-  margin-bottom: 10px;
   font-weight: 400;
 }
 
