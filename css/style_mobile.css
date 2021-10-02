@@ -1720,6 +1720,10 @@ section.line .inner::after {
   font-weight: 400;
 }
 
+.collaboration section .description p + p {
+  padding-top: 25px;
+}
+
 /* VIDEO */
 .collaboration section.video {
   padding: 0;
@@ -1798,7 +1802,7 @@ section.line .inner::after {
 }
 
 .blue-bottle-story .description .text-group p + p {
-  padding-top: 20px;
+  
 }
 
 /* COLLABORATION STORY */
@@ -1828,8 +1832,8 @@ section.line .inner::after {
   
 }
 
-.collaboration-story .description .text-group p:last-child {
-  padding-top: 20px;
+.collaboration-story .description .text-group p + p {
+  
 }
 
 /* COFFEE GOLDEN ALE */
@@ -1879,27 +1883,27 @@ section.line .inner::after {
 }
 
 .collaboration .visual .inner {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+
 }
 
 .collaboration .visual .text {
   width: 100%;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .collaboration .visual .text em {
   display: inline-block;
   padding-bottom: 10px;
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
-.collaboration .visual .text span {}
+.collaboration .visual .text span {
+  font-size: 12px;
+}
 
 .collaboration .visual img {
-  width: 840px;
-  padding-bottom: 60px;
+
 }
 
 /* CORNER SHOP */
