@@ -1689,21 +1689,21 @@ section.line .inner::after {
 
 }
 
-.collaboration section img {
+.collaboration img {
   width: 100%;
 }
 
-.collaboration section .title {
+.collaboration .title {
   font-size: 20px;
   font-weight: 700;
 }
 
-.collaboration section .title .number {
+.collaboration .title .number {
   display: inline-block;
   padding-bottom: 15px;
 }
 
-.collaboration section .description {
+.collaboration .description {
   font-size: 16px;
   font-weight: 400;
 }
@@ -2490,5 +2490,104 @@ section.line .inner::after {
     flex-direction: column;
   }
 
+
+  /* collaboration.html */
+  .collaboration .inner {
+    padding: 80px 0 80px 120px;
+  }
+
+  /* INTRODUCTION */
+  .introduction .title,
+  .introduction .description {
+    flex-basis: auto;
+  }
+
+  .introduction .description {
+    padding-right: 10px;
+  }
+  
+  /* BLUE BOTTLE STORY */
+  .blue-bottle-story .description .text-group {
+    display: block;
+  }
+
+  .blue-bottle-story .description .text-group p:nth-child(1) {
+    padding-bottom: 0;
+  }
+
+  .blue-bottle-story .description .text-group p + p {
+    padding-top: 20px;
+  }
+
+  /* COLLABORATION STORY */
+  .blue-bottle-story .description .text-group,
+  .collaboration-story .inner,
+  .coffee-golden-ale .contents,
+  .corner-shop .top,
+  .corner-shop .bottom {
+    display: block;
+  }
+
+  .collaboration-story .title {
+    padding-bottom: 35px;
+  }
+
+  .coffee-golden-ale .contents .description {
+    padding-right: 30px;
+  }
+
+  /* CORNER SHOP */
+  .corner-shop .middle {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 40px 0 40px 30px;
+  }
+  
+  .corner-shop .middle .text-group {
+    position: static;
+    padding-top: 40px;
+  }
+  
+  .corner-shop .middle .text-group .description {
+    padding: 20px 0 40px;
+  }
+
+  .corner-shop .middle .swiper {
+    width: 100%;
+  }
+
+  .corner-shop .bottom {
+    overflow: hidden;
+  }
+
+  .corner-shop .bottom .swiper:first-child {
+    float: left;
+    width: 75%;
+    margin-bottom: 100px;
+  }
+
+  .corner-shop .bottom .swiper:last-child {
+    float: right;
+    width: 70%;
+  }
+
+  /* PROMOTION */
+  .promotion .inner {
+    padding-left: 50px;
+    overflow: hidden;
+  }
+
+  .promotion .text-group .remark {
+    padding-bottom: 50px;
+  }
+
+  .promotion img {
+    float: right;
+    width: 85%;
+  }
+
+  .promotion img:last-child {
+    margin-top: 10px;
+  }
 }
 
