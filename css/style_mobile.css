@@ -1836,38 +1836,44 @@ section.line .inner::after {
 .coffee-golden-ale {}
 
 .coffee-golden-ale .inner {
+  padding-right: 30px;
+  padding-bottom: 0;
+}
+
+.coffee-golden-ale .title {
+  padding-bottom: 40px;
+}
+
+.coffee-golden-ale .title span {}
+
+.coffee-golden-ale .title .number {}
+
+.coffee-golden-ale .contents {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 0;
+  flex-direction: column-reverse;
 }
 
-.coffee-golden-ale .left {
-  flex-basis: 55%;
+.coffee-golden-ale .contents .swiper {
+  width: 100%;
 }
 
-.coffee-golden-ale .left .title {}
-
-.coffee-golden-ale .left .title span {}
-
-.coffee-golden-ale .left .title .number {}
-
-.coffee-golden-ale .left .description {
+.coffee-golden-ale .contents .description {
   padding: 35px 0 50px;
 }
 
-.coffee-golden-ale .left .description p {}
+.coffee-golden-ale .contents .description p {}
 
-.coffee-golden-ale .left .description p + p {
+.coffee-golden-ale .contents .description p + p {
   padding-top: 30px;
 }
 
-.coffee-golden-ale .left .table {}
+.coffee-golden-ale .contents .table {}
 
-.coffee-golden-ale .right {
-  flex-basis: 45%;
-}
 
+
+
+
+/* VISUAL */
 .collaboration .visual {
 
 }
