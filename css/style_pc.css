@@ -1919,6 +1919,11 @@ section.line .inner::after {
   color: rgb(131, 138, 141);
 }
 
+.promotion img {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 
 
 /* 미디어 쿼리 */
