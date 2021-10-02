@@ -1847,6 +1847,10 @@ section.line .inner::after {
   padding: 20px 0 40px;
 }
 
+.corner-shop .middle .text-group .location .description {
+  padding-bottom: 15px;
+}
+
 .corner-shop .middle .text-group .remark {
   font-size: 12px;
 }

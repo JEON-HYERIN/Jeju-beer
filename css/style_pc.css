@@ -2470,8 +2470,8 @@ section.line .inner::after {
     padding-top: 40px;
   }
   
-  .corner-shop .middle .text-group .description {
-    padding: 20px 0 40px;
+  .corner-shop .middle .text-group .location .description {
+    padding-bottom: 15px;
   }
 
   .corner-shop .middle .swiper {
