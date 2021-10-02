@@ -1817,7 +1817,6 @@ section.line .inner::after {
 .collaboration-story .title .number {}
 
 .collaboration-story .description {
-  flex-basis: 75%;
   padding-bottom: 100px;
 }
 
@@ -1934,7 +1933,8 @@ section.line .inner::after {
 
 .corner-shop .middle .text-group {
   flex-basis: 25%;
-  margin-top: 300px;
+  position: relative;
+  top: 150px;
 }
 
 .corner-shop .middle .text-group .description {

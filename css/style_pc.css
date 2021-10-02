@@ -1917,7 +1917,9 @@ section.line .inner::after {
 
 .corner-shop .middle .text-group {
   flex-basis: 25%;
-  margin-top: 300px;
+  /* margin-top: 300px; */
+  position: relative;
+  top: 150px;
 }
 
 .corner-shop .middle .text-group .description {
