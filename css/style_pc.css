@@ -1685,10 +1685,6 @@ section.line .inner::after {
   background-color: #4e5558;
 }
 
-.collaboration section {
-
-}
-
 .collaboration img {
   width: 100%;
 }
@@ -1714,10 +1710,6 @@ section.line .inner::after {
 }
 
 /* INTRODUCTION */
-.introduction {
-
-}
-
 .introduction .inner {
   display: flex;
   justify-content: space-between;
@@ -1750,8 +1742,6 @@ section.line .inner::after {
 }
 
 /* BLUE BOTTLE STORY */
-.blue-bottle-story {}
-
 .blue-bottle-story .inner {
   display: flex;
   justify-content: space-between;
@@ -1761,13 +1751,9 @@ section.line .inner::after {
   flex-basis: 25%;
 }
 
-.blue-bottle-story .title span {}
-
 .blue-bottle-story .description {
   flex-basis: 75%;
 }
-
-.blue-bottle-story .description img {}
 
 .blue-bottle-story .description .text-group {
   display: flex;
@@ -1785,8 +1771,6 @@ section.line .inner::after {
 }
 
 /* COLLABORATION STORY */
-.collaboration-story {}
-
 .collaboration-story .inner {
   display: flex;
   justify-content: space-between;
@@ -1796,18 +1780,10 @@ section.line .inner::after {
   flex-basis: 25%;
 }
 
-.collaboration-story .title span {}
-
-.collaboration-story .title .number {}
-
 .collaboration-story .description {
   flex-basis: 75%;
   padding-bottom: 100px;
 }
-
-.collaboration-story .description .text-group {}
-
-.collaboration-story .description .text-group p {}
 
 .collaboration-story .description .text-group p:last-child {
   padding: 30px 0 70px;
@@ -1817,17 +1793,9 @@ section.line .inner::after {
 }
 
 /* COFFEE GOLDEN ALE */
-.coffee-golden-ale {}
-
 .coffee-golden-ale .inner {
   padding-top: 50px;
 }
-
-.coffee-golden-ale .title {}
-
-.coffee-golden-ale .title span {}
-
-.coffee-golden-ale .title .number {}
 
 .coffee-golden-ale .contents {
   display: flex;
@@ -1843,20 +1811,11 @@ section.line .inner::after {
   flex-basis: 40%;
 }
 
-.coffee-golden-ale .contents .description p {}
-
 .coffee-golden-ale .contents .description p + p {
   padding-top: 30px;
 }
 
-.coffee-golden-ale .contents .table {}
-
-
 /* VISUAL */
-.collaboration .visual {
-
-}
-
 .collaboration .visual .inner {
   display: flex;
   flex-direction: column;
@@ -1873,8 +1832,6 @@ section.line .inner::after {
   padding-bottom: 10px;
   font-size: 18px;
 }
-
-.collaboration .visual .text span {}
 
 .collaboration .visual img {
   width: 840px;
@@ -1901,10 +1858,6 @@ section.line .inner::after {
   flex-basis: 25%;
 }
 
-.corner-shop .top .title span {}
-
-.corner-shop .top .title .number {}
-
 .corner-shop .top .description {
   flex-basis: 75%;
   line-height: 1.6em;
@@ -1918,7 +1871,6 @@ section.line .inner::after {
 
 .corner-shop .middle .text-group {
   flex-basis: 25%;
-  /* margin-top: 300px; */
   position: relative;
   top: 150px;
 }
@@ -1927,25 +1879,9 @@ section.line .inner::after {
   padding: 20px 0 40px;
 }
 
-.corner-shop .middle .opening-hours {}
-
-.corner-shop .middle .opening-hours .title {}
-
-.corner-shop .middle .opening-hours .description {}
-
-.corner-shop .middle .location {}
-
-.corner-shop .middle .location .title {}
-
-.corner-shop .middle .location .description {}
-
-.corner-shop .middle .remark {}
-
 .corner-shop .middle .swiper {
   flex-basis: 75%;
 }
-
-.corner-shop .middle .swiper .swiper-slide {}
 
 .corner-shop .bottom {
   display: flex;
@@ -1964,17 +1900,7 @@ section.line .inner::after {
   flex-basis: 25%;
 }
 
-.corner-shop .bottom .swiper .swiper-slide {}
-
 /* PROMOTION */
-.promotion {}
-
-.promotion .inner {}
-
-.promotion .text-group {}
-
-.promotion .text.text1 {}
-
 .promotion .text.text1 .title {
   font-size: 18px;
 }
@@ -1992,10 +1918,6 @@ section.line .inner::after {
 .promotion .text-group .remark {
   color: rgb(131, 138, 141);
 }
-
-.promotion img {}
-
-
 
 
 
@@ -2496,6 +2418,14 @@ section.line .inner::after {
     padding: 80px 0 80px 120px;
   }
 
+  .blue-bottle-story .description .text-group,
+  .collaboration-story .inner,
+  .coffee-golden-ale .contents,
+  .corner-shop .top,
+  .corner-shop .bottom {
+    display: block;
+  }
+
   /* INTRODUCTION */
   .introduction .title,
   .introduction .description {
@@ -2520,14 +2450,6 @@ section.line .inner::after {
   }
 
   /* COLLABORATION STORY */
-  .blue-bottle-story .description .text-group,
-  .collaboration-story .inner,
-  .coffee-golden-ale .contents,
-  .corner-shop .top,
-  .corner-shop .bottom {
-    display: block;
-  }
-
   .collaboration-story .title {
     padding-bottom: 35px;
   }
