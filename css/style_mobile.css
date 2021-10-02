@@ -1678,7 +1678,7 @@ video {
 /* collaboration.html */
 .collaboration {
   background-color: #fff;
-  color: #4e5558;
+  color: #3d464b;
 }
 
 .collaboration .inner {
@@ -1805,7 +1805,7 @@ section.line .inner::after {
 .collaboration-story {}
 
 .collaboration-story .inner {
-
+  padding-right: 30px;
 }
 
 .collaboration-story .title {
@@ -1817,7 +1817,7 @@ section.line .inner::after {
 .collaboration-story .title .number {}
 
 .collaboration-story .description {
-  padding-bottom: 100px;
+
 }
 
 .collaboration-story .description .text-group {

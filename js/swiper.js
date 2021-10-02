@@ -76,6 +76,11 @@ new Swiper('.slogan .swiper.sub-swiper', {
   spaceBetween: 5,
 });
 
+new Swiper('.collaboration-story .swiper', {
+  loop: true,
+  autoplay: true,
+});
+
 new Swiper('.coffee-golden-ale .swiper', {
   loop: true,
   autoplay: true,
