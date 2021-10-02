@@ -1700,7 +1700,7 @@ section.line .inner::after {
 
 }
 
-.collaboration section img {
+.collaboration img {
   width: 100%;
 }
 
@@ -1913,17 +1913,15 @@ section.line .inner::after {
 }
 
 .corner-shop .inner {
-  padding: 100px 0 0;
+  padding-left: 0;
 }
 
 .corner-shop .top {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 140px;
+  padding-left: 30px;
 }
 
 .corner-shop .top .title {
-  flex-basis: 25%;
+  
 }
 
 .corner-shop .top .title span {}
@@ -1933,18 +1931,17 @@ section.line .inner::after {
 .corner-shop .top .description {
   flex-basis: 75%;
   line-height: 1.6em;
+  padding: 40px 30px 0 0;
 }
 
 .corner-shop .middle {
   display: flex;
-  align-items: center;
-  padding: 60px 0 150px 140px;
+  flex-direction: column-reverse;
+  padding: 40px 0 40px 30px;
 }
 
 .corner-shop .middle .text-group {
-  flex-basis: 25%;
-  position: relative;
-  top: 150px;
+  padding-top: 40px;
 }
 
 .corner-shop .middle .text-group .description {
@@ -1966,26 +1963,24 @@ section.line .inner::after {
 .corner-shop .middle .remark {}
 
 .corner-shop .middle .swiper {
-  flex-basis: 75%;
+  width: 100%;
 }
 
 .corner-shop .middle .swiper .swiper-slide {}
 
 .corner-shop .bottom {
-  display: flex;
-  justify-content: space-between;
+  overflow: hidden;
 }
 
 .corner-shop .bottom .swiper:first-child {
-  flex-basis: 32%;
-}
-
-.corner-shop .bottom .blank {
-  flex-basis: 43%;
+  float: left;
+  width: 75%;
+  margin-bottom: 70px;
 }
 
 .corner-shop .bottom .swiper:last-child {
-  flex-basis: 25%;
+  float: right;
+  width: 75%;
 }
 
 .corner-shop .bottom .swiper .swiper-slide {}
@@ -1995,29 +1990,39 @@ section.line .inner::after {
 
 .promotion .inner {}
 
-.promotion .text-group {}
+.promotion .text-group {
+  font-size: 12px;
+}
 
 .promotion .text.text1 {}
 
 .promotion .text.text1 .title {
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .promotion .text.text1 .description {
-  padding: 10px 0 40px;
+  padding: 10px 0 20px;
+  font-size: 12px;
 }
 
 .promotion .text.text2 {
   color: rgb(131, 138, 141);
-  padding-bottom: 25px;
-  font-weight: 700;
+  line-height: 1.8em;
 }
 
 .promotion .text-group .remark {
   color: rgb(131, 138, 141);
+  padding: 25px 0 40px;
 }
 
-.promotion img {}
+.promotion img {
+  width: 90%;
+}
+
+.promotion img:last-child {
+  margin-top: 10px;;
+}
 
 
 /* 미디어 쿼리 */
