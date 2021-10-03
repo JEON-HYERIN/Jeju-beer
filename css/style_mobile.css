@@ -17,7 +17,7 @@ video {
 
 #wrapper {
   min-width: 280px;
-  max-width: 767.9px;
+  max-width: 1023px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -648,10 +648,6 @@ video {
 /* VIDEO */
 .main-video {
   position: relative;
-}
-
-.main-video video {
-  width: 100%;
 }
 
 .main-video .video__title {
@@ -1727,7 +1723,6 @@ section.line .inner::after {
 
 /* INTRODUCTION */
 .introduction .title {
-  flex-basis: 25%;
   font-size: 20px;
   font-weight: 700;
 }
@@ -1745,7 +1740,6 @@ section.line .inner::after {
 }
 
 .introduction .description {
-  flex-basis: 75%;
   font-weight: 400;
 }
 
@@ -1828,7 +1822,6 @@ section.line .inner::after {
 }
 
 .corner-shop .top .description {
-  flex-basis: 75%;
   line-height: 1.6em;
   padding: 40px 30px 0 0;
 }
@@ -1908,8 +1901,476 @@ section.line .inner::after {
 }
 
 
+/* 미디어쿼리 */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  /* COMMON */
+  video.pc {
+    display: block !important;
+  }
+
+  video.mobile {
+    display: none !important;
+  }
+
+  /* floating action button */
+  #floating-btns {
+    width: 60px;
+    right: 30px;
+    bottom: 50px;
+  }
+
+  #floating-btns li {
+    margin-top: 10px;
+  }
+
+  #floating-btns li:first-child {
+    margin-top: 0;
+  }
+
+  #floating-btns li button {
+    width: 60px;
+    height: 60px;
+  }
+
+  #floating-btns li button img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* share */
+  #share .links li .btn {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* inquiry */
+  #inquiry {
+    right: 20px;
+  }
+
+  /* index.html */
+  .main-products br.only-pc {
+    content: '';
+  }
+
+  .main-products br.only-m {
+    content: normal;
+  }
+
+  /* SWIPER */
+  .main-products .swiper.visual-swiper {
+    max-height: 350px;
+  }
+
+  .main-products .swiper.sub-swiper {
+    max-height: 200px;
+  }
+
+  /* YOUTUBE */
+  .main-youtube .youtube__area {
+    margin: 100px 0 50px;
+  }
+
+  /* PRODUCTS */
+  .main-products .product .title {
+    width: 322px;
+  }
+
+  .main-products .product .description .text {
+    font-size: 20px;
+  }
+
+  /* STORE */
+  .main-store .store__description {
+    font-size: 20px;
+  }
+
+  /* mycampingcar.html */
+  /* SWIPER */
+  .slogan .swiper.visual-swiper {
+    min-height: 1000px;
+  }
+
+  /* VIDEO */
+  .my-camping-car .video .video__title {
+    font-size: 20px;
+  }
+
+  /* VISUAL -1- */
+  .my-camping-car .visual1 .text-group .text {
+    max-width: none;
+    width: 400px;
+  }
+  
+  /* SLOGAN */
+  .slogan .inner {
+    padding: 100px 0;
+  }
+
+  .slogan .text-group {
+    padding: 100px 0 0 0;
+  }
+
+  .slogan .text-group .text {
+    font-size: 26px;
+  }
+  
+  .slogan .text-group .text.text2 {
+    margin-top: 60px;
+  }
+
+  .slogan .swiper.sub-swiper {
+    height: 520px;
+  }
+
+  /* THEME */
+  .theme .theme__title {
+    font-size: 35px;
+  }
+
+  .theme .theme__description {
+    font-size: 20px;
+  }
+
+  .theme .theme__menu li button {
+    font-size: 20px;
+    width: 200px;
+    padding: 15px;
+  }
+
+  .theme .theme__content.first .left,
+  .theme .theme__content.second .right,
+  .theme .theme__content.third .left {
+    font-size: 22px;
+  }
+
+  .theme .theme__content .version {
+    width: 520px;
+    font-size: 25px;
+  }
+
+  .theme .theme__content .title {
+    font-size: 50px;
+    padding: 0 10px;
+    margin: 50px 0;
+  }
+
+  .theme .theme__content .content span {
+    font-size: 16px;
+  }
+
+  /* GIFT */
+  .gift {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .gift .gift__title {
+    font-size: 48px;
+  }
+
+  .gift .todays-gift {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+  }
+
+  .gift .todays-gift img {
+    width: 150px;
+    margin-bottom: 0;
+  }
+
+  .gift .todays-gift > div {
+    padding-left: 30px;
+  }
+
+  .gift .todays-gift > div .title {
+    font-size: 26px;
+  }
+
+  .gift .todays-gift > div .description:first-of-type {
+    font-size: 22px;
+  }
+
+  .gift .todays-gift > div .description:last-of-type {
+    font-size: 16px;
+  }
+
+  /* QUESTION AND ANSWER */
+  .question-and-answer .title {
+    font-size: 64px;
+  }
+
+  .question-and-answer dl {
+    font-size: 16px;
+  }
+  
+  /* TOGETHER, NOTICE */
+  .together .inner,
+  .notice .inner {
+    padding: 50px 15px;
+  }
+
+  /* NOTICE */
+  .notice .notice__title {
+    font-size: 18px;
+  }
+
+  /* shop.html */
+  .shop .shop__menu .item .text-group {
+    left: 35px;
+    top: 50px;
+  }
+  
+  .shop .shop__menu .item .eng-name {
+    font-size: 16px;
+  }
+  
+  .shop .shop__menu .item .title {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  
+  .shop .shop__menu .item .description {
+    font-size: 22px;
+  }
+  
+  .shop .more {
+    font-size: 26px;
+  }
+
+  /* brewery.html */
+  /* VIDEO */
+  .brewery .video .video__title span {
+    font-size: 24px;
+  }
+  
+  .brewery .video .video__title em {
+    font-size: 45px;
+  }
+
+  /* PROGRAM */
+  .program .inner {
+    padding: 50px 0;
+  }
+
+  .program .text-group {
+    font-size: 22px;
+  }
+
+  .program .program__description {
+    font-size: 16px;
+    padding: 30px 0;
+  }
+
+  .program .program__content .text-group .title {
+    font-size: 16px;
+  }
+  
+  .program .program__content .text-group .description {
+    font-size: 14px;
+  }
+
+  /* INFORMATION */
+  .information .inner {
+    padding: 30px 0;
+  }
+
+  .information .information__title {
+    font-size: 24px;
+    padding: 0 0 30px 15px;
+  }
+
+  .information .info > div {
+    padding: 0 15px;
+  }
+
+  .information .info .title {
+    font-size: 18px;
+  }
+
+  .information .info .description .text {
+    padding: 20px 0;
+  }
+
+  .information .info .business-day .description .text.text1 em {
+    font-size: 26px;
+  }
+  
+  .information .info .business-day .description .text.text1 span {
+    font-size: 16px;
+  }
+      
+  .information .service .description {
+    font-size: 14px;
+  }
+  
+  .information .service .description .text span.place {
+    font-size: 18px;
+  }
+
+  .information .ask .description .text span.type {
+    font-size: 18px;
+  }
+  
+  .information .ask .description .text.text2 {
+    font-size: 14px;
+  }
+
+
+  /* collaboration.html */
+  .collaboration .inner {
+    padding: 80px 0 80px 120px;
+  }
+
+  .collaboration section .title {
+    padding-bottom: 35px;
+    font-size: 20px;
+  }
+
+  .collaboration section .title .number {
+    padding-bottom: 15px;
+  }
+
+  .collaboration section .description {
+    font-size: 16px;
+  }
+
+  /* INTRODUCTION */
+  .introduction .title span:last-of-type {
+    padding: 10px 0 30px;
+  }
+
+  .introduction .title img {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+  }
+
+  .introduction .description {
+    padding-right: 10px;
+  }
+
+  /* BLUE BOTTLE STORY */
+  .blue-bottle-story .description img {
+    padding: 0;
+  }
+
+  .blue-bottle-story .description .text-group {
+    padding: 50px 0 100px;
+  }
+
+  .blue-bottle-story .description .text-group p + p {
+    padding-top: 20px;
+  }
+
+  /* COLLABORATION STORY */
+  .collaboration-story .description {
+    padding-bottom: 100px;
+  }
+
+  .collaboration-story .description .text-group {
+    padding: 0;
+  }
+
+  .collaboration-story .description .text-group p:last-child {
+    padding: 30px 0 70px;
+  }
+  .collaboration-story .description img {
+    width: 90%;
+  }
+
+  /* COFFEE GOLDEN ALE */
+  .coffee-golden-ale .contents .description {
+    padding-right: 30px;
+  }
+
+  /* VISUAL */
+  .collaboration .visual .text {
+    padding-bottom: 60px;
+  }
+
+  .collaboration .visual .text em {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .collaboration .visual .text span {
+    font-size: 16px;
+  }
+
+  .collaboration .visual img {
+    width: 840px;
+    padding-bottom: 60px;
+  }
+
+  /* CORNER SHOP */
+  .corner-shop .top {
+    padding-left: 140px;
+  }
+
+  .corner-shop .top .description {
+    padding: 0;
+  }
+
+  .corner-shop .middle {
+    align-items: flex-start;
+  }
+
+  .corner-shop .middle .text-group .remark {
+    font-size: 16px;
+  }
+
+  .corner-shop .bottom .swiper:first-child {
+    margin-bottom: 100px;
+  }
+
+  .corner-shop .bottom .swiper:last-child {
+    width: 70%;
+  }
+
+  /* PROMOTION */
+  .promotion .inner {
+    padding-left: 50px;
+    overflow: hidden;
+  }
+
+  .promotion .text-group {
+    font-size: 16px;
+  }
+
+  .promotion .text.text1 .title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .promotion .text.text1 .description {
+    padding: 10px 0 40px;
+    font-size: 16px;
+  }
+
+  .promotion .text.text2 {
+    line-height: normal;
+    padding-bottom: 25px;
+    font-weight: 700;
+  }
+
+  .promotion .text-group .remark {
+    padding: 0 0 50px;
+  }
+
+  .promotion img {
+    float: right;
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 /* 미디어 쿼리 */
-@media screen and (max-width: 359.9px) {
+@media screen and (max-width: 359px) {
 
   /* HEADER */
   #header .inner {
@@ -1927,7 +2388,7 @@ section.line .inner::after {
 
   #footer .bottom .info {
     line-height: normal;
-  }  
+  }
 
 
   /* index.html */
@@ -1965,7 +2426,7 @@ section.line .inner::after {
     flex-direction: column;
   }
 
-  .my-camping-car .video .video__title span + span {
+  .my-camping-car .video .video__title span+span {
     margin-left: 0;
   }
 
@@ -2003,6 +2464,7 @@ section.line .inner::after {
   .collaboration section .description {
     font-size: 12px;
   }
+
   /* CORNER SHOP */
   .corner-shop .middle .text-group .remark {
     font-size: 12px;

@@ -16,7 +16,7 @@ video {
 }
 
 #wrapper {
-  min-width: 1024px;
+  min-width: 768px;
   overflow: hidden;
 }
 
@@ -692,11 +692,6 @@ video {
   margin-bottom: 70px;
 }
 
-.main-products .product .title img {
-  width: 100%;
-  height: auto;
-}
-
 .main-products .product .description {
   display: flex;
   align-items: center;
@@ -720,8 +715,8 @@ video {
 }
 
 .main-products .product.wit .title img {
-  width: auto;
   height: 100%;
+  width: auto;
 }
 
 .main-products .product.wit .description img {
@@ -761,6 +756,10 @@ video {
 
 .main-products .product.pellong .title {
   width: 400px;
+}
+
+.main-products .product.pellong .title img {
+  width: 100%;
 }
 
 .main-products .product.pellong .description img {
@@ -825,6 +824,10 @@ video {
 
 .main-products .product.geomeong .title {
   width: 400px;
+}
+
+.main-products .product.geomeong .title img {
+  width: 100%;
 }
 
 .main-products .product.geomeong .description img {
@@ -1011,6 +1014,7 @@ video {
 }
 
 .slogan .swiper.sub-swiper {
+  display: block;
   height: 520px;
 }
 
@@ -1155,7 +1159,7 @@ video {
   font-size: 30px;
   padding: 10px 15px;
   border-radius: 50px;
-  width: 520px;
+  max-width: 520px;
   line-height: 50px;
   text-align: center;
 }
@@ -1591,7 +1595,7 @@ video {
   font-size: 18px;
   border-bottom: 2px solid #55585b;
   font-weight: 700;
-  padding: 10px 0;
+  padding:10px 0;
 }
 
 .information .info .description .text {
