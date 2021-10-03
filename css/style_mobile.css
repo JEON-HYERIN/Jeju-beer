@@ -2259,11 +2259,26 @@ section.line .inner::after {
   }
 
   .blue-bottle-story .description .text-group {
+    display: flex;
+    flex-wrap: wrap;
     padding: 50px 0 100px;
   }
 
+  .blue-bottle-story .description .text-group p {
+    flex-basis: 50%;
+    box-sizing: border-box;
+  }
+
   .blue-bottle-story .description .text-group p + p {
-    padding-top: 20px;
+    padding-top: 0;
+  }
+
+  .blue-bottle-story .description .text-group p:nth-child(1) {
+    padding-bottom: 20px;
+  }
+
+  .blue-bottle-story .description .text-group p:nth-child(2n+1) {
+    padding-right: 5px;
   }
 
   /* COLLABORATION STORY */
@@ -2283,8 +2298,18 @@ section.line .inner::after {
   }
 
   /* COFFEE GOLDEN ALE */
+  .coffee-golden-ale .contents {
+    flex-direction: row;
+    align-items: center;
+  }
+
   .coffee-golden-ale .contents .description {
-    padding-right: 30px;
+    flex-basis: 50%;
+    padding: 0 30px 0 0;
+  }
+
+  .coffee-golden-ale .contents .swiper {
+    flex-basis: 50%;
   }
 
   /* VISUAL */
