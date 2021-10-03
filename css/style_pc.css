@@ -1685,17 +1685,17 @@ section.line .inner::after {
   width: 100%;
 }
 
-.collaboration .title {
+.collaboration section .title {
   font-size: 20px;
   font-weight: 700;
 }
 
-.collaboration .title .number {
+.collaboration section .title .number {
   display: inline-block;
   padding-bottom: 15px;
 }
 
-.collaboration .description {
+.collaboration section .description {
   font-size: 16px;
   font-weight: 400;
 }
