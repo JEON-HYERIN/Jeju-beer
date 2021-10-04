@@ -16,7 +16,7 @@ video {
 }
 
 #wrapper {
-  min-width: 280px;
+  min-width: 320px;
   max-width: 1023.9px;
   margin: 0 auto;
   overflow: hidden;
@@ -1901,7 +1901,7 @@ section.line .inner::after {
 }
 
 
-/* 미디어쿼리 */
+/* 미디어쿼리  Tablet*/
 @media screen and (min-width: 768.0px) and (max-width: 1023.9px) {
 
   /* COMMON */
@@ -2414,6 +2414,16 @@ section.line .inner::after {
 
   #footer .bottom .info {
     line-height: normal;
+  }
+
+  /* inquiry */
+  #inquiry {
+    width: 90%;
+    bottom: 0;
+  }
+
+  #inquiry .bottom .channel-talk .btn {
+    margin: 5px auto;
   }
 
 
