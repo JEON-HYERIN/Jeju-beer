@@ -17,7 +17,7 @@ video {
 
 #wrapper {
   min-width: 280px;
-  max-width: 1023px;
+  max-width: 1023.9px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -1902,7 +1902,7 @@ section.line .inner::after {
 
 
 /* 미디어쿼리 */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023.9px) {
 
   /* COMMON */
   video.pc {
@@ -2304,8 +2304,9 @@ section.line .inner::after {
   }
 
   .coffee-golden-ale .contents .description {
-    flex-basis: 50%;
-    padding: 0 30px 0 0;
+    padding: 0;
+    flex-basis: 45%;
+    margin-right: 5%;
   }
 
   .coffee-golden-ale .contents .swiper {

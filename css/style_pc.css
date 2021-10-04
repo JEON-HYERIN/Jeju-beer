@@ -1803,8 +1803,9 @@ section.line .inner::after {
 }
 
 .coffee-golden-ale .contents .description {
-  flex-basis: 60%;
+  flex-basis: 55%;
   padding: 35px 0 50px;
+  margin-right: 5%;
 }
 
 .coffee-golden-ale .contents .swiper {
