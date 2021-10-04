@@ -1902,7 +1902,7 @@ section.line .inner::after {
 
 
 /* 미디어쿼리 */
-@media screen and (min-width: 768px) and (max-width: 1023.9px) {
+@media screen and (min-width: 768.0px) and (max-width: 1023.9px) {
 
   /* COMMON */
   video.pc {
