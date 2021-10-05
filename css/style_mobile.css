@@ -650,13 +650,13 @@ video {
   position: relative;
 }
 
-.main-video .video__title {
+.main-video .title {
   max-width: 790px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-.main-video .video__title img {
+.main-video .title img {
   width: 100%;
 }
 
@@ -927,7 +927,7 @@ video {
 }
 
 /* VIDEO */
-.my-camping-car .video .video__title {
+.experience-video .title {
   background-color: #0f1b28;
   text-align: center;
   padding: 20px;
@@ -936,36 +936,36 @@ video {
   font-weight: 400;
 }
 
-.my-camping-car .video .video__title span + span {
+.experience-video .title span + span {
   margin-left: 5px;
 }
 
 /* VISUAL -1-*/
-.my-camping-car .visual {
+.experience-visual {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.my-camping-car .visual.visual1 {
+.experience-visual.visual1 {
   background-image: url("../img/experience/visual1_bg.jpg");
 }
 
-.my-camping-car .visual1 .inner {
+.experience-visual.visual1 .inner {
   height: 100vh;
 }
 
-.my-camping-car .visual1 .text-group .text {
+.experience-visual.visual1 .text-group .text {
   max-width: 350px;
   position: absolute;
 }
 
-.my-camping-car .visual1 .text-group .text.text1 {
+.experience-visual.visual1 .text-group .text.text1 {
   left: 20%;
   top: 20%;
 }
 
-.my-camping-car .visual1 .text-group .text.text2 {
+.experience-visual.visual1 .text-group .text.text2 {
   right: 0;
   top: 45%;
 }
@@ -1038,15 +1038,15 @@ video {
 }
 
 /* VISUAL -2-*/
-.my-camping-car .visual.visual2 {
+.experience-visual.visual2 {
   background-image: url("../img/experience/visual2_bg.png");
 }
 
-.my-camping-car .visual2 .inner {
+.experience-visual.visual2 .inner {
   height: 600px;
 }
 
-.my-camping-car .visual2 .title {
+.experience-visual.visual2 .title {
   width: 930px;
   margin: 0 auto;
   padding-top: 20px;
@@ -1062,12 +1062,12 @@ video {
   padding: 50px 0;
 }
 
-.theme .theme__title {
+.theme__title {
   font-size: 24px;
   color: #1ecad3;
 }
 
-.theme .theme__description {
+.theme__description {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: -0.5px;
@@ -1075,26 +1075,26 @@ video {
   padding: 15px 0 50px 0;
 }
 
-.theme .theme__menu {
+.theme__menu {
   display: flex;
   justify-content: center;
 }
 
-.theme .theme__menu li {
+.theme__menu li {
   margin: 0 5px;
 }
 
-.theme .theme__menu li:nth-child(1) button.selected {
+.theme__menu li:nth-child(1) button.selected {
   background-color: #8592ef;
 }
-.theme .theme__menu li:nth-child(2) button.selected {
+.theme__menu li:nth-child(2) button.selected {
   background-color: #1ecad3;
 }
-.theme .theme__menu li:nth-child(3) button.selected {
+.theme__menu li:nth-child(3) button.selected {
   background-color: #edac91;
 }
 
-.theme .theme__menu li button {
+.theme__menu li button {
   width: 100px;
   font-size: 14px;
   font-weight: 500;
@@ -1104,30 +1104,30 @@ video {
   padding: 10px;
 }
 
-.theme .theme__menu li button span {
+.theme__menu li button span {
   font-weight: 700;
   pointer-events: none;
 }
 
-.theme .theme__content {
+.theme__content {
   display: flex;
   flex-direction: column;
   margin: 30px 0;
 }
 
-.theme .theme__content.second {
+.theme__content.second {
   flex-direction: column-reverse;
 }
 
-.theme .theme__content.invisible {
+.theme__content.invisible {
   display: none;
 }
 
-.theme .theme__content .content {
+.theme__content .content {
   position: relative;
 }
 
-.theme .theme__content .content span {
+.theme__content .content span {
   position: absolute;
   left: 30px;
   color: #fff;
@@ -1136,39 +1136,39 @@ video {
   text-align: left;
 }
 
-.theme .theme__content.first .content span,
-.theme .theme__content.second .content.content2 span,
-.theme .theme__content.third .content span {
+.theme__content.first .content span,
+.theme__content.second .content.content2 span,
+.theme__content.third .content span {
   bottom: 30px;
 }
 
-.theme .theme__content.first .content.content4 span,
-.theme .theme__content.third .content.content2 span {
+.theme__content.first .content.content4 span,
+.theme__content.third .content.content2 span {
   top: 30px;
 }
 
-.theme .theme__content.second .content:not(.content2) span {
+.theme__content.second .content:not(.content2) span {
   top: 30px;
 }
 
-.theme .theme__content.first .left,
-.theme .theme__content.second .right,
-.theme .theme__content.third .left {
+.theme__content.first .left,
+.theme__content.second .right,
+.theme__content.third .left {
   text-align: left;
   font-size: 15px;
   font-weight: 400;
   color: #545759;
 }
 
-.theme .theme__content.first .left,
-.theme .theme__content.third .left {
+.theme__content.first .left,
+.theme__content.third .left {
   flex-basis: 60%;
 }
-.theme .theme__content.second .left {
+.theme__content.second .left {
   flex-basis: 35%;
 }
 
-.theme .theme__content .version {
+.theme__content .version {
   width: 70%;
   margin: 0 auto;
   padding: 10px 15px;
@@ -1179,17 +1179,17 @@ video {
   text-align: center;
 }
 
-.theme .theme__content.first .version {
+.theme__content.first .version {
   background-color: #8592ef;
 }
-.theme .theme__content.second .version {
+.theme__content.second .version {
   background-color: #1ecad3;
 }
-.theme .theme__content.third .version {
+.theme__content.third .version {
   background-color: #edac91;
 }
 
-.theme .theme__content .version span::after {
+.theme__content .version span::after {
   content: '';
   display: inline-block;
   position: relative;
@@ -1201,41 +1201,41 @@ video {
   background: url("../img/experience/theme_title.png") no-repeat center/cover;
 }
 
-.theme .theme__content .title {
+.theme__content .title {
   font-size: 30px;
   padding: 50px 10px;
   letter-spacing: -0.05em;
   line-height: 1.3em;
 }
 
-.theme .theme__content .description {
+.theme__content .description {
   padding: 0 10px;
   letter-spacing: -0.5px;
 }
 
-.theme .theme__content.first .left .description p:last-child,
-.theme .theme__content.second .right .description p:last-child,
-.theme .theme__content.third .left .description p:last-child {
+.theme__content.first .left .description p:last-child,
+.theme__content.second .right .description p:last-child,
+.theme__content.third .left .description p:last-child {
   margin: 20px 0;
 }
 
-.theme .theme__content.first .left .content,
-.theme .theme__content.second .right .content,
-.theme .theme__content.third .left .content {
+.theme__content.first .left .content,
+.theme__content.second .right .content,
+.theme__content.third .left .content {
   margin: 50px 0;
 }
 
-.theme .theme__content.first .right,
-.theme .theme__content.third .right {
+.theme__content.first .right,
+.theme__content.third .right {
   flex-basis: 35%;
 }
-.theme .theme__content.second .right {
+.theme__content.second .right {
   flex-basis: 60%;
 }
 
-.theme .theme__content.first .right .content + .content,
-.theme .theme__content.second .left .content + .content,
-.theme .theme__content.third .right .content + .content {
+.theme__content.first .right .content + .content,
+.theme__content.second .left .content + .content,
+.theme__content.third .right .content + .content {
   margin-top: 30px;
 }
 
@@ -1263,7 +1263,7 @@ video {
   background-color: #fff;
 }
 
-.gift .gift__title {
+.gift__title {
   font-size: 24px;
   padding: 20px 0;
 }
@@ -1372,29 +1372,29 @@ video {
   align-items: center;
 }
 
-.together .together__title {
+.together__title {
   font-size: 24px;
   font-weight: 400;
 }
 
-.together .together__description {
+.together__description {
   font-size: 17px;
   padding: 40px 0;
 }
 
-.together .together__links {
+.together__links {
   display: flex;
   justify-content: center;
 }
 
-.together .together__links li .btn {
+.together__links li .btn {
   background-color: #3d464b;
   width: 60px;
   height: 60px;
   border-radius: 50%;
 }
 
-.together .together__links li + li {
+.together__links li + li {
   margin-left: 40px;
 }
 
@@ -1415,16 +1415,16 @@ video {
   width: 120px;
 }
 
-.notice .notice__title,
-.notice .notice__description {
+.notice__title,
+.notice__description {
   padding-top: 25px;
 }
 
-.notice .notice__title {
+.notice__title {
   font-size: 17px;
 }
 
-.notice .notice__description {
+.notice__description {
   font-size: 15px;
   font-weight: 400;
 }
@@ -1432,39 +1432,39 @@ video {
 
 /* shop.html */
 /* SHOP */
-.shop .shop__menu {
+.shop__menu {
   display: flex;
   flex-direction: column;
   color: #fff;
 }
 
-.shop .shop__menu .item {
+.shop__menu .item {
   position: relative;
   flex-basis: 50%;
   cursor: pointer;
 }
 
-.shop .shop__menu .item img {
+.shop__menu .item img {
   width: 100%;
 }
 
-.shop .shop__menu .item .text-group {
+.shop__menu .item .text-group {
   position: absolute;
   left: 30px;
   top: 30px;
 }
 
-.shop .shop__menu .item .eng-name {
+.shop__menu .item .eng-name {
   font-size: 15px;
   font-weight: 400;
 }
 
-.shop .shop__menu .item .title {
+.shop__menu .item .title {
   font-size: 20px;
   font-weight: 400;
 }
 
-.shop .shop__menu .item .description {
+.shop__menu .item .description {
   font-size: 24px;
   font-weight: 700;
 }
@@ -1481,11 +1481,11 @@ video {
 
 /* brewery.html */
 /* VIDEO */
-.brewery .video {
+.brewery-video {
   position: relative;
 }
 
-.brewery .video .video__title {
+.brewery-video .title {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1496,11 +1496,11 @@ video {
   width: 100%;
 }
 
-.brewery .video .video__title span {
+.brewery-video .title span {
   font-size: 12px;
 }
 
-.brewery .video .video__title em {
+.brewery-video .title em {
   font-size: 25px;
 }
 
@@ -1524,20 +1524,20 @@ video {
   padding: 15px 0 30px;
 }
 
-.program .program__title {
+.program__title {
   font-size: 29px;
   color: #1ecad3;
   position: relative;
   background-color: #fff;
 }
 
-.program .program__description {
+.program__description {
   padding: 15px 0;
   font-size: 15px;
   font-weight: 400;
 }
 
-.program .program__content {
+.program__content {
   display: flex;
   flex-direction: column;
   padding: 0 15px;
@@ -1545,24 +1545,24 @@ video {
   line-height: 1.6em;
 }
 
-.program .program__content .tour,
-.program .program__content .experience {
+.program__content .tour,
+.program__content .experience {
   flex-basis: 48%;
 }
 
-.program .program__content img {
+.program__content img {
   width: 100%;
 }
 
-.program .program__content .text-group {
+.program__content .text-group {
   padding: 15px 0;
 }
 
-.program .program__content .text-group .title {
+.program__content .text-group .title {
   font-size: 15px;
 }
 
-.program .program__content .text-group .description {
+.program__content .text-group .description {
   font-size: 13px;
 }
 
@@ -1584,7 +1584,7 @@ video {
   padding: 30px 15px;
 }
 
-.information .information__title {
+.information__title {
   font-size: 16px;
   padding-bottom: 15px;
 }
@@ -1672,18 +1672,18 @@ video {
 }
 
 /* collaboration.html */
-.collaboration {
+main.collaboration {
   background-color: #fff;
   color: #3d464b;
 }
 
-.collaboration .inner {
+main.collaboration .inner {
   max-width: none;
   padding: 50px 0 70px 30px;
   box-sizing: border-box;
 }
 
-section.line .inner::after {
+main.collaboration .line .inner::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -1692,41 +1692,27 @@ section.line .inner::after {
   background-color: #838a8d;
 }
 
-.collaboration img {
-  width: 100%;
-}
-
-.collaboration section .title {
+main.collaboration .title {
   position: relative;
   font-size: 16px;
   font-weight: 700;
 }
 
-.collaboration section .title .number {
+main.collaboration .title .number {
   display: inline-block;
   padding-bottom: 5px;
 }
 
-.collaboration section .description {
+main.collaboration .description {
   font-size: 14px;
   font-weight: 400;
 }
 
-.collaboration section .description p + p {
+main.collaboration .description p + p {
   padding-top: 25px;
 }
 
-/* VIDEO */
-.collaboration section.video {
-  padding: 0;
-}
-
 /* INTRODUCTION */
-.introduction .title {
-  font-size: 20px;
-  font-weight: 700;
-}
-
 .introduction .title span:last-of-type {
   display: inline-block;
   padding: 5px 0 50px;
@@ -1739,14 +1725,9 @@ section.line .inner::after {
   width: 50px;
 }
 
-.introduction .description {
-  font-weight: 400;
-}
-
 .introduction .description span:last-child {
   display: inline-block;
   padding-top: 25px;
-  color: #3d464b;
 }
 
 /* BLUE BOTTLE STORY */
@@ -1755,7 +1736,7 @@ section.line .inner::after {
 }
 
 /* COLLABORATION STORY */
-.collaboration-story .inner {
+section.collaboration-story .inner {
   padding-right: 30px;
 }
 
@@ -1764,7 +1745,7 @@ section.line .inner::after {
 }
 
 /* COFFEE GOLDEN ALE */
-.coffee-golden-ale .inner {
+section.coffee-golden-ale .inner {
   padding-right: 30px;
   padding-bottom: 0;
 }
@@ -1791,29 +1772,29 @@ section.line .inner::after {
 }
 
 /* VISUAL */
-.collaboration .visual .text {
+.collaboration-visual .text {
   width: 100%;
   padding-bottom: 40px;
 }
 
-.collaboration .visual .text em {
+.collaboration-visual .text em {
   display: inline-block;
   padding-bottom: 10px;
   font-size: 14px;
   font-weight: 400;
 }
 
-.collaboration .visual .text span {
+.collaboration-visual .text span {
   font-size: 12px;
 }
 
 /* CORNER SHOP */
-.corner-shop {
+section.corner-shop {
   background-color: #1ecad3;
   color: #fff;
 }
 
-.corner-shop .inner {
+section.corner-shop .inner {
   padding-left: 0;
 }
 
@@ -1868,7 +1849,12 @@ section.line .inner::after {
 }
 
 /* PROMOTION */
+section.promotion .inner {
+  padding-left: 0;
+}
+
 .promotion .text-group {
+  padding-left: 30px;
   font-size: 12px;
 }
 
@@ -1894,6 +1880,7 @@ section.line .inner::after {
 
 .promotion img {
   width: 90%;
+  margin: 0 auto;
 }
 
 .promotion img:last-child {
@@ -1993,12 +1980,12 @@ section.line .inner::after {
   }
 
   /* VIDEO */
-  .my-camping-car .video .video__title {
+  .experience-video .title {
     font-size: 20px;
   }
 
   /* VISUAL -1- */
-  .my-camping-car .visual1 .text-group .text {
+  .experience-visual.visual1 .text-group .text {
     max-width: none;
     width: 400px;
   }
@@ -2025,38 +2012,38 @@ section.line .inner::after {
   }
 
   /* THEME */
-  .theme .theme__title {
+  .theme__title {
     font-size: 35px;
   }
 
-  .theme .theme__description {
+  .theme__description {
     font-size: 20px;
   }
 
-  .theme .theme__menu li button {
+  .theme__menu li button {
     font-size: 20px;
     width: 200px;
     padding: 15px;
   }
 
-  .theme .theme__content.first .left,
-  .theme .theme__content.second .right,
-  .theme .theme__content.third .left {
+  .theme__content.first .left,
+  .theme__content.second .right,
+  .theme__content.third .left {
     font-size: 22px;
   }
 
-  .theme .theme__content .version {
+  .theme__content .version {
     width: 520px;
     font-size: 25px;
   }
 
-  .theme .theme__content .title {
+  .theme__content .title {
     font-size: 50px;
     padding: 0 10px;
     margin: 50px 0;
   }
 
-  .theme .theme__content .content span {
+  .theme__content .content span {
     font-size: 16px;
   }
 
@@ -2066,7 +2053,7 @@ section.line .inner::after {
     font-weight: 500;
   }
 
-  .gift .gift__title {
+  .gift__title {
     font-size: 48px;
   }
 
@@ -2114,26 +2101,26 @@ section.line .inner::after {
   }
 
   /* NOTICE */
-  .notice .notice__title {
+  .notice__title {
     font-size: 18px;
   }
 
   /* shop.html */
-  .shop .shop__menu .item .text-group {
+  .shop__menu .item .text-group {
     left: 35px;
     top: 50px;
   }
   
-  .shop .shop__menu .item .eng-name {
+  .shop__menu .item .eng-name {
     font-size: 16px;
   }
   
-  .shop .shop__menu .item .title {
+  .shop__menu .item .title {
     font-size: 26px;
     margin-bottom: 30px;
   }
   
-  .shop .shop__menu .item .description {
+  .shop__menu .item .description {
     font-size: 22px;
   }
   
@@ -2143,11 +2130,11 @@ section.line .inner::after {
 
   /* brewery.html */
   /* VIDEO */
-  .brewery .video .video__title span {
+  .brewery-video .title span {
     font-size: 24px;
   }
   
-  .brewery .video .video__title em {
+  .brewery-video .title em {
     font-size: 45px;
   }
 
@@ -2160,16 +2147,16 @@ section.line .inner::after {
     font-size: 22px;
   }
 
-  .program .program__description {
+  .program__description {
     font-size: 16px;
     padding: 30px 0;
   }
 
-  .program .program__content .text-group .title {
+  .program__content .text-group .title {
     font-size: 16px;
   }
   
-  .program .program__content .text-group .description {
+  .program__content .text-group .description {
     font-size: 14px;
   }
 
@@ -2178,7 +2165,7 @@ section.line .inner::after {
     padding: 30px 0;
   }
 
-  .information .information__title {
+  .information__title {
     font-size: 24px;
     padding: 0 0 30px 15px;
   }
@@ -2221,20 +2208,20 @@ section.line .inner::after {
 
 
   /* collaboration.html */
-  .collaboration .inner {
+  main.collaboration .inner {
     padding: 80px 0 80px 120px;
   }
 
-  .collaboration section .title {
+  main.collaboration .title {
     padding-bottom: 35px;
     font-size: 20px;
   }
 
-  .collaboration section .title .number {
+  main.collaboration .title .number {
     padding-bottom: 15px;
   }
 
-  .collaboration section .description {
+  main.collaboration .description {
     font-size: 16px;
   }
 
@@ -2314,25 +2301,29 @@ section.line .inner::after {
   }
 
   /* VISUAL */
-  .collaboration .visual .text {
+  .collaboration-visual .text {
     padding-bottom: 60px;
   }
 
-  .collaboration .visual .text em {
+  .collaboration-visual .text em {
     font-size: 18px;
     font-weight: 700;
   }
 
-  .collaboration .visual .text span {
+  .collaboration-visual .text span {
     font-size: 16px;
   }
 
-  .collaboration .visual img {
+  section.collaboration-visual img {
     width: 840px;
     padding-bottom: 60px;
   }
 
   /* CORNER SHOP */
+  section.corner-shop .inner {
+    padding-left: 0;
+  }
+
   .corner-shop .top {
     padding-left: 140px;
   }
@@ -2343,6 +2334,7 @@ section.line .inner::after {
 
   .corner-shop .middle {
     align-items: flex-start;
+    padding-left: 140px;
   }
 
   .corner-shop .middle .text-group .remark {
@@ -2358,12 +2350,12 @@ section.line .inner::after {
   }
 
   /* PROMOTION */
-  .promotion .inner {
-    padding-left: 50px;
-    overflow: hidden;
+  section.promotion .inner {
+    padding-left: 0;
   }
 
   .promotion .text-group {
+    padding-left: 50px;
     font-size: 16px;
   }
 
@@ -2388,10 +2380,7 @@ section.line .inner::after {
   }
 
   .promotion img {
-    float: right;
     width: 85%;
-    max-width: 1200px;
-    margin: 0 auto;
   }
 }
 
@@ -2429,7 +2418,7 @@ section.line .inner::after {
 
   /* index.html */
   /* VIDEO */
-  .main-video .video__title {
+  .main-video .title {
     padding: 0 20px;
   }
 
@@ -2455,35 +2444,35 @@ section.line .inner::after {
   }
 
   /* VIDEO */
-  .my-camping-car .video .video__title {
+  .experience-video .title {
     font-size: 14px;
     padding: 10px;
     display: flex;
     flex-direction: column;
   }
 
-  .my-camping-car .video .video__title span+span {
+  .experience-video .title span + span {
     margin-left: 0;
   }
 
   /* THEME */
-  .theme .theme__title {
+  .theme__title {
     padding: 0 10px;
   }
 
-  .theme .theme__description {
+  .theme__description {
     padding: 10px 10px 50px 10px;
   }
 
-  .theme .theme__menu li {
+  .theme__menu li {
     margin: 0;
   }
 
-  .theme .theme__menu li button {
+  .theme__menu li button {
     width: 90px;
   }
 
-  .theme .theme__content .version {
+  .theme__content .version {
     line-height: normal;
   }
 
@@ -2493,11 +2482,11 @@ section.line .inner::after {
   }
 
   /* collaboration.html */
-  .collaboration section .title {
+  .main.collaboration .title {
     font-size: 14px;
   }
 
-  .collaboration section .description {
+  .main.collaboration .description {
     font-size: 12px;
   }
 
