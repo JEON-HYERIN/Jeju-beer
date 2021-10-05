@@ -1430,6 +1430,223 @@ video {
 }
 
 
+/* collaboration.html */
+main.collaboration {
+  background-color: #fff;
+  color: #3d464b;
+}
+
+main.collaboration .inner {
+  max-width: none;
+  padding: 50px 0 70px 30px;
+  box-sizing: border-box;
+}
+
+main.collaboration .line .inner::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #838a8d;
+}
+
+main.collaboration .title {
+  position: relative;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+main.collaboration .title .number {
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+main.collaboration .description {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+main.collaboration .description p + p {
+  padding-top: 25px;
+}
+
+/* INTRODUCTION */
+.introduction .title span:last-of-type {
+  display: inline-block;
+  padding: 5px 0 50px;
+}
+
+.introduction .title img {
+  position: absolute;
+  right: 40px;
+  top: 0;
+  width: 50px;
+}
+
+.introduction .description span:last-child {
+  display: inline-block;
+  padding-top: 25px;
+}
+
+/* BLUE BOTTLE STORY */
+.blue-bottle-story .description img {
+  padding: 40px 0;
+}
+
+/* COLLABORATION STORY */
+section.collaboration-story .inner {
+  padding-right: 30px;
+}
+
+.collaboration-story .description .text-group {
+  padding: 40px 0;
+}
+
+/* COFFEE GOLDEN ALE */
+section.coffee-golden-ale .inner {
+  padding-right: 30px;
+  padding-bottom: 0;
+}
+
+.coffee-golden-ale .title {
+  padding-bottom: 40px;
+}
+
+.coffee-golden-ale .contents {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.coffee-golden-ale .contents .swiper {
+  width: 100%;
+}
+
+.coffee-golden-ale .contents .description {
+  padding: 35px 0 50px;
+}
+
+.coffee-golden-ale .contents .description p + p {
+  padding-top: 30px;
+}
+
+/* VISUAL */
+.collaboration-visual .text {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.collaboration-visual .text em {
+  display: inline-block;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.collaboration-visual .text span {
+  font-size: 12px;
+}
+
+/* CORNER SHOP */
+section.corner-shop {
+  background-color: #1ecad3;
+  color: #fff;
+}
+
+section.corner-shop .inner {
+  padding-left: 0;
+}
+
+.corner-shop .top {
+  padding-left: 30px;
+}
+
+.corner-shop .top .description {
+  line-height: 1.6em;
+  padding: 40px 30px 0 0;
+}
+
+.corner-shop .middle {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 40px 0 40px 30px;
+}
+
+.corner-shop .middle .text-group {
+  padding-top: 40px;
+}
+
+.corner-shop .middle .text-group .description {
+  padding: 20px 0 40px;
+}
+
+.corner-shop .middle .text-group .location .description {
+  padding-bottom: 20px;
+}
+
+.corner-shop .middle .text-group .remark {
+  font-size: 12px;
+}
+
+.corner-shop .middle .swiper {
+  width: 100%;
+}
+
+.corner-shop .bottom {
+  overflow: hidden;
+}
+
+.corner-shop .bottom .swiper:first-child {
+  float: left;
+  width: 75%;
+  margin-bottom: 70px;
+}
+
+.corner-shop .bottom .swiper:last-child {
+  float: right;
+  width: 75%;
+}
+
+/* PROMOTION */
+section.promotion .inner {
+  padding-left: 0;
+}
+
+.promotion .text-group {
+  padding-left: 30px;
+  font-size: 12px;
+}
+
+.promotion .text.text1 .title {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.promotion .text.text1 .description {
+  padding: 10px 0 20px;
+  font-size: 12px;
+}
+
+.promotion .text.text2 {
+  color: rgb(131, 138, 141);
+  line-height: 1.8em;
+}
+
+.promotion .text-group .remark {
+  color: rgb(131, 138, 141);
+  padding: 25px 0 40px;
+}
+
+.promotion img {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.promotion img:last-child {
+  margin-top: 10px;
+}
+
+
 /* shop.html */
 /* SHOP */
 .shop__menu {
@@ -1671,221 +1888,7 @@ video {
   font-weight: 400;
 }
 
-/* collaboration.html */
-main.collaboration {
-  background-color: #fff;
-  color: #3d464b;
-}
 
-main.collaboration .inner {
-  max-width: none;
-  padding: 50px 0 70px 30px;
-  box-sizing: border-box;
-}
-
-main.collaboration .line .inner::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 1px;
-  background-color: #838a8d;
-}
-
-main.collaboration .title {
-  position: relative;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-main.collaboration .title .number {
-  display: inline-block;
-  padding-bottom: 5px;
-}
-
-main.collaboration .description {
-  font-size: 14px;
-  font-weight: 400;
-}
-
-main.collaboration .description p + p {
-  padding-top: 25px;
-}
-
-/* INTRODUCTION */
-.introduction .title span:last-of-type {
-  display: inline-block;
-  padding: 5px 0 50px;
-}
-
-.introduction .title img {
-  position: absolute;
-  right: 40px;
-  top: 0;
-  width: 50px;
-}
-
-.introduction .description span:last-child {
-  display: inline-block;
-  padding-top: 25px;
-}
-
-/* BLUE BOTTLE STORY */
-.blue-bottle-story .description img {
-  padding: 40px 0;
-}
-
-/* COLLABORATION STORY */
-section.collaboration-story .inner {
-  padding-right: 30px;
-}
-
-.collaboration-story .description .text-group {
-  padding: 40px 0;
-}
-
-/* COFFEE GOLDEN ALE */
-section.coffee-golden-ale .inner {
-  padding-right: 30px;
-  padding-bottom: 0;
-}
-
-.coffee-golden-ale .title {
-  padding-bottom: 40px;
-}
-
-.coffee-golden-ale .contents {
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-.coffee-golden-ale .contents .swiper {
-  width: 100%;
-}
-
-.coffee-golden-ale .contents .description {
-  padding: 35px 0 50px;
-}
-
-.coffee-golden-ale .contents .description p + p {
-  padding-top: 30px;
-}
-
-/* VISUAL */
-.collaboration-visual .text {
-  width: 100%;
-  padding-bottom: 40px;
-}
-
-.collaboration-visual .text em {
-  display: inline-block;
-  padding-bottom: 10px;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.collaboration-visual .text span {
-  font-size: 12px;
-}
-
-/* CORNER SHOP */
-section.corner-shop {
-  background-color: #1ecad3;
-  color: #fff;
-}
-
-section.corner-shop .inner {
-  padding-left: 0;
-}
-
-.corner-shop .top {
-  padding-left: 30px;
-}
-
-.corner-shop .top .description {
-  line-height: 1.6em;
-  padding: 40px 30px 0 0;
-}
-
-.corner-shop .middle {
-  display: flex;
-  flex-direction: column-reverse;
-  padding: 40px 0 40px 30px;
-}
-
-.corner-shop .middle .text-group {
-  padding-top: 40px;
-}
-
-.corner-shop .middle .text-group .description {
-  padding: 20px 0 40px;
-}
-
-.corner-shop .middle .text-group .location .description {
-  padding-bottom: 20px;
-}
-
-.corner-shop .middle .text-group .remark {
-  font-size: 12px;
-}
-
-.corner-shop .middle .swiper {
-  width: 100%;
-}
-
-.corner-shop .bottom {
-  overflow: hidden;
-}
-
-.corner-shop .bottom .swiper:first-child {
-  float: left;
-  width: 75%;
-  margin-bottom: 70px;
-}
-
-.corner-shop .bottom .swiper:last-child {
-  float: right;
-  width: 75%;
-}
-
-/* PROMOTION */
-section.promotion .inner {
-  padding-left: 0;
-}
-
-.promotion .text-group {
-  padding-left: 30px;
-  font-size: 12px;
-}
-
-.promotion .text.text1 .title {
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.promotion .text.text1 .description {
-  padding: 10px 0 20px;
-  font-size: 12px;
-}
-
-.promotion .text.text2 {
-  color: rgb(131, 138, 141);
-  line-height: 1.8em;
-}
-
-.promotion .text-group .remark {
-  color: rgb(131, 138, 141);
-  padding: 25px 0 40px;
-}
-
-.promotion img {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.promotion img:last-child {
-  margin-top: 10px;
-}
 
 
 /* 미디어쿼리  Tablet*/
@@ -2105,107 +2108,6 @@ section.promotion .inner {
     font-size: 18px;
   }
 
-  /* shop.html */
-  .shop__menu .item .text-group {
-    left: 35px;
-    top: 50px;
-  }
-  
-  .shop__menu .item .eng-name {
-    font-size: 16px;
-  }
-  
-  .shop__menu .item .title {
-    font-size: 26px;
-    margin-bottom: 30px;
-  }
-  
-  .shop__menu .item .description {
-    font-size: 22px;
-  }
-  
-  .shop .more {
-    font-size: 26px;
-  }
-
-  /* brewery.html */
-  /* VIDEO */
-  .brewery-video .title span {
-    font-size: 24px;
-  }
-  
-  .brewery-video .title em {
-    font-size: 45px;
-  }
-
-  /* PROGRAM */
-  .program .inner {
-    padding: 50px 0;
-  }
-
-  .program .text-group {
-    font-size: 22px;
-  }
-
-  .program__description {
-    font-size: 16px;
-    padding: 30px 0;
-  }
-
-  .program__content .text-group .title {
-    font-size: 16px;
-  }
-  
-  .program__content .text-group .description {
-    font-size: 14px;
-  }
-
-  /* INFORMATION */
-  .information .inner {
-    padding: 30px 0;
-  }
-
-  .information__title {
-    font-size: 24px;
-    padding: 0 0 30px 15px;
-  }
-
-  .information .info > div {
-    padding: 0 15px;
-  }
-
-  .information .info .title {
-    font-size: 18px;
-  }
-
-  .information .info .description .text {
-    padding: 20px 0;
-  }
-
-  .information .info .business-day .description .text.text1 em {
-    font-size: 26px;
-  }
-  
-  .information .info .business-day .description .text.text1 span {
-    font-size: 16px;
-  }
-      
-  .information .service .description {
-    font-size: 14px;
-  }
-  
-  .information .service .description .text span.place {
-    font-size: 18px;
-  }
-
-  .information .ask .description .text span.type {
-    font-size: 18px;
-  }
-  
-  .information .ask .description .text.text2 {
-    font-size: 14px;
-  }
-
 
   /* collaboration.html */
   main.collaboration .inner {
@@ -2381,6 +2283,108 @@ section.promotion .inner {
 
   .promotion img {
     width: 85%;
+  }  
+
+
+  /* shop.html */
+  .shop__menu .item .text-group {
+    left: 35px;
+    top: 50px;
+  }
+  
+  .shop__menu .item .eng-name {
+    font-size: 16px;
+  }
+  
+  .shop__menu .item .title {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  
+  .shop__menu .item .description {
+    font-size: 22px;
+  }
+  
+  .shop .more {
+    font-size: 26px;
+  }
+
+  /* brewery.html */
+  /* VIDEO */
+  .brewery-video .title span {
+    font-size: 24px;
+  }
+  
+  .brewery-video .title em {
+    font-size: 45px;
+  }
+
+  /* PROGRAM */
+  .program .inner {
+    padding: 50px 0;
+  }
+
+  .program .text-group {
+    font-size: 22px;
+  }
+
+  .program__description {
+    font-size: 16px;
+    padding: 30px 0;
+  }
+
+  .program__content .text-group .title {
+    font-size: 16px;
+  }
+  
+  .program__content .text-group .description {
+    font-size: 14px;
+  }
+
+  /* INFORMATION */
+  .information .inner {
+    padding: 30px 0;
+  }
+
+  .information__title {
+    font-size: 24px;
+    padding: 0 0 30px 15px;
+  }
+
+  .information .info > div {
+    padding: 0 15px;
+  }
+
+  .information .info .title {
+    font-size: 18px;
+  }
+
+  .information .info .description .text {
+    padding: 20px 0;
+  }
+
+  .information .info .business-day .description .text.text1 em {
+    font-size: 26px;
+  }
+  
+  .information .info .business-day .description .text.text1 span {
+    font-size: 16px;
+  }
+      
+  .information .service .description {
+    font-size: 14px;
+  }
+  
+  .information .service .description .text span.place {
+    font-size: 18px;
+  }
+
+  .information .ask .description .text span.type {
+    font-size: 18px;
+  }
+  
+  .information .ask .description .text.text2 {
+    font-size: 14px;
   }
 }
 
@@ -2480,6 +2484,7 @@ section.promotion .inner {
   .notice .inner {
     padding: 50px 15px;
   }
+
 
   /* collaboration.html */
   .main.collaboration .title {

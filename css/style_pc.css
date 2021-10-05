@@ -1418,247 +1418,6 @@ video {
   font-weight: 400;
 }
 
-/* shop.html */
-/* SHOP */
-.shop__menu {
-  display: flex;
-  flex-wrap: wrap;
-  color: #fff;
-}
-
-.shop__menu .item {
-  position: relative;
-  flex-basis: 50%;
-  cursor: pointer;
-}
-
-.shop__menu .item img {
-  width: 100%;
-}
-
-.shop__menu .item .text-group {
-  position: absolute;
-  left: 35px;
-  top: 50px;
-}
-
-.shop__menu .item .eng-name {
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.shop__menu .item .title {
-  font-size: 26px;
-  margin-bottom: 30px;
-  font-weight: 400;
-}
-
-.shop__menu .item .description {
-  font-size: 22px;
-  font-weight: 700;
-}
-
-.shop .more {
-  background-color: #1ecad3;
-  font-size: 26px;
-  font-weight: 700;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-}
-
-
-/* brewery.html */
-/* VIDEO */
-.brewery-video {
-  position: relative;
-}
-
-.brewery-video .title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  text-align: center;
-  padding: 0;
-  width: 100%;
-}
-
-.brewery-video .title span {
-  font-size: 24px;
-}
-
-.brewery-video .title em {
-  font-size: 45px;
-}
-
-/* PROGRAM */
-.program {
-  color: #3d464b;
-  text-align: center;
-  background-color: #fff;
-}
-
-.program .inner {
-  padding: 100px 0;
-}
-
-.program .text-group {
-  font-size: 22px;
-  font-weight: 400;
-}
-
-.program .text-group .text.text2 {
-  padding: 15px 0 60px 0;
-}
-
-.program__title {
-  font-size: 29px;
-  color: #1ecad3;
-  position: relative;
-  background-color: #fff;
-}
-
-.program__description {
-  font-size: 16px;
-  padding: 30px 0;
-}
-
-.program__content {
-  display: flex;
-  justify-content: space-evenly;
-  color: #55585b;
-  line-height: 1.6em;
-}
-
-.program__content .tour,
-.program__content .experience {
-  flex-basis: 48%;
-}
-
-.program__content img {
-  min-height: 590px;
-  width: 100%;
-}
-
-.program__content .text-group {
-  padding: 15px 0;
-}
-
-.program__content .text-group .title {
-  font-size: 16px;
-}
-
-.program__content .text-group .description {
-  font-size: 14px;
-}
-
-.program .btn {
-  display: inline-block;
-  padding: 8px 50px;
-  font-size: 14px;
-  background-color: #1ecad3;
-  color: #fff;
-}
-
-/* INFORMATION */
-.information {
-  background-color: #f4f4f4;
-  color: #3d464b;
-}
-
-.information .inner {
-  padding: 50px 0;
-}
-
-.information__title {
-  font-size: 24px;
-  padding: 0 0 30px 15px;
-}
-
-.information .info {
-  display: flex;
-  line-height: 1.8em;
-}
-
-.information .info > div {
-  padding: 0 15px;
-  flex-basis: 33.33%;
-}
-
-.information .info .title {
-  font-size: 18px;
-  border-bottom: 2px solid #55585b;
-  font-weight: 700;
-  padding: 10px 0;
-}
-
-.information .info .description .text {
-  padding: 20px 0;
-}
-
-.information .info .business-day .description .text.text1 em {
-  font-size: 26px;
-}
-
-.information .info .business-day .description .text.text1 span {
-  font-size: 16px;
-}
-
-.information .info .business-day .description .text.text2 span {
-  font-size: 14px;
-  line-height: 1.4em;
-}
-
-.information .info .business-day .description .text.text2 span.place {
-  padding-right: 15px;
-}
-
-.information .service .description {
-  font-size: 14px;
-}
-
-.information .service .description .text span.place {
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.information .service .description .text em {
-  color: #1ecad3;
-}
-
-.information .service .description .text span:last-of-type {
-  font-weight: 400;
-}
-
-.information .ask .description .text span.type {
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.information .ask .description .text.text1 {
-  display: flex;
-}
-
-.information .ask .description .text.text1 span.type {
-  margin-right: 15px;
-}
-
-.information .ask .description .text.text1 img {
-  width: 52px;
-  height: 52px;
-}
-
-.information .ask .description .text.text1 img:first-of-type {
-  margin-right: 15px;
-}
-
-.information .ask .description .text.text2 {
-  font-size: 14px;
-  font-weight: 400;
-}
-
 
 /* collaboration.html */
 main.collaboration {
@@ -1911,5 +1670,250 @@ section.corner-shop .inner {
 .promotion img {
   margin: 0 auto;
 }
+
+
+/* shop.html */
+/* SHOP */
+.shop__menu {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.shop__menu .item {
+  position: relative;
+  flex-basis: 50%;
+  cursor: pointer;
+}
+
+.shop__menu .item img {
+  width: 100%;
+}
+
+.shop__menu .item .text-group {
+  position: absolute;
+  left: 35px;
+  top: 50px;
+}
+
+.shop__menu .item .eng-name {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.shop__menu .item .title {
+  font-size: 26px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.shop__menu .item .description {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.shop .more {
+  background-color: #1ecad3;
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+/* brewery.html */
+/* VIDEO */
+.brewery-video {
+  position: relative;
+}
+
+.brewery-video .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+
+.brewery-video .title span {
+  font-size: 24px;
+}
+
+.brewery-video .title em {
+  font-size: 45px;
+}
+
+/* PROGRAM */
+.program {
+  color: #3d464b;
+  text-align: center;
+  background-color: #fff;
+}
+
+.program .inner {
+  padding: 100px 0;
+}
+
+.program .text-group {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.program .text-group .text.text2 {
+  padding: 15px 0 60px 0;
+}
+
+.program__title {
+  font-size: 29px;
+  color: #1ecad3;
+  position: relative;
+  background-color: #fff;
+}
+
+.program__description {
+  font-size: 16px;
+  padding: 30px 0;
+}
+
+.program__content {
+  display: flex;
+  justify-content: space-evenly;
+  color: #55585b;
+  line-height: 1.6em;
+}
+
+.program__content .tour,
+.program__content .experience {
+  flex-basis: 48%;
+}
+
+.program__content img {
+  min-height: 590px;
+  width: 100%;
+}
+
+.program__content .text-group {
+  padding: 15px 0;
+}
+
+.program__content .text-group .title {
+  font-size: 16px;
+}
+
+.program__content .text-group .description {
+  font-size: 14px;
+}
+
+.program .btn {
+  display: inline-block;
+  padding: 8px 50px;
+  font-size: 14px;
+  background-color: #1ecad3;
+  color: #fff;
+}
+
+/* INFORMATION */
+.information {
+  background-color: #f4f4f4;
+  color: #3d464b;
+}
+
+.information .inner {
+  padding: 50px 0;
+}
+
+.information__title {
+  font-size: 24px;
+  padding: 0 0 30px 15px;
+}
+
+.information .info {
+  display: flex;
+  line-height: 1.8em;
+}
+
+.information .info > div {
+  padding: 0 15px;
+  flex-basis: 33.33%;
+}
+
+.information .info .title {
+  font-size: 18px;
+  border-bottom: 2px solid #55585b;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.information .info .description .text {
+  padding: 20px 0;
+}
+
+.information .info .business-day .description .text.text1 em {
+  font-size: 26px;
+}
+
+.information .info .business-day .description .text.text1 span {
+  font-size: 16px;
+}
+
+.information .info .business-day .description .text.text2 span {
+  font-size: 14px;
+  line-height: 1.4em;
+}
+
+.information .info .business-day .description .text.text2 span.place {
+  padding-right: 15px;
+}
+
+.information .service .description {
+  font-size: 14px;
+}
+
+.information .service .description .text span.place {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.information .service .description .text em {
+  color: #1ecad3;
+}
+
+.information .service .description .text span:last-of-type {
+  font-weight: 400;
+}
+
+.information .ask .description .text span.type {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.information .ask .description .text.text1 {
+  display: flex;
+}
+
+.information .ask .description .text.text1 span.type {
+  margin-right: 15px;
+}
+
+.information .ask .description .text.text1 img {
+  width: 52px;
+  height: 52px;
+}
+
+.information .ask .description .text.text1 img:first-of-type {
+  margin-right: 15px;
+}
+
+.information .ask .description .text.text2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+
 
 
