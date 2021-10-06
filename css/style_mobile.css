@@ -683,7 +683,7 @@ video {
   padding-bottom: 56.25%;
 }
 
-.main-youtube #player {
+.main-youtube .youtube__area iframe {
   position: absolute;
   left: 0;
   top: 0;

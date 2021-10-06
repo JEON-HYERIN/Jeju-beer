@@ -666,7 +666,7 @@ video {
   margin: 200px 0 100px;
 }
 
-.main-youtube #player {
+.main-youtube .youtube__area iframe {
   position: absolute;
   left: 0;
   top: 0;
