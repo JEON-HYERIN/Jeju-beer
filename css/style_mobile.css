@@ -679,8 +679,8 @@ video {
   position: relative;
   width: 90%;
   height: 0;
-  margin: 50px 0 30px;
   padding-bottom: 56.25%;
+  margin: 50px 0 30px;
 }
 
 .main-youtube .youtube__area iframe {
