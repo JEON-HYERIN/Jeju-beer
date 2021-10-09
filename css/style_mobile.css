@@ -1506,7 +1506,6 @@ section.collaboration-story .inner {
 /* COFFEE GOLDEN ALE */
 section.coffee-golden-ale .inner {
   padding-right: 30px;
-  padding-bottom: 0;
 }
 
 .coffee-golden-ale .title {
@@ -1518,16 +1517,49 @@ section.coffee-golden-ale .inner {
   flex-direction: column-reverse;
 }
 
-.coffee-golden-ale .contents .swiper {
-  width: 100%;
-}
-
 .coffee-golden-ale .contents .description {
   padding: 35px 0 50px;
 }
 
 .coffee-golden-ale .contents .description p + p {
   padding-top: 30px;
+}
+
+.coffee-golden-ale .contents .swiper {
+  width: 100%;
+}
+
+.coffee-golden-ale .coffee-table {
+  display: flex;
+}
+
+.coffee-golden-ale .coffee-table .title {
+  font-size: 14px;
+  padding-bottom: 0;
+  padding-right: 30px;
+}
+
+.coffee-golden-ale .coffee-table .table {
+  display: table;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.coffee-golden-ale .coffee-table .table .row {
+  display: table-row;
+}
+
+.coffee-golden-ale .coffee-table .table .row:first-child .cell {
+  padding-top: 0;
+}
+
+.coffee-golden-ale .coffee-table .table .row .cell {
+  display: table-cell;
+  padding-top: 10px;
+}
+
+.coffee-golden-ale .coffee-table .table .row .cell:nth-child(2n+1) {
+  padding-right: 25px;
 }
 
 /* VISUAL */
@@ -2200,6 +2232,10 @@ section.promotion .inner {
 
   .coffee-golden-ale .contents .swiper {
     flex-basis: 50%;
+  }
+
+  .coffee-golden-ale .coffee-table {
+    padding-top: 50px;
   }
 
   /* VISUAL */

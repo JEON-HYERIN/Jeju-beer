@@ -1555,12 +1555,44 @@ section.coffee-golden-ale .inner {
   margin-right: 5%;
 }
 
+.coffee-golden-ale .contents .description p + p {
+  padding-top: 30px;
+}
+
 .coffee-golden-ale .contents .swiper {
   flex-basis: 40%;
 }
 
-.coffee-golden-ale .contents .description p + p {
-  padding-top: 30px;
+.coffee-golden-ale .coffee-table {
+  display: flex;
+}
+
+.coffee-golden-ale .coffee-table .title {
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.coffee-golden-ale .coffee-table .table {
+  display: table;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.coffee-golden-ale .coffee-table .table .row {
+  display: table-row;
+}
+
+.coffee-golden-ale .coffee-table .table .row:first-child .cell {
+  padding-top: 0;
+}
+
+.coffee-golden-ale .coffee-table .table .row .cell {
+  display: table-cell;
+  padding-top: 15px;
+}
+
+.coffee-golden-ale .coffee-table .table .row .cell:nth-child(2n+1) {
+  padding-right: 60px;
 }
 
 /* VISUAL */
