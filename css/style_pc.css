@@ -1426,7 +1426,7 @@ main.collaboration {
 }
 
 main.collaboration .inner {
-  max-width: none;
+  max-width: 1600px;
   padding: 100px 0 100px 140px;
   box-sizing: border-box;
 }
@@ -1565,17 +1565,16 @@ section.coffee-golden-ale .inner {
 
 .coffee-golden-ale .coffee-table {
   display: flex;
+  font-size: 14px;
+  font-weight: 700;
 }
 
-.coffee-golden-ale .coffee-table .title {
-  font-size: 14px;
+.coffee-golden-ale .coffee-table__title {
   padding-right: 8px;
 }
 
 .coffee-golden-ale .coffee-table .table {
   display: table;
-  font-size: 14px;
-  font-weight: 700;
 }
 
 .coffee-golden-ale .coffee-table .table .row {
@@ -1697,10 +1696,6 @@ section.corner-shop .inner {
 
 .promotion .text-group .remark {
   color: rgb(131, 138, 141);
-}
-
-.promotion img {
-  margin: 0 auto;
 }
 
 
