@@ -52,13 +52,6 @@ button,
   cursor: pointer;
 }
 
-i[class^="fa"] {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  overflow: hidden;
-}
-
 i[class^="fa"] span {
   position: absolute;
   left: -9999px;
