@@ -134,13 +134,7 @@ video {
 }
 
 #header .toggle-btn {
-  position: absolute;
-  top: 5px; 
-  right: 10px;
-  color: #1ecad3;
-  font-size: 25px;
   display: none;
-  cursor: pointer;
 }
 
 #header nav ul.main-menu {

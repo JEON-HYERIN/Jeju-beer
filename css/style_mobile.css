@@ -116,11 +116,10 @@ video {
 
 #header .toggle-btn {
   position: absolute;
-  top: 5px; 
   right: 10px;
+  top: 5px; 
   color: #1ecad3;
   font-size: 25px;
-  cursor: pointer;
 }
 
 #header nav {
