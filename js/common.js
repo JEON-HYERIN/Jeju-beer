@@ -4,16 +4,6 @@ $(document).on('click', 'a[href="#"]', function (e) {
   e.preventDefault();
 });
 
-// const anchers = document.querySelectorAll("a[href^='#']");
-// document.addEventListener('click', function (e) {
-//   anchers.forEach(function (ancher) {
-//     ancher.preventDefault();
-//   })
-// });
-
-// document.addEventListener('click', function(e) {
-//   console.log(e.target);
-// });
 
 // 올해년도 구하기
 const thisYear = document.querySelector('.this-year');
