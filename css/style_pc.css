@@ -137,12 +137,12 @@ video {
   display: none;
 }
 
-#header nav ul.main-menu {
+#header nav .main-menu {
   display: flex;
   padding-top: 10px;
 }
 
-#header nav ul.main-menu li a {
+#header nav .main-menu li a {
   display: block;
   padding: 0 50px;
   font-size: 14px;
@@ -151,16 +151,16 @@ video {
   transition: 250ms;
 }
 
-#header nav ul.main-menu li a:hover,
-#header nav ul.main-menu li.active a:hover {
+#header nav .main-menu li a:hover,
+#header nav .main-menu li.active a:hover {
   color: #999;
 }
 
-#header nav ul.main-menu li.active a {
+#header nav .main-menu li.active a {
   color: #1ecad3;
 }
 
-#header nav ul.main-menu li.active span {
+#header nav .main-menu li.active span {
   padding: 12px 0;
   border-bottom: 1px solid #1ecad3;
 }
@@ -173,13 +173,13 @@ video {
   padding: 30px 0;
 }
 
-#header nav ul.sub-menu {
+#header nav .sub-menu {
   display: flex;
   align-items: center;
   margin-right: 15px;
 }
 
-#header nav ul.sub-menu li a {
+#header nav .sub-menu li a {
   display: block;
   margin: 0 10px;
   font-size: 12px;
@@ -188,7 +188,7 @@ video {
   font-weight: 500;
 }
 
-#header nav ul.sub-menu li a:hover {
+#header nav .sub-menu li a:hover {
   color: #bdbdbd;
 }
 
@@ -884,22 +884,22 @@ video {
   border-bottom: 1px solid #bdbdbd;
 }
 
-.my-camping-car #header nav ul.main-menu li a,
-.my-camping-car #header nav ul.sub-menu li a,
-.my-camping-car #header nav ul.main-menu li.active a {
+.my-camping-car #header nav .main-menu li a,
+.my-camping-car #header nav .sub-menu li a,
+.my-camping-car #header nav .main-menu li.active a {
   color: #fff;
 }
 
-.my-camping-car #header nav ul.main-menu li a:hover,
-.my-camping-car #header nav ul.main-menu li.active a:hover {
+.my-camping-car #header nav .main-menu li a:hover,
+.my-camping-car #header nav .main-menu li.active a:hover {
   color: #999;
 }
 
-.my-camping-car #header nav ul.main-menu li.active span {
+.my-camping-car #header nav .main-menu li.active span {
   border-bottom: 1px solid #fff;
 }
 
-.my-camping-car #header nav ul.sub-menu li a:hover {
+.my-camping-car #header nav .sub-menu li a:hover {
   color: #bdbdbd;
 }
 
