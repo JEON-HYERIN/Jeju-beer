@@ -122,22 +122,30 @@ video {
   font-size: 25px;
 }
 
-#header nav {
+/* #header nav {
   position: fixed;
   z-index: 9;
   width: 100%;
   top: 0;
-}
+} */
 
-#header nav:first-of-type,
-#header nav:last-of-type {
+#header nav {
   position: absolute;
-  z-index: 1;
-  width: 100%;
-  top: 0;
   left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
   display: none;
 }
+
+/* #header nav:first-of-type,
+#header nav:last-of-type {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: none;
+} */
 
 #header nav.open:first-of-type {
   display: block;
