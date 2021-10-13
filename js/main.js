@@ -1,5 +1,16 @@
 'use strict';
 
+$(document).on('click', 'a[href="#"]', function (e) {
+  e.preventDefault();
+});
+
+// const anchers = document.querySelectorAll("a[href*='#']");
+// document.addEventListener('click', function (e) {
+//   anchers.forEach(function () {
+//     e.preventDefault();
+//   })
+// });
+
 // 올해년도 구하기
 const thisYear = document.querySelector('.this-year');
 thisYear.textContent = new Date().getFullYear();
