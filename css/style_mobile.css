@@ -258,7 +258,7 @@ video {
   padding: 0 20px;
 }
 
-#footer .bottom .info {
+#footer .info {
   margin-bottom: 15px;
   font-size: 13px;
   color: #999;
@@ -267,7 +267,7 @@ video {
   letter-spacing: -0.5px;
 }
 
-#footer .bottom .copyright small {
+#footer .copyright small {
   font-size: 11px;
   color: #999;
   font-weight: 700;
@@ -2428,7 +2428,7 @@ section.promotion .inner {
     padding: 0 20px;
   }
 
-  #footer .bottom .info {
+  #footer .info {
     line-height: normal;
   }
 
