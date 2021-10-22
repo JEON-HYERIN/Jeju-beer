@@ -287,7 +287,7 @@ video {
   margin-top: 0;
 }
 
-#floating-btns li.top-btn.hidden {
+#floating-btns li.top-btn.invisible {
   display: none;
 }
 
@@ -316,7 +316,7 @@ video {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-#share-modal.hidden {
+#share-modal.invisible {
   display: none;
 }
 
@@ -365,7 +365,7 @@ video {
   background-color: rgb(246, 246, 247);
 }
 
-#inquiry-modal.hidden {
+#inquiry-modal.invisible {
   display: none;
 }
 

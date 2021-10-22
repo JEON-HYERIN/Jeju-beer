@@ -16,9 +16,9 @@ const topBtn = document.querySelector('#floating-btns .top-btn');
 
 window.addEventListener('scroll', _.throttle(function () {
   if(window.scrollY > headerHeight) {
-    topBtn.classList.remove('hidden');
+    topBtn.classList.remove('invisible');
   } else {
-    topBtn.classList.add('hidden');
+    topBtn.classList.add('invisible');
   }
 }, 300));
 
@@ -40,11 +40,11 @@ toggleBtn.addEventListener('click', function () {
 const shareEl = document.querySelector('#share-modal');
 const linkBtn = document.querySelector('#floating-btns .link-btn');
 linkBtn.addEventListener('click', function () {
-  shareEl.classList.remove('hidden');
+  shareEl.classList.remove('invisible');
 });
 
 shareEl.addEventListener('click', function () {
-  shareEl.classList.add('hidden');
+  shareEl.classList.add('invisible');
 });
 
 // url버튼 클릭시 alert 실행
@@ -62,7 +62,7 @@ const inquiryHours = inquiryEl.querySelector('.show-hours');
 const inquiryHoursOpen = inquiryEl.querySelector('.business-hours');
 
 chatBtn.addEventListener('click', function () {
-  inquiryEl.classList.remove('hidden');
+  inquiryEl.classList.remove('invisible');
   header.scrollIntoView();
   fadeInEls.forEach(function(fadeInEl) {
     fadeInEl.classList.remove('fade-in');
@@ -70,7 +70,7 @@ chatBtn.addEventListener('click', function () {
 });
 
 closeBtn.addEventListener('click', function () {
-  inquiryEl.classList.add('hidden');
+  inquiryEl.classList.add('invisible');
   inquiryHoursOpen.classList.remove('open');
   fadeInEls.forEach(function(fadeInEl) {
     fadeInEl.classList.add('fade-in');
