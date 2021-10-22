@@ -37,7 +37,7 @@ toggleBtn.addEventListener('click', function () {
 });
 
 // 링크버튼(link-btn)
-const shareEl = document.querySelector('#share');
+const shareEl = document.querySelector('#share-modal');
 const linkBtn = document.querySelector('#floating-btns .link-btn');
 linkBtn.addEventListener('click', function () {
   shareEl.classList.remove('hidden');
@@ -53,9 +53,9 @@ urlBtn.addEventListener('click', function() {
   alert('URL이 복사 되었습니다. 원하시는 곳에 붙여넣기 해 주세요.');
 });
 
-// inquiry창 활성화
+// inquiry modal창 활성화
 const chatBtn = document.querySelector('#floating-btns .chat-btn');
-const inquiryEl = document.querySelector('#inquiry');
+const inquiryEl = document.querySelector('#inquiry-modal');
 const closeBtn = inquiryEl.querySelector('.btn.close');
 const fadeInEls = inquiryEl.querySelectorAll('.fade-in');
 const inquiryHours = inquiryEl.querySelector('.show-hours');
@@ -93,7 +93,7 @@ copyBtn.addEventListener('click', function () {
 // 운영시간 체크(9 to 6)
 const hours = new Date().getHours();
 const day = new Date().getDay();
-const inquiryDescriptionEls = inquiryEl.querySelectorAll('.top .description span');
+const inquiryDescriptionEls = inquiryEl.querySelectorAll('.inquiry-modal__top .description span');
 
 if ((hours >= 9 && hours < 18) && (day >= 1 && day <= 5)) {
   inquiryDescriptionEls.forEach(function (el, index) {
