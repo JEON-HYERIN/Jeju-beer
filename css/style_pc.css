@@ -492,6 +492,7 @@ video {
   transition: opacity 250ms;
 }
 
+.inquiry-modal__top .description .business-hours:focus,
 .inquiry-modal__top .description .business-hours.open {
   pointer-events: auto;
   opacity: 1;
