@@ -4,6 +4,10 @@ $(document).on('click', 'a[href="#"]', function (e) {
   e.preventDefault();
 });
 
+if (window.NodeList && !NodeList.prototype.forEach) {
+  NodeList.prototype.forEach = Array.prototype.forEach;
+}
+
 
 // 올해년도 구하기
 const thisYear = document.querySelector('.this-year');
