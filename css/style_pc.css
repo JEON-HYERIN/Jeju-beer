@@ -291,12 +291,13 @@ video {
   display: none;
 }
 
-#floating-btns li button {
+#floating-btns li a {
+  display: block;
   width: 60px;
   height: 60px;
 }
 
-#floating-btns li button img {
+#floating-btns li a img {
   width: 100%;
   height: 100%;
 }

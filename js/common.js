@@ -12,13 +12,13 @@ thisYear.textContent = new Date().getFullYear();
 // 상단버튼(top-btn)
 const header = document.querySelector('#header');
 const headerHeight = header.getBoundingClientRect().height;
-const topBtn = document.querySelector('#floating-btns .top-btn');
+const topBtn = document.querySelector('#floating-btns .top-btn a');
 
 window.addEventListener('scroll', _.throttle(function () {
   if(window.scrollY > headerHeight) {
-    topBtn.classList.remove('invisible');
+    topBtn.parentElement.classList.remove('invisible');
   } else {
-    topBtn.classList.add('invisible');
+    topBtn.parentElement.classList.add('invisible');
   }
 }, 300));
 
@@ -38,7 +38,7 @@ toggleBtn.addEventListener('click', function () {
 
 // 링크버튼(link-btn)
 const shareEl = document.querySelector('#share-modal');
-const linkBtn = document.querySelector('#floating-btns .link-btn');
+const linkBtn = document.querySelector('#floating-btns .link-btn a');
 linkBtn.addEventListener('click', function () {
   shareEl.classList.remove('invisible');
 });
@@ -54,7 +54,7 @@ urlBtn.addEventListener('click', function() {
 });
 
 // inquiry modal창 활성화
-const chatBtn = document.querySelector('#floating-btns .chat-btn');
+const chatBtn = document.querySelector('#floating-btns .chat-btn a');
 const inquiryEl = document.querySelector('#inquiry-modal');
 const closeBtn = inquiryEl.querySelector('.btn.close');
 const fadeInEls = inquiryEl.querySelectorAll('.fade-in');

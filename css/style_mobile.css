@@ -273,7 +273,7 @@ video {
   font-weight: 700;
 }
 
-/* floating action button */
+/* FLOATING BUTTONS */
 #floating-btns {
   width: 45px;
   position: fixed;
@@ -291,12 +291,13 @@ video {
   margin-top: 10px;
 }
 
-#floating-btns li button {
+#floating-btns li a {
+  display: block;
   width: 45px;
   height: 45px;
 }
 
-#floating-btns li button img {
+#floating-btns li a img {
   width: 100%;
   height: 100%;
 }
@@ -1937,12 +1938,12 @@ section.promotion .inner {
     margin-top: 0;
   }
 
-  #floating-btns li button {
+  #floating-btns li a {
     width: 60px;
     height: 60px;
   }
 
-  #floating-btns li button img {
+  #floating-btns li a img {
     width: 100%;
     height: 100%;
   }
