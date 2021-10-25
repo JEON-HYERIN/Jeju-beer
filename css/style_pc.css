@@ -270,7 +270,6 @@ video {
 
 /* FLOATING BUTTONS */
 #floating-btns {
-  width: 60px;
   position: fixed;
   right: 30px;
   bottom: 50px;
@@ -278,13 +277,11 @@ video {
 }
 
 #floating-btns li {
-  overflow: hidden;
-  margin-top: 10px;
   border-radius: 50%;
 }
 
-#floating-btns li:first-child {
-  margin-top: 0;
+#floating-btns li + li {
+  margin-top: 10px;
 }
 
 #floating-btns li.top-btn.invisible {

@@ -275,7 +275,6 @@ video {
 
 /* FLOATING BUTTONS */
 #floating-btns {
-  width: 45px;
   position: fixed;
   right: 15px;
   bottom: 15px;
@@ -283,7 +282,6 @@ video {
 }
 
 #floating-btns li {
-  overflow: hidden;
   border-radius: 50%;
 }
 
@@ -1925,17 +1923,8 @@ section.promotion .inner {
 
   /* FLOATING BUTTONS */
   #floating-btns {
-    width: 60px;
     right: 30px;
     bottom: 50px;
-  }
-
-  #floating-btns li {
-    margin-top: 10px;
-  }
-
-  #floating-btns li:first-child {
-    margin-top: 0;
   }
 
   #floating-btns li a {
@@ -1943,13 +1932,8 @@ section.promotion .inner {
     height: 60px;
   }
 
-  #floating-btns li a img {
-    width: 100%;
-    height: 100%;
-  }
-
   /* SHARE MODAL */
- .share-modal__links li .btn {
+  .share-modal__links li .btn {
     width: 80px;
     height: 80px;
   }
