@@ -312,10 +312,7 @@ video {
   top: 0;
   bottom: 0;
   z-index: 9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -323,9 +320,18 @@ video {
   display: none;
 }
 
+#share-modal .wrap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #share-modal .title {
+  display: inline-block;
   margin-bottom: 21px;
   font-size: 19px;
+  font-weight: 500;
   color: #fff;
 }
 
@@ -333,13 +339,8 @@ video {
   display: flex;
 }
 
-.share-modal__links li {
+.share-modal__links li + li {
   margin-left: 40px;
-  overflow: hidden;
-}
-
-.share-modal__links li:first-child {
-  margin-left: 0;
 }
 
 .share-modal__links li .btn {
