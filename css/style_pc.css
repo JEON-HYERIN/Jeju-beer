@@ -360,8 +360,8 @@ video {
   min-height: 520px;
   max-height: 720px;
   border-radius: 16px;
-  box-shadow: rgb(81 99 120 / 30%) 0px 6px 60px 0px;
   background-color: rgb(246, 246, 247);
+  box-shadow: rgb(81 99 120 / 30%) 0px 6px 60px 0px;
 }
 
 #inquiry-modal.invisible {
@@ -374,11 +374,11 @@ video {
 
 .inquiry-modal__top {
   padding: 23px 22px 16px 24px;
-  color: #fff;
   border-radius: 16px;
-  background: linear-gradient(130deg, rgb(29, 202, 211) 0%, rgb(29, 202, 211) 50%, rgb(29, 160, 211)) 100% center;
+  color: #fff;
   opacity: 1;
   transition: opacity .5s ease-in-out 0s;
+  background: linear-gradient(130deg, rgb(29, 202, 211) 0%, rgb(29, 202, 211) 50%, rgb(29, 160, 211)) 100% center;
 }
 
 .inquiry-modal__top .title {
@@ -480,16 +480,16 @@ video {
   top: 75px;
   z-index: 9;
   max-width: 200px;
-  box-sizing: border-box;
   padding: 12px 16px;
-  border-radius: 6px;
-  box-shadow: rgb(0 0 0 / 20%) 0px 4px 12px 0px;
   border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #fff;
   background-color: rgba(0, 0, 0, 0.9);
-  color: rgb(255, 255, 255);
   pointer-events: none;
   opacity: 0;
   transition: opacity 250ms;
+  box-shadow: rgb(0 0 0 / 20%) 0px 4px 12px 0px;
 }
 
 .inquiry-modal__top .description .business-hours:focus,
@@ -515,8 +515,8 @@ video {
   margin: 8px;
   border-radius: 12px;
   background-color: #fff;
-  box-shadow: rgb(0 0 0 / 5%) 0px 0px 2px 1px, rgb(0 0 0 / 15%) 0px 4px 16px, rgb(255 255 255 / 12%) 0px 0px 2px inset;
   opacity: 1;
+  box-shadow: rgb(0 0 0 / 5%) 0px 0px 2px 1px, rgb(0 0 0 / 15%) 0px 4px 16px, rgb(255 255 255 / 12%) 0px 0px 2px inset;
 }
 
 .inquiry-modal__bottom .channel-talk > div:nth-child(2) {
@@ -575,10 +575,10 @@ video {
   align-items: center;
   margin: 30px auto;
   padding: 12px 18px;
+  border-radius: 50px;
   font-size: 14px;
   font-weight: 700;
   color: #fff;
-  border-radius: 50px;
   background-color: #1ecad3;
   box-shadow: rgb(0 0 0 / 5%) 0px 0px 2px 1px, rgb(0 0 0 / 15%) 0px 4px 16px, rgb(255 255 255 / 12%) 0px 0px 2px inset;
 }
