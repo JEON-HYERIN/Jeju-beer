@@ -97,7 +97,7 @@ copyBtn.addEventListener('click', function () {
 // 운영시간 체크(9 to 6)
 const hours = new Date().getHours();
 const day = new Date().getDay();
-const inquiryDescriptionEls = inquiryEl.querySelectorAll('.inquiry-modal__top .description span');
+const inquiryDescriptionEls = inquiryEl.querySelectorAll('.inquiry-modal__top .description div');
 
 if ((hours >= 9 && hours < 18) && (day >= 1 && day <= 5)) {
   inquiryDescriptionEls.forEach(function (el, index) {

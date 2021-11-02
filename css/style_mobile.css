@@ -321,6 +321,12 @@ video {
   display: none;
 }
 
+#share-modal > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 #share-modal .wrap {
   position: absolute;
   left: 50%;
@@ -418,32 +424,30 @@ video {
 }
 
 .inquiry-modal__top .description {
-  display: flex;
-  flex-direction: column;
   position: relative;
 }
 
-.inquiry-modal__top .description span {
-  display: inline-block;
+.inquiry-modal__top .description div {
   position: relative;
   font-size: 13px;
   font-weight: 400;
-  opacity: .7;
-  margin-top: 2px;
   line-height: 1.4em;
+  opacity: .7; 
 }
 
-.inquiry-modal__top .description span:first-child {
+.inquiry-modal__top .description div:first-child {
   font-size: 15px;
   font-weight: 500;
-  opacity: 1;
-  margin-bottom: 4px;
-  margin-top: 0;
   line-height: 1.6em;
+  opacity: 1;
 }
 
-.inquiry-modal__top .description span:first-child::after,
-.inquiry-modal__top .description span.show-hours::after {
+.inquiry-modal__top .description div:nth-child(2) {
+  margin: 6px 0 2px;
+}
+
+.inquiry-modal__top .description div:first-child::after,
+.inquiry-modal__top .description .show-hours::after {
   content: '';
   position: absolute;
   top: 0;
@@ -454,13 +458,13 @@ video {
   background-size: cover;
 }
 
-.inquiry-modal__top .description span:first-child::after {
+.inquiry-modal__top .description div:first-child::after {
   width: 22px;
   height: 22px;
   background-image: url("../img/on.png");
 }
 
-.inquiry-modal__top .description span.night::after {
+.inquiry-modal__top .description div.night::after {
   background-image: url("../img/moon.png");
 }
 
