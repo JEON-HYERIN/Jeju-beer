@@ -2056,8 +2056,7 @@ section.promotion .inner {
 
   .gift .todays-gift {
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 60px 0;
   }
 
