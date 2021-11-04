@@ -1243,14 +1243,9 @@ video {
   text-align: center;
 }
 
-.gift .inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .gift .mark {
   width: 250px;
+  margin: 0 auto;
   line-height: 35px;
   border-radius: 50px;
   font-weight: 700;
@@ -1361,12 +1356,6 @@ video {
   text-align: center;
 }
 
-.together .inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .together__title {
   font-size: 24px;
   font-weight: 400;
@@ -1400,14 +1389,9 @@ video {
   text-align: center;
 }
 
-.notice .inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .notice img {
   width: 120px;
+  margin: 0 auto;
 }
 
 .notice__title,
