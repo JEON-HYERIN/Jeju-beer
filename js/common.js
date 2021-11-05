@@ -8,6 +8,24 @@ if (window.NodeList && !NodeList.prototype.forEach) {
   NodeList.prototype.forEach = Array.prototype.forEach;
 }
 
+const body = document.querySelector('body');
+var scrollPosition = 0;
+// 모달창 오픈
+function enable() {
+  scrollPosition = window.pageYOffset;
+  body.style.overflow = 'hidden';
+  body.style.position = 'fixed';
+  body.style.top = `-${scrollPosition}px`;
+  body.style.width = '100%';
+}
+// 모달창 닫기
+function disable() {
+  body.style.removeProperty('overflow');
+  body.style.removeProperty('position');
+  body.style.removeProperty('top');
+  body.style.removeProperty('width');
+  window.scrollTo(0, scrollPosition);
+}
 
 // 올해년도 구하기
 const thisYear = document.querySelector('.this-year');
@@ -19,7 +37,7 @@ const headerHeight = header.getBoundingClientRect().height;
 const topBtn = document.querySelector('#floating-btns .top-btn a');
 
 window.addEventListener('scroll', _.throttle(function () {
-  if(window.scrollY > headerHeight) {
+  if(window.pageYOffset > headerHeight) {
     topBtn.parentElement.classList.remove('invisible');
   } else {
     topBtn.parentElement.classList.add('invisible');
@@ -45,10 +63,12 @@ const shareEl = document.querySelector('#share-modal');
 const linkBtn = document.querySelector('#floating-btns .link-btn a');
 linkBtn.addEventListener('click', function () {
   shareEl.classList.remove('invisible');
+  enable();
 });
 
 shareEl.addEventListener('click', function () {
   shareEl.classList.add('invisible');
+  disable();
 });
 
 // url버튼 클릭시 alert 실행
