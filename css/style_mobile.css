@@ -643,6 +643,7 @@ video {
 /* VIDEO */
 .main-video {
   position: relative;
+  background-color: #fff;
 }
 
 .main-video .title {
