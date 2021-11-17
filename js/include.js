@@ -34,8 +34,8 @@ const thisYear = document.querySelector('.this-year');
 thisYear.textContent = new Date().getFullYear();
 });
 
-// floating include
-$('.floating-include').load('../include/floating.html', function () {
+// modal include
+$('.modal-include').load('../include/modal.html', function () {
   // 상단버튼(top-btn)
   const header = document.querySelector('#header');
   const headerHeight = header.getBoundingClientRect().height;
