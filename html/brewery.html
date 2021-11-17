@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-title" content="제주맥주 양조장" />
+  <meta name="description" content="올 여름, 제주맥주에 빠지다" />
+  <title>제주맥주 양조장</title>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="제주맥주 양조장" />
+  <meta property="og:title" content="제주맥주 양조장" />
+  <meta property="og:description" content="올 여름, 제주맥주에 빠지다" />
+  <meta property="og:image" content="../img/jejubeer.png" />
+  <meta property="og:url" content="https://jeon-hyerin.github.io/jejubeer" />
+    <!--Twitter Card-->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="제주맥주 양조장" />
+  <meta property="twitter:title" content="제주맥주 양조장" />
+  <meta property="twitter:description" content="올 여름, 제주맥주에 빠지다" />
+  <meta property="twitter:image" content="../img/jejubeer.png" />
+  <meta property="twitter:url" content="https://jeon-hyerin.github.io/jejubeer" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <!-- Google Material Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/254318af28.js" crossorigin="anonymous"></script>
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+  <!-- Lodash -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>  
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/style_pc.css" media="screen and (min-width: 1024.0px)" />
+  <link rel="stylesheet" href="../css/style_mobile.css" media="screen and (max-width: 1023.9px)" />
+  <!-- JS -->
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script defer src="../js/scrollmagic.js"></script>
+  <script defer src="../js/swiper.js"></script>
+  <script defer src="../js/common.js"></script>
+  <script defer src="../js/include.js"></script>
+</head>
+<body class="sub-brewery">
+
+  <div id="wrapper">
+    <a href="#main" id="skip-nav">본문 바로가기</a>
+    <!-- HEADER INCLUDE -->
+    <div class="header-include"></div>
+    <!-- MAIN -->
+    <main id="main" class="brewery">
+      <!-- VIDEO -->
+      <section class="brewery-video">
+        <h2 class="hide">비디오 재생영역</h2>
+        <video src="../video/brewery_web.mp4" class="pc" autoplay muted loop preload="metadata" playsinline></video>
+        <video src="../video/brewery_mo.mp4" class="mobile" autoplay muted loop preload="metadata" playsinline></video>
+        <div class="title">
+          <span>BREWERY</span><br /><em>제주맥주 양조장</em>
+        </div>
+      </section>
+      <!-- PROGRAM -->
+      <section class="program">
+        <h2 class="hide">양조장 프로그램 안내</h2>
+        <div class="inner">
+          <div class="text-group">
+            <p class="text text1">
+              좋은 맥주로, 맥주의 깊이를 알고,<br class="only-m" />
+              제대로 맥주를 즐기는<br />
+              맥주 미식 문화를 만들어 나가는 일
+            </p>
+            <p class="text text2">
+              지금, 제주에서<br />
+              제주맥주 양조장에서부터 시작합니다.
+            </p>
+          </div>
+          <h3 class="program__title">PROGRAM</h3>
+          <p class="program__description">
+            우리나라에 없던 새로운 문화,<br class="only-m" />
+            제주맥주 양조장에서 경험해보세요.</p>
+          <div class="program__content">
+            <div class="tour">
+              <img src="../img/brewery/program1.png" alt="" />
+              <div class="text-group">
+                <div class="title">양조장 투어</div>
+                <p class="description">22,000원</p>
+              </div>
+            </div>
+            <div class="experience">
+              <img src="../img/brewery/program2.jpg" alt="" />
+              <div class="text-group">
+                <div class="title">나만의 전용잔</div>
+                <p class="description">12,000원</p>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">더보기</a>
+        </div>
+      </section>
+      <!-- INFORMATION -->
+      <section class="information">
+        <h2 class="hide">양조장 문의 및 이용 안내</h2>
+        <div class="inner">
+          <h3 class="information__title">INFO</h3>
+          <div class="info">
+            <div class="business-day">
+              <div class="title">
+                영업일 & 시간 안내
+              </div>
+              <div class="description">
+                <p class="text text1">
+                  <em>매일 12:30 - 19:30</em><br />
+                  <span>(설날 & 추석 전 날, 당일 휴무)</span>
+                </p>
+                <p class="text text2">
+                  <span class="place">양조장 PUB</span>
+                  <span class="time">13:00 - 19:30 (주문마감 19:00)</span><br />
+                  <span class="place">브랜드 샵</span>
+                  <span class="time">12:30 - 19:30</span>
+                </p>
+              </div>
+            </div>
+            <div class="service">
+              <div class="title">이용 안내</div>
+              <div class="description">
+                <p class="text text1">
+                  <span class="place">양조장 PUB / 브랜드샵</span><br />
+                  <em>: 동시간 대 입장 인원 제한</em><br />
+                  <span>프로그램 미예약자의 경우, 입장 대기 시간이 발생할 수 있습니다.</span>
+                </p>
+                <p class="text text2">
+                  <span class="place">양조장 투어 / 체험 프로그램</span><br />
+                  <em>: 사전예약 필수</em><br />
+                  <span>예약은 홈페이지를 통해서만 가능합니다.<br />
+                    (전화 예약 불가)</span>
+                </p>
+              </div>
+            </div>
+            <div class="ask">
+              <div class="title">문의</div>
+              <div class="description">
+                <p class="text text1">
+                  <span class="type">채팅상담</span>
+                  <img src="../img/brewery/link1.png" alt="카카오톡" />
+                  <img src="../img/brewery/link2.png" alt="채널톡" />
+                </p>
+                <p class="text text2">
+                  <span class="type">전화상담</span><br />
+                  <span>064 - 798 - 9872</span><br />
+                  <span>* 오후 6시부터 오전 11시까지는 전화연결이 어렵습니다.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER INCLUDE -->
+    <div class="footer-include"></div>
+    <!-- FLOATING INCLUDE -->
+    <div class="floating-include"></div>
+  </div>
+
+</body>
+</html>

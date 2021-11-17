@@ -12,21 +12,17 @@
   <meta property="og:site_name" content="BLUE BOTTLE X JEJU BEER" />
   <meta property="og:title" content="BLUE BOTTLE X JEJU BEER" />
   <meta property="og:description" content="EXPERIENCE THE GOLDEN TASTE" />
-  <meta property="og:image" content="./img/collaboration/collaboration.png" />
+  <meta property="og:image" content="../img/collaboration/collaboration.png" />
   <meta property="og:url" content="https://jeon-hyerin.github.io/jejubeer" />
     <!--Twitter Card-->
   <meta property="twitter:card" content="summary" />
   <meta property="twitter:site" content="BLUE BOTTLE X JEJU BEER" />
   <meta property="twitter:title" content="BLUE BOTTLE X JEJU BEER" />
   <meta property="twitter:description" content="EXPERIENCE THE GOLDEN TASTE" />
-  <meta property="twitter:image" content="./img/collaboration/collaboration.png" />
+  <meta property="twitter:image" content="../img/collaboration/collaboration.png" />
   <meta property="twitter:url" content="https://jeon-hyerin.github.io/jejubeer" />
   <!-- Favicon -->
-  <link rel="shortcut icon" href="./favicon.ico" />
-  <!-- Google Fonts - Noto Sans KR -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="../favicon.ico" />
   <!-- Google Material Icons -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <!-- Font Awesome -->
@@ -39,75 +35,29 @@
   <!-- Lodash -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>  
   <!-- CSS -->
-  <link rel="stylesheet" href="./css/reset.css" />
-  <link rel="stylesheet" href="./css/style_pc.css" media="screen and (min-width: 1024.0px)" />
-  <link rel="stylesheet" href="./css/style_mobile.css" media="screen and (max-width: 1023.9px)" />
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/style_pc.css" media="screen and (min-width: 1024.0px)" />
+  <link rel="stylesheet" href="../css/style_mobile.css" media="screen and (max-width: 1023.9px)" />
   <!-- JS -->
-  <script src="./js/jquery-3.6.0.min.js"></script>
-  <script defer src="./js/scrollmagic.js"></script>
-  <script defer src="./js/swiper.js"></script>
-  <script defer src="./js/common.js"></script>
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script defer src="../js/scrollmagic.js"></script>
+  <script defer src="../js/swiper.js"></script>
+  <script defer src="../js/common.js"></script>
+  <script defer src="../js/include.js"></script>
 </head>
-<body>
+<body class="sub-collaboration">
 
   <div id="wrapper">
     <a href="#main" id="skip-nav">본문 바로가기</a>
-    <!-- HEADER -->
-    <header id="header">
-      <div class="inner">
-        <h1><a href="./index.html"><img src="./img/header_logo.png" alt="제주맥주" /></a></h1>
-        <a href="#" class="toggle-btn">
-          <i class="fas fa-bars"><span>네비게이션 열기/닫기</span></i>
-        </a>
-        <!-- NAV -->
-        <nav>
-          <h2 class="hide">메인 메뉴</h2>
-          <ul class="main-menu">
-            <li data-link="experience">
-              <a href="./mycampingcar.html">
-                <span>EXPERIENCE</span>
-              </a>
-            </li>
-            <li class="active" data-link="collaboration">
-              <a href="./collaboration.html">
-                <span>COLLABORATION</span>
-              </a>
-            </li>
-            <li class="shop" data-link="shop">
-              <a href="./shop.html">
-                <span>SHOP</span>
-              </a>
-              <a href="#" class="cart mobile">
-                <img src="./img/menu-icon-cart.png" alt="장바구니" />
-              </a>
-            </li>
-            <li data-link="brewery">
-              <a href="./brewery.html">
-                <span>BREWERY</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <!-- NAV -->
-        <nav>
-          <h2 class="hide">서브 메뉴</h2>
-          <ul class="sub-menu">
-            <li><a href="#">LOGIN</a></li>
-            <li><a href="#">JOIN</a></li>
-            <li><a href="#">CART</a></li>
-            <li><a href="#">RECRUIT</a></li>
-          </ul>
-          <a href="#" class="btn">양조장 예약</a>
-        </nav>
-      </div>
-    </header>
+    <!-- HEADER INCLUDE -->
+    <div class="header-include"></div>
     <!-- MAIN -->
     <main id="main" class="collaboration">
       <!-- VIDEO -->
       <section class="collaboration-video">
         <h2 class="hide">비디오 재생영역</h2>
-        <video src="./video/collabo_web.mp4" class="pc" autoplay muted loop preload="metadata" playsinline></video>
-        <video src="./video/collabo_mo.mp4" class="mobile" autoplay muted loop preload="metadata" playsinline></video>
+        <video src="../video/collabo_web.mp4" class="pc" autoplay muted loop preload="metadata" playsinline></video>
+        <video src="../video/collabo_mo.mp4" class="mobile" autoplay muted loop preload="metadata" playsinline></video>
       </section>
       <!-- INTRODUCTION -->
       <section class="introduction line">
@@ -116,7 +66,7 @@
           <div class="title">
             <span>BLUE BOTTLE COFFEE</span><br />
             <span>JEJU BEER COMPANY</span>
-            <img src="./img/collaboration/intro_img.png" alt="BLUE BOTTLE X JEJU BEER" />
+            <img src="../img/collaboration/intro_img.png" alt="BLUE BOTTLE X JEJU BEER" />
           </div>
           <p class="description">
             <span>스페셜티 커피를 대표하는 블루보틀과<br />
@@ -134,7 +84,7 @@
             <span>BLUE BOTTLE STORY</span>
           </div>
           <div class="description movement to-top delay-1">
-            <img src="./img/collaboration/bluebottlestory_img.jpg" alt="" />
+            <img src="../img/collaboration/bluebottlestory_img.jpg" alt="" />
             <div class="text-group">
               <p>
                 2002년, 캘리포니아주 오클랜드의<br />
@@ -182,14 +132,14 @@
                 지금, 블루보틀과 제주맥주가 함께 선사하는<br class="only-m" /> 미식의 세계로 빠져보세요.
               </p>
             </div>
-            <img src="./img/collaboration/collabo_img.jpg" alt="" class="pc" />
+            <img src="../img/collaboration/collabo_img.jpg" alt="" class="pc" />
             <div class="swiper mobile">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="./img/collaboration/collabo_slide1.jpg" alt="" />
+                  <img src="../img/collaboration/collabo_slide1.jpg" alt="" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="./img/collaboration/collabo_slide2.jpg" alt="" />
+                  <img src="../img/collaboration/collabo_slide2.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -230,13 +180,13 @@
             <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide slide1">
-                  <img src="./img/collaboration/coffee_slide1.jpg" alt="" />
+                  <img src="../img/collaboration/coffee_slide1.jpg" alt="" />
                 </div>
                 <div class="swiper-slide slide2">
-                  <img src="./img/collaboration/coffee_slide2.jpg" alt="" />
+                  <img src="../img/collaboration/coffee_slide2.jpg" alt="" />
                 </div>
                 <div class="swiper-slide slide3">
-                  <img src="./img/collaboration/coffee_slide3.jpg" alt="" />
+                  <img src="../img/collaboration/coffee_slide3.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -272,7 +222,7 @@
             <em>지금 바로 제주맥주 코너샵 및 양조장과<br class="only-m" /> 블루보틀 카페에서 만나보세요!</em><br />
             <span>* 블루보틀 커피 삼성, 제주 카페에서는 판매하지 않습니다.</span>
           </p>
-          <img src="./img/collaboration/visual_img.jpg" alt="" class="movement to-top delay-1" />
+          <img src="../img/collaboration/visual_img.jpg" alt="" class="movement to-top delay-1" />
         </div>
       </section>
       <!-- CORNER SHOP -->
@@ -314,13 +264,13 @@
             <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="./img/collaboration/corner_slide1.jpg" alt="" />
+                  <img src="../img/collaboration/corner_slide1.jpg" alt="" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="./img/collaboration/corner_slide2.jpg" alt="" />
+                  <img src="../img/collaboration/corner_slide2.jpg" alt="" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="./img/collaboration/corner_slide3.jpg" alt="" />
+                  <img src="../img/collaboration/corner_slide3.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -329,13 +279,13 @@
             <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="./img/collaboration/corner_left_side_slide1.jpg" alt="" />
+                  <img src="../img/collaboration/corner_left_side_slide1.jpg" alt="" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="./img/collaboration/corner_left_side_slide2.jpg" alt="" />
+                  <img src="../img/collaboration/corner_left_side_slide2.jpg" alt="" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="./img/collaboration/corner_left_side_slide3.jpg" alt="" />
+                  <img src="../img/collaboration/corner_left_side_slide3.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -343,13 +293,13 @@
             <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="./img/collaboration/corner_right_side_slide1.jpg" alt="" />
+                  <img src="../img/collaboration/corner_right_side_slide1.jpg" alt="" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="./img/collaboration/corner_right_side_slide2.jpg" alt="" />
+                  <img src="../img/collaboration/corner_right_side_slide2.jpg" alt="" />
                 </div>
                 <div class="swiper-slide">
-                  <img src="./img/collaboration/corner_right_side_slide3.jpg" alt="" />
+                  <img src="../img/collaboration/corner_right_side_slide3.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -374,172 +324,16 @@
             </div>
             <div class="remark">* 키트는 1인당 최대 2세트까지만 구입 가능</div>
           </div>
-          <img src="./img/collaboration/promotion_img1.png" alt="COFFEE GOLDEN ALE, GOLDEN ESSENTIALS KIT" class="pc" />
-          <img src="./img/collaboration/promotion_img2.jpg" alt="COFFEE GOLDEN ALE" class="mobile" />
-          <img src="./img/collaboration/promotion_img3.jpg" alt="GOLDEN ESSENTIALS KIT" class="mobile" />
+          <img src="../img/collaboration/promotion_img1.png" alt="COFFEE GOLDEN ALE, GOLDEN ESSENTIALS KIT" class="pc" />
+          <img src="../img/collaboration/promotion_img2.jpg" alt="COFFEE GOLDEN ALE" class="mobile" />
+          <img src="../img/collaboration/promotion_img3.jpg" alt="GOLDEN ESSENTIALS KIT" class="mobile" />
         </div>
       </section>
     </main>
-    <!-- FOOTER -->
-    <footer id="footer">
-      <div class="inner">
-        <div class="top">
-          <ul class="footer__menu">
-            <li class="active"><a href="#">ABOUT US</a></li>
-            <li class="active"><a href="#">OUR BEERS</a></li>
-            <li class="active"><a href="#">NEWS</a></li>
-            <li><a href="#">CONTACT</a></li>
-            <li><a href="#">IR</a></li>
-          </ul>
-          <ul class="footer__links">
-            <li><a href="https://www.youtube.com/channel/UCVHSuXVobLHYTvcvsYjCncw" target="_blank">
-                <img src="./img/search.png" alt="제주맥주 유투브 링크" />
-              </a></li>
-            <li><a href="https://www.facebook.com/jejubeerofficial" target="_blank">
-                <img src="./img/facebook.png" alt="제주맥주 페이스북 링크" />
-              </a></li>
-            <li><a href="https://www.instagram.com/jejubeerofficial" target="_blank">
-                <img src="./img/instagram.png" alt="제주맥주 인스타그램 링크" />
-              </a></li>
-            <li><a href="https://post.naver.com/my.nhn?memberNo=39126203" target="_blank">
-                <img src="./img/naver_blog.png" alt="제주맥주 네이버블로그 링크" />
-              </a></li>
-          </ul>
-        </div>
-        <div class="bottom">
-          <div class="info">
-            <span>제주맥주 주식회사&nbsp;&nbsp;대표이사 문혁기</span><br />
-            <span>본사) 제주특별자치도 제주시 한림읍 금능농공길 62-11&nbsp;&nbsp;<br class="only-m" />서울사무실) 서울특별시 중구 동호로 228 동호 38빌딩
-              6층</span><br />
-            <span>호스팅 제공자 (주)아임웹&nbsp;&nbsp;<br class="only-m" />사업자등록번호 616-86-27415&nbsp;&nbsp;<br
-                class="only-m" />통신판매업신고번호 제 2020-제주한림-0101 호</span><br />
-            <span>개인정보보호책임자 이용석&nbsp;&nbsp;<br class="only-m" />고객센터 02-2235-5559, jejubeer@jejubeer.co.kr</span>
-          </div>
-          <p class="copyright">
-            <small>COPYRIGHT <span class="this-year"></span>@ JEJU BEER COMPANY</small>
-          </p>
-        </div>
-      </div>
-    </footer>
-    <!-- FLOATING BUTTONS -->
-    <ul id="floating-btns">
-      <li class="chat-btn">
-        <a href="#">
-          <img src="./img/chat_btn.png" alt="채팅버튼" />
-        </a>
-      </li>
-      <li class="link-btn">
-        <a href="#">
-          <img src="./img/link_btn.png" alt="링크버튼" />
-        </a>
-      </li>
-      <li class="top-btn invisible">
-        <a href="#">
-          <img src="./img/top_btn.png" alt="상단버튼" />
-        </a>
-      </li>
-    </ul>
-    <!-- SHARE MODAL -->
-    <div id="share-modal" class="invisible">
-      <a href="#"><span class="hide">모달창 닫기</span></a>
-      <div class="wrap">
-        <em class="title">공유하기</em>
-        <ul class="share-modal__links">
-          <li>
-            <a href="https://accounts.kakao.com" class="btn" target="_blank"><img src="./img/share_talk.png"
-                alt="카카오톡 링크" /></a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com" class="btn" target="_blank"><img src="./img/share_face.png"
-                alt="페이스북 링크" /></a>
-          </li>
-          <li>
-            <button class="btn url-btn"><img src="./img/share_url.png" alt="URL 복사" /></button>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- INQUIRY MODAL -->
-    <div id="inquiry-modal" class="invisible">
-      <div class="inquiry-modal__top fade-in">
-        <div class="title">
-          <h4>제주맥주 양조장</h4>
-          <ul class="btn-group">
-            <li>
-              <a href="#" class="btn">
-                <img src="./img/settings.png" alt="설정" />
-              </a>
-            </li>
-            <li>
-              <a href="#" class="btn close">
-                <img src="./img/close.png" alt="닫기" />
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="description">
-          <div></div>
-          <div></div>
-          <div class="show-hours">
-            <a href="#">운영시간 보기</a>
-          </div>
-          <div class="business-hours">
-            <a href="#">
-              월, 화, 수, 목, 금<br />
-              09:00 AM ~ 18:00 PM<br />
-              <br />
-              Timezone: Asia/Seoul
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="inquiry-modal__bottom">
-        <div class="channel-talk fade-in">
-          <div class="title">새로운 상담</div>
-          <div>
-            <div class="image">
-              <img src="./img/thumbnail.png" alt="제주맥주 로고" />
-            </div>
-            <div class="text-group">
-              <div class="text">
-                <p>제주맥주 양조장</p>
-                안녕하세요.<br />
-                대한민국 새로운 맥주문화의 발상지,<br /><em>제주맥주 양조장</em>입니다.
-              </div>
-              <div class="text">
-                양조장에 대해 무엇이 궁금하신가요?<br />
-                클릭해주세요!
-                <img src="./img/smile.png" alt="웃는 이모티콘" />
-              </div>
-            </div>
-          </div>
-          <button class="btn">
-            <img src="./img/send-filled-white.svg" alt="" />
-            새 문의하기
-          </button>
-        </div>
-        <div class="messenger fade-in">
-          <div class="title">다른 방법으로 상담</div>
-          <ul class="messenger__links">
-            <li>
-              <a href="https://accounts.kakao.com" class="btn" target="_blank">
-                <img src="./img/messenger_kakao.png" alt="카카오톡 링크" />
-              </a>
-            </li>
-            <li>
-              <button class="btn">
-                <img src="./img/messenger_url.png" alt="url 복사버튼" />
-              </button>
-            </li>
-            <li>
-              <a href="tel:010-0000-0000" class="btn">
-                <img src="./img/messenger_phone.png" alt="전화연결 링크" />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    <!-- FOOTER INCLUDE -->
+    <div class="footer-include"></div>
+    <!-- FLOATING INCLUDE -->
+    <div class="floating-include"></div>
   </div>
 
 </body>

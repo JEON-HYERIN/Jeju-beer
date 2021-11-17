@@ -12,21 +12,17 @@
   <meta property="og:site_name" content="제주맥주 나만의 캠핑카" />
   <meta property="og:title" content="제주맥주 나만의 캠핑카" />
   <meta property="og:description" content="당신의 일상을 여행으로, 오직 나를 위한 풀옵션 커스텀 캠핑카가 매주 무료!" />
-  <meta property="og:image" content="./img/experience/experience.png" />
+  <meta property="og:image" content="../img/experience/experience.png" />
   <meta property="og:url" content="https://jeon-hyerin.github.io/jejubeer" />
     <!--Twitter Card-->
   <meta property="twitter:card" content="summary" />
   <meta property="twitter:site" content="제주맥주 나만의 캠핑카" />
   <meta property="twitter:title" content="제주맥주 나만의 캠핑카" />
   <meta property="twitter:description" content="당신의 일상을 여행으로, 오직 나를 위한 풀옵션 커스텀 캠핑카가 매주 무료!" />
-  <meta property="twitter:image" content="./img/experience/experience.png" />
+  <meta property="twitter:image" content="../img/experience/experience.png" />
   <meta property="twitter:url" content="https://jeon-hyerin.github.io/jejubeer" />
   <!-- Favicon -->
-  <link rel="shortcut icon" href="./favicon.ico" />
-  <!-- Google Fonts - Noto Sans -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="../favicon.ico" />
   <!-- Google Material Icons -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <!-- Font Awesome -->
@@ -39,76 +35,30 @@
   <!-- Lodash -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>  
   <!-- CSS -->
-  <link rel="stylesheet" href="./css/reset.css" />
-  <link rel="stylesheet" href="./css/style_pc.css" media="screen and (min-width: 1024.0px)" />
-  <link rel="stylesheet" href="./css/style_mobile.css" media="screen and (max-width: 1023.9px)" />
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/style_pc.css" media="screen and (min-width: 1024.0px)" />
+  <link rel="stylesheet" href="../css/style_mobile.css" media="screen and (max-width: 1023.9px)" />
   <!-- JS -->
-  <script src="./js/jquery-3.6.0.min.js"></script>
-  <script defer src="./js/scrollmagic.js"></script>
-  <script defer src="./js/swiper.js"></script>
-  <script defer src="./js/common.js"></script>
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script defer src="../js/scrollmagic.js"></script>
+  <script defer src="../js/swiper.js"></script>
+  <script defer src="../js/common.js"></script>
+  <script defer src="../js/include.js"></script>
 </head>
-<body class="my-camping-car">
+<body class="sub-experience my-camping-car">
 
   <div id="wrapper">
     <a href="#main" id="skip-nav">본문 바로가기</a>
-    <!-- HEADER -->
-    <header id="header">
-      <div class="inner">
-        <h1><a href="./index.html"><img src="./img/header_logo.png" alt="제주맥주 로고" /></a></h1>
-        <a href="#" class="toggle-btn">
-          <i class="fas fa-bars"><span>네비게이션 열기/닫기</span></i>
-        </a>
-        <!-- NAV -->
-        <nav>
-          <h2 class="hide">메인 메뉴</h2>
-          <ul class="main-menu">
-            <li class="active" data-link="experience">
-              <a href="./mycampingcar.html">
-                <span>EXPERIENCE</span>
-              </a>
-            </li>
-            <li data-link="collaboration">
-              <a href="./collaboration.html">
-                <span>COLLABORATION</span>
-              </a>
-            </li>
-            <li class="shop" data-link="shop">
-              <a href="./shop.html">
-                <span>SHOP</span>
-              </a>
-              <a href="#" class="cart mobile">
-                <img src="./img/menu-icon-cart.png" alt="장바구니" />
-              </a>
-            </li>
-            <li data-link="brewery">
-              <a href="./brewery.html">
-                <span>BREWERY</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <!-- NAV -->
-        <nav>
-          <h2 class="hide">서브 메뉴</h2>
-          <ul class="sub-menu">
-            <li><a href="#">LOGIN</a></li>
-            <li><a href="#">JOIN</a></li>
-            <li><a href="#">CART</a></li>
-            <li><a href="#">RECRUIT</a></li>
-          </ul>
-          <a href="#" class="btn">양조장 예약</a>
-        </nav>
-      </div>
-    </header>
+    <!-- HEADER INCLUDE -->
+    <div class="header-include"></div>
     <!-- MAIN -->
     <main id="main" class="my-camping-car">
       <!-- VIDEO -->
       <section class="experience-video">
         <h2 class="hide">비디오 재생영역</h2>
-        <video src="./video/jb_experience_campingcar_web.mp4" class="pc" autoplay muted loop preload="metadata"
+        <video src="../video/jb_experience_campingcar_web.mp4" class="pc" autoplay muted loop preload="metadata"
           playsinline></video>
-        <video src="./video/jb_experience_campingcar_mo.mp4" class="mobile" autoplay muted loop preload="metadata"
+        <video src="../video/jb_experience_campingcar_mo.mp4" class="mobile" autoplay muted loop preload="metadata"
           playsinline></video>
         <div class="title">
           <span>#제주맥주</span>
@@ -122,11 +72,11 @@
         <div class="inner">
           <div class="text-group">
             <div class="text text1">
-              <img src="./img/experience/visual1_text1.png"
+              <img src="../img/experience/visual1_text1.png"
                 alt="'이번 주말은 진짜 푹 쉬어야지', '뭘했다고 주말이 또 갔지'의 반복, 나를 위한 여백이 흐르는 시간, 작은 여행이 간절해" />
             </div>
             <div class="text text2">
-              <img src="./img/experience/visual1_text2.png" alt="한 번도 가보지 않았지만 이미 마음이 닿아있는 곳. 분명 있을거예요." />
+              <img src="../img/experience/visual1_text2.png" alt="한 번도 가보지 않았지만 이미 마음이 닿아있는 곳. 분명 있을거예요." />
             </div>
           </div>
         </div>
@@ -180,7 +130,7 @@
       <section class="experience-visual visual2">
         <h2 class="hide">비주얼 영역</h2>
         <div class="inner">
-          <img src="./img/experience/visual2_title.gif" alt="당신의 일상을 더 특별한 순간으로" class="title" />
+          <img src="../img/experience/visual2_title.gif" alt="당신의 일상을 더 특별한 순간으로" class="title" />
         </div>
       </section>
       <!-- THEME -->
@@ -227,8 +177,8 @@
                 </p>
               </div>
               <div class="content content1">
-                <img src="./img/experience/theme_first1_pc.jpg" alt="" class="pc" />
-                <img src="./img/experience/theme_first1_mo.jpg" alt="" class="mobile" />
+                <img src="../img/experience/theme_first1_pc.jpg" alt="" class="pc" />
+                <img src="../img/experience/theme_first1_mo.jpg" alt="" class="mobile" />
                 <span>
                   노는 재미에 먹는 재미까지<br />
                   맥주를 부르는 스낵바
@@ -251,24 +201,24 @@
             </div>
             <div class="right">
               <div class="content content2">
-                <img src="./img/experience/theme_first2_pc.jpg" alt="" class="pc" />
-                <img src="./img/experience/theme_first2_mo.jpg" alt="" class="mobile" />
+                <img src="../img/experience/theme_first2_pc.jpg" alt="" class="pc" />
+                <img src="../img/experience/theme_first2_mo.jpg" alt="" class="mobile" />
                 <span>
                   우리끼리 즐기는 액티비티<br />
                   닌텐도 스위치, 보드게임
                 </span>
               </div>
               <div class="content content3">
-                <img src="./img/experience/theme_first3_pc.png" alt="" class="pc" />
-                <img src="./img/experience/theme_first3_mo.png" alt="" class="mobile" />
+                <img src="../img/experience/theme_first3_pc.png" alt="" class="pc" />
+                <img src="../img/experience/theme_first3_mo.png" alt="" class="mobile" />
                 <span>
                   만화 같은 풍경 속에 재미도 두 배<br />
                   만화책 세트
                 </span>
               </div>
               <div class="content content4">
-                <img src="./img/experience/theme_first4_pc.png" alt="" class="pc" />
-                <img src="./img/experience/theme_first4_mo.jpg" alt="" class="mobile" />
+                <img src="../img/experience/theme_first4_pc.png" alt="" class="pc" />
+                <img src="../img/experience/theme_first4_mo.jpg" alt="" class="mobile" />
                 <span>
                   우리의 밤이 낮보다<br />
                   길다면 비어퐁 세트
@@ -279,24 +229,24 @@
           <div class="theme__content second invisible" data-type="theme-second">
             <div class="left">
               <div class="content content1">
-                <img src="./img/experience/theme_second1_pc.png" alt="" class="pc" />
-                <img src="./img/experience/theme_second1_mo.png" alt="" class="mobile" />
+                <img src="../img/experience/theme_second1_pc.png" alt="" class="pc" />
+                <img src="../img/experience/theme_second1_mo.png" alt="" class="mobile" />
                 <span>
                   피부를 위한 쉼<br />
                   마스크 팩
                 </span>
               </div>
               <div class="content content2">
-                <img src="./img/experience/theme_second2_pc.png" alt="" class="pc" />
-                <img src="./img/experience/theme_second2_mo.png" alt="" class="mobile" />
+                <img src="../img/experience/theme_second2_pc.png" alt="" class="pc" />
+                <img src="../img/experience/theme_second2_mo.png" alt="" class="mobile" />
                 <span>
                   자연 속 릴렉스<br />
                   아로마 오일, 안대
                 </span>
               </div>
               <div class="content content3">
-                <img src="./img/experience/theme_second3_pc.png" alt="" class="pc" />
-                <img src="./img/experience/theme_second3_mo.png" alt="" class="mobile" />
+                <img src="../img/experience/theme_second3_pc.png" alt="" class="pc" />
+                <img src="../img/experience/theme_second3_mo.png" alt="" class="mobile" />
                 <span>
                   마음을 색칠하세요<br />
                   제주 컬러링 북
@@ -325,8 +275,8 @@
                 </p>
               </div>
               <div class="content content4">
-                <img src="./img/experience/theme_second4_pc.png" alt="" class="pc" />
-                <img src="./img/experience/theme_second4_mo.png" alt="" class="mobile" />
+                <img src="../img/experience/theme_second4_pc.png" alt="" class="pc" />
+                <img src="../img/experience/theme_second4_mo.png" alt="" class="mobile" />
                 <span>
                   내 안으로 유영하는 시간, 명상<br />
                   싱잉볼, 요가매트, 인센스 스틱
@@ -367,8 +317,8 @@
                 </p>
               </div>
               <div class="content content1">
-                <img src="./img/experience/theme_third1_pc.png" alt="" class="pc" />
-                <img src="./img/experience/theme_third1_mo.png" alt="" class="mobile" />
+                <img src="../img/experience/theme_third1_pc.png" alt="" class="pc" />
+                <img src="../img/experience/theme_third1_mo.png" alt="" class="mobile" />
                 <span>
                   다시 꺼내볼 추억을 기록하는<br />
                   폴라로이드 카메라
@@ -390,24 +340,24 @@
             </div>
             <div class="right">
               <div class="content content2">
-                <img src="./img/experience/theme_third2_pc.png" alt="" class="pc" />
-                <img src="./img/experience/theme_third2_mo.png" alt="" class="mobile" />
+                <img src="../img/experience/theme_third2_pc.png" alt="" class="pc" />
+                <img src="../img/experience/theme_third2_mo.png" alt="" class="mobile" />
                 <span>
                   레트로한 무드로 즐기는 음악<br />
                   턴테이블, 빈티지 LP
                 </span>
               </div>
               <div class="content content3">
-                <img src="./img/experience/theme_third3_pc.png" alt="" class="pc" />
-                <img src="./img/experience/theme_first3_mo.png" alt="" class="mobile" />
+                <img src="../img/experience/theme_third3_pc.png" alt="" class="pc" />
+                <img src="../img/experience/theme_first3_mo.png" alt="" class="mobile" />
                 <span>
                   일상을 자극하는 글귀들<br />
                   큐레이션 된 서적
                 </span>
               </div>
               <div class="content content4">
-                <img src="./img/experience/theme_third4_pc.jpg" alt="" class="pc" />
-                <img src="./img/experience/theme_third4_mo.png" alt="" class="mobile" />
+                <img src="../img/experience/theme_third4_pc.jpg" alt="" class="pc" />
+                <img src="../img/experience/theme_third4_mo.png" alt="" class="mobile" />
                 <span>
                   자연을 배경으로 천천히 내려마시는 커피<br />
                   핸드드립 커피
@@ -432,7 +382,7 @@
             <em>SG다인힐 캠핑세트</em>를 함께 드려요.
           </p>
           <div class="todays-gift movement to-top delay-2">
-            <img src="./img/experience/gift.png" alt="" />
+            <img src="../img/experience/gift.png" alt="" />
             <div>
               <div class="title">
                 붓처스컷 캠핑세트 (4인)
@@ -445,9 +395,9 @@
             </div>
           </div>
           <div class="image-group movement to-top delay-3">
-            <img src="./img/experience/gift1.jpg" alt="" />
-            <img src="./img/experience/gift2.jpg" alt="" />
-            <img src="./img/experience/gift3.jpg" alt="" />
+            <img src="../img/experience/gift1.jpg" alt="" />
+            <img src="../img/experience/gift2.jpg" alt="" />
+            <img src="../img/experience/gift3.jpg" alt="" />
           </div>
         </div>
       </section>
@@ -541,15 +491,15 @@
           </div>
           <ul class="together__links">
             <li>
-              <a href="https://accounts.kakao.com" class="btn" target="_blank"><img src="./img/experience/kakao.png"
+              <a href="https://accounts.kakao.com" class="btn" target="_blank"><img src="../img/experience/kakao.png"
                   alt="카카오톡 링크" /></a>
             </li>
             <li>
-              <a href="https://www.facebook.com" class="btn" target="_blank"><img src="./img/experience/facebook.png"
+              <a href="https://www.facebook.com" class="btn" target="_blank"><img src="../img/experience/facebook.png"
                   alt="페이스북 링크" /></a>
             </li>
             <li>
-              <button class="btn url-btn"><img src="./img/experience/url.png" alt="URL 복사" /></button>
+              <button class="btn url-btn"><img src="../img/experience/url.png" alt="URL 복사" /></button>
             </li>
           </ul>
         </div>
@@ -558,7 +508,7 @@
       <section class="notice">
         <h2 class="hide">공지사항</h2>
         <div class="inner">
-          <img src="./img/experience/mask.png" alt="" />
+          <img src="../img/experience/mask.png" alt="" />
           <div class="notice__title">
             제주맥주는 코로나19 확산 방지를 위해<br />
             최선을 다 하고 있습니다.
@@ -572,166 +522,10 @@
         </div>
       </section>
     </main>
-    <!-- FOOTER -->
-    <footer id="footer">
-      <div class="inner">
-        <div class="top">
-          <ul class="footer__menu">
-            <li class="active"><a href="#">ABOUT US</a></li>
-            <li class="active"><a href="#">OUR BEERS</a></li>
-            <li class="active"><a href="#">NEWS</a></li>
-            <li><a href="#">CONTACT</a></li>
-            <li><a href="#">IR</a></li>
-          </ul>
-          <ul class="footer__links">
-            <li><a href="https://www.youtube.com/channel/UCVHSuXVobLHYTvcvsYjCncw" target="_blank">
-                <img src="./img/search.png" alt="제주맥주 유투브 링크" />
-              </a></li>
-            <li><a href="https://www.facebook.com/jejubeerofficial" target="_blank">
-                <img src="./img/facebook.png" alt="제주맥주 페이스북 링크" />
-              </a></li>
-            <li><a href="https://www.instagram.com/jejubeerofficial" target="_blank">
-                <img src="./img/instagram.png" alt="제주맥주 인스타그램 링크" />
-              </a></li>
-            <li><a href="https://post.naver.com/my.nhn?memberNo=39126203" target="_blank">
-                <img src="./img/naver_blog.png" alt="제주맥주 네이버블로그 링크" />
-              </a></li>
-          </ul>
-        </div>
-        <div class="bottom">
-          <div class="info">
-            <span>제주맥주 주식회사&nbsp;&nbsp;대표이사 문혁기</span><br />
-            <span>본사) 제주특별자치도 제주시 한림읍 금능농공길 62-11&nbsp;&nbsp;<br class="only-m" />서울사무실) 서울특별시 중구 동호로 228 동호 38빌딩
-              6층</span><br />
-            <span>호스팅 제공자 (주)아임웹&nbsp;&nbsp;<br class="only-m" />사업자등록번호 616-86-27415&nbsp;&nbsp;<br
-                class="only-m" />통신판매업신고번호 제 2020-제주한림-0101 호</span><br />
-            <span>개인정보보호책임자 이용석&nbsp;&nbsp;<br class="only-m" />고객센터 02-2235-5559, jejubeer@jejubeer.co.kr</span>
-          </div>
-          <p class="copyright">
-            <small>COPYRIGHT <span class="this-year"></span>@ JEJU BEER COMPANY</small>
-          </p>
-        </div>
-      </div>
-    </footer>
-    <!-- FLOATING BUTTONS -->
-    <ul id="floating-btns">
-      <li class="chat-btn">
-        <a href="#">
-          <img src="./img/chat_btn.png" alt="채팅버튼" />
-        </a>
-      </li>
-      <li class="link-btn">
-        <a href="#">
-          <img src="./img/link_btn.png" alt="링크버튼" />
-        </a>
-      </li>
-      <li class="top-btn invisible">
-        <a href="#">
-          <img src="./img/top_btn.png" alt="상단버튼" />
-        </a>
-      </li>
-    </ul>
-    <!-- SHARE MODAL -->
-    <div id="share-modal" class="invisible">
-      <a href="#"><span class="hide">모달창 닫기</span></a>
-      <div class="wrap">
-        <em class="title">공유하기</em>
-        <ul class="share-modal__links">
-          <li>
-            <a href="https://accounts.kakao.com" class="btn" target="_blank"><img src="./img/share_talk.png"
-                alt="카카오톡 링크" /></a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com" class="btn" target="_blank"><img src="./img/share_face.png"
-                alt="페이스북 링크" /></a>
-          </li>
-          <li>
-            <button class="btn url-btn"><img src="./img/share_url.png" alt="URL 복사" /></button>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- INQUIRY MODAL -->
-    <div id="inquiry-modal" class="invisible">
-      <div class="inquiry-modal__top fade-in">
-        <div class="title">
-          <h4>제주맥주 양조장</h4>
-          <ul class="btn-group">
-            <li>
-              <a href="#" class="btn">
-                <img src="./img/settings.png" alt="설정" />
-              </a>
-            </li>
-            <li>
-              <a href="#" class="btn close">
-                <img src="./img/close.png" alt="닫기" />
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="description">
-          <div></div>
-          <div></div>
-          <div class="show-hours">
-            <a href="#">운영시간 보기</a>
-          </div>
-          <div class="business-hours">
-            <a href="#">
-              월, 화, 수, 목, 금<br />
-              09:00 AM ~ 18:00 PM<br />
-              <br />
-              Timezone: Asia/Seoul
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="inquiry-modal__bottom">
-        <div class="channel-talk fade-in">
-          <div class="title">새로운 상담</div>
-          <div>
-            <div class="image">
-              <img src="./img/thumbnail.png" alt="제주맥주 로고" />
-            </div>
-            <div class="text-group">
-              <div class="text">
-                <p>제주맥주 양조장</p>
-                안녕하세요.<br />
-                대한민국 새로운 맥주문화의 발상지,<br /><em>제주맥주 양조장</em>입니다.
-              </div>
-              <div class="text">
-                양조장에 대해 무엇이 궁금하신가요?<br />
-                클릭해주세요!
-                <img src="./img/smile.png" alt="웃는 이모티콘" />
-              </div>
-            </div>
-          </div>
-          <button class="btn">
-            <img src="./img/send-filled-white.svg" alt="" />
-            새 문의하기
-          </button>
-        </div>
-        <div class="messenger fade-in">
-          <div class="title">다른 방법으로 상담</div>
-          <ul class="messenger__links">
-            <li>
-              <a href="https://accounts.kakao.com" class="btn" target="_blank">
-                <img src="./img/messenger_kakao.png" alt="카카오톡 링크" />
-              </a>
-            </li>
-            <li>
-              <button class="btn">
-                <img src="./img/messenger_url.png" alt="url 복사버튼" />
-              </button>
-            </li>
-            <li>
-              <a href="tel:010-0000-0000" class="btn">
-                <img src="./img/messenger_phone.png" alt="전화연결 링크" />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    <!-- FOOTER INCLUDE -->
+    <div class="footer-include"></div>
+    <!-- FLOATING INCLUDE -->
+    <div class="floating-include"></div>
   </div>
   
   <script>
@@ -768,5 +562,6 @@
       })
     });
   </script>
+
 </body>
 </html>
